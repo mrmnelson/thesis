@@ -1,0 +1,481 @@
+%!TEX root = Thesis.tex
+
+\chapter{Putting It All Together}
+\label{ch:examples}
+
+\section{The Basics}
+
+OK, there are plenty of \LaTeX{} tutorials available on the web so I'm not going to dwell on the simple things too much.  You are going to want to use Greek characters at some point though so you need to know about math mode.  Math mode text is enclosed within dollar signs.  It is worth pointing out that in math mode, your normal font is changed so you will want to use math mode only for characters that you can't produce normally.  Basically, this includes the Greek alphabet and a few symbols.  For example, ``\small\verb&$\delta$&\normalsize'' produces ``$\delta$''.  Note the difference between ``\small\verb&$\lambda_{max}$&\normalsize'' which produces ``$\lambda_{max}$'' and my command ``\small\verb$\lambdamax$\normalsize'' which produces ``\lambdamax''.  Trying to avoid font discrepancies was one of the main reasons behind defining all those extra commands.  Capital Greek letters are produced with the corresponding capitalised command (eg. ``\small\verb&$\Delta$&\normalsize'' produces ``$\Delta$'').
+
+Another useful trick to know is that a tilde produces a non-breaking space.  It's particularly useful between measurements and units to prevent them from ever being split at the end of a line.  eg. ``\small\verb$12~cm$\normalsize'' or ``\small\verb$8.4~min$\normalsize''.
+
+\section{Glossary Entries}
+As I mentioned before, I like to keep all my glossary entries in one place so I keep them in glossaryentries.tex and include that file before the introduction in the main thesis.tex file.  The format for glossary entries is:
+
+\small\singlespacing
+\begin{verbatim}
+\glossary{name,description=high-resolution
+   electrospray ionisation mass spectrometry}
+\glossary{name=IPA,description=isopropyl alcohol}
+\end{verbatim}
+
+\normalsize\doublespacing
+The output from the two commands above can be found on the glossary page.  If you're not getting a glossary page when you compile, take note of the instructions in Chapter \ref{ch:compiling} and make sure that you are running makeglos.pl or makeindex correctly.
+
+\section{Compounds}
+
+One of the coolest things about \LaTeX{} is its ability to automatically number everything.  Every time you use a ``\small\verb$\chapter{...}$\normalsize'' or ``\small\verb$\section{...}$\normalsize'' command, it gets added to the table of contents.  The chemcompounds package adds support for automatic numbering of compounds.  Whenever you want to refer to the number of a compound, you simply use ``\small\verb$\compound{compoundname}$\normalsize''.  The first time compoundname is encountered, it gets assigned a number.  From there on in, subsequent references to it will use the old number.  For example,\\
+``\small\verb$Compound A (\compound{cpdA}) is similar to compound B$\\
+\verb$(\compound{cpdB}).$\normalsize''\\
+produces ``Compound A (\compound{cpdA}) is similar to compound B (\compound{cpdB}).''
+
+OK, what about if we have three compounds and want to list 2--4?  We need to tell \LaTeX{} that compound 3 exists, but we don't want to actually print the number 3.  The following will achieve that:\\
+``\small\verb$Compounds B--D (\compound{cpdB}--\compound*{cpdC}$\\
+\verb$\compound{cpdD}) \ldots$\normalsize''\\
+outputs ``Compounds B--D (\compound{cpdB}--\compound*{cpdC}\compound{cpdD}) \ldots''.
+
+Two things to note -- the \small\verb$--$\normalsize{} command produces a longer dash than a single dash which should only be used in double-barrelled words.  The ``\small\verb$\ldots$\normalsize'' command produces ellipses which look better than ``...''.
+
+Typos are your enemy here -- if you type the name of the identifier wrong, then it will get a new number!
+
+\section{Figures and Schemes}
+
+Here is some basic code for a figure:
+
+\begin{verbatim}
+\begin{figure}
+\centerline{\includegraphics[width=0.5\textwidth]
+    {figures/dictyodendrilladendyi}}
+\caption{\emph{Dictyodendrilla dendyi}.}
+\label{fig:dictyodendrilladendyi}
+\end{figure}
+\end{verbatim}
+
+First, we begin a figure environment. Next, we include the figure ``dictyodendrilladendyi'' from the figures directory.  It should be a jpg, png or pdf file for pdflatex or an eps file for latex -- in this case, a png.  Setting the width of the picture to ``\small\verb$0.5\textwidth$\normalsize'' scales the picture to half the width of the area between the left and right margins of the page.  Everything enclosed in the centerline command is centered.
+
+Then we include a caption.  The ``\small\verb$\emph{...}$\normalsize'' command italicises the contents.
+
+Finally, we add a label.  This can be anything you like but it is useful to preface figures with ``fig:'', chapters with ``ch:'' etc. in case two things might otherwise have the same name.  The label is used later to refer to this figure.
+
+\begin{figure}
+\centerline{\includegraphics[width=0.5\textwidth]
+    {figures/dictyodendrilladendyi}}
+\caption{\emph{Dictyodendrilla dendyi}.}
+\label{fig:dictyodendrilladendyi}
+\end{figure}
+
+Schemes are handled identically to figures.  The only difference between them as far as \LaTeX{} is concerned is that two separate numbering schemes are maintained.  The following inserts a scheme using the full width of the page:
+
+\begin{verbatim}
+\begin{scheme}
+\centerline{\includegraphics[width=\textwidth]
+   {schemes/tyrosineBuildingBlocks}}
+\caption{Formation of tyramine and
+   3-(4-hydroxyphenyl)pyruvate.}
+\label{sch:tyrosineBuildingBlocks}
+\end{scheme}
+\end{verbatim}
+
+In this case the included file is actually a pdf.  I found the best way to include anything from ChemDraw was to save it from ChemDraw as both a cdx master copy and an eps. The epstopdf package will then convert the eps to a pdf on the fly at compile time. If you are using MiKTeX and TeXnicCenter under Windows, then you will need to add ``\verb$--$enable-write18'' to the command line options for pdflatex in the ``Define output profiles'' option of TeXnicCenter for the eps to pdf conversion to work. If you are using latex then it will just use the eps file.
+
+It is possible to direct the placement of a float by placing the letters hbtp (here, bottom, top, page) in square brackets after the ``\small\verb$\begin$\normalsize'' command. For example, ``\small\verb$\begin{scheme}[btp]$\normalsize'' instructs \LaTeX to try and place the scheme at the bottom of the current page, the top of the next page or on a page of its own in that order. I \textbf{strongly} recommend not overriding the default float placements until a given chapter is completely finished.
+
+\begin{scheme}
+\centerline{\includegraphics[width=\textwidth]
+   {schemes/tyrosineBuildingBlocks}}
+\caption{Formation of tyramine and 3-(4-hydroxyphenyl)pyruvate.}
+\label{sch:tyrosineBuildingBlocks}
+\end{scheme}
+
+\section{Structures}
+We insert a structure as follows:
+
+\begin{verbatim}
+\begin{structure}
+\centerline{\includegraphics{structures/petrosynol}}
+\centerline{\compound{petrosynol}}
+\end{structure}
+\end{verbatim}
+
+We simply start a structure environment, include our graphics (centered of course) and then on the line below, include the compound number.  Later I will detail how to include multiple structures on a line and/or include tables of similar structures.
+
+\begin{structure}
+\centerline{\includegraphics{structures/petrosynol}}
+\centerline{\compound{petrosynol}}
+\end{structure}
+
+\section{Tables}
+
+\small\singlespacing
+\begin{verbatim}
+\begin{table}
+\caption[Taxonomic classification of genus \emph{Petrosia}
+  from order Haplosclerida.]{Taxonomic classification of
+  genus \emph{Petrosia} from order Haplosclerida as presented
+  by Hooper and van Soest.\cite{1}}
+\end{verbatim}
+
+\normalsize\doublespacing
+Here is a table directly from my thesis.  There is a LOT of stuff here so I've broken it up, but it's all useful.  First, since captions go above tables, we start with the caption.  You'll note that I have the title twice - the first, enclosed in square braces will appear in the table of contents.  The second appears above the table.  In this case, this was done to prevent the reference to Hooper and van Soest from appearing in the contents.
+
+\small\singlespacing
+\begin{verbatim}
+\label{tab:petrosia}
+\begin{center}
+\footnotesize
+\begin{tabular}{l|l|l|l}
+\end{verbatim}
+
+\normalsize\doublespacing
+A label is assigned to refer to later.  We then begin a center environment.  We switch to footnotesize (which is smaller than small, but larger than scriptsize and tiny) and begin a tabular environment with four left-aligned columns.
+
+\small\singlespacing
+\begin{verbatim}
+Order & Sub-order & Family & Genus \\
+\hline
+\hline
+\end{verbatim}
+
+\normalsize\doublespacing
+A simple header line.  Each cell is separated by an ``\small\verb$&$\normalsize`` and the row is terminated by ``\small\verb$\\$\normalsize``.  The ''\small\verb$\hline$\normalsize'' command inserts a horizontal line the full with of the table.  Using it twice inserts a double-line.
+
+\small\singlespacing
+\begin{verbatim}
+\multirow{15}{*}{\color{blue}Haplosclerida} &
+   \multirow{3}{*}{Haplosclerina} & Callyspongiidae
+   & \ldots \\
+\cline{3-4}
+\end{verbatim}
+
+\normalsize\doublespacing
+Now we get a little more complicated.  The text ``Haplosclerida'' is centered down the first column over 15 rows.  The asterisk indicates that the column should be automatically sized to fit the text.  Note how to make the text blue using the ``\small\verb$\color{blue}$\normalsize`` command.  The ''\small\verb$\cline{3-4}$\normalsize`` command prints a horizontal line between columns 3 and 4 only.
+
+\small\singlespacing
+\begin{verbatim}
+ & & Chalinidae & \ldots \\
+\cline{3-4}
+...
+ & & Spongillidae & \ldots \\
+\hline
+\end{verbatim}
+
+\normalsize\doublespacing
+The rest of the table should be pretty self explanatory.  Empty cells are indicated by leaving a blank between the ampersands.
+
+\small\singlespacing
+\begin{verbatim}
+\end{tabular}
+\end{center}
+\end{table}
+\end{verbatim}
+
+\normalsize\doublespacing
+Finally, we end the tabular, center and table environments and we're done.  It looks like this:
+
+\begin{table}[t]
+\caption[Taxonomic classification of genus \emph{Petrosia} from order Haplosclerida.]{Taxonomic classification of genus \emph{Petrosia} from order Haplosclerida as presented by Hooper and van Soest.\cite{1}}
+\label{tab:petrosia}
+\begin{center}
+\footnotesize
+\begin{tabular}{l|l|l|l}
+Order & Sub-order & Family & Genus \\
+\hline
+\hline
+\multirow{15}{*}{\color{blue}Haplosclerida} & \multirow{3}{*}{Haplosclerina} & Callyspongiidae & \ldots \\ 
+\cline{3-4}
+ & & Chalinidae & \ldots \\
+\cline{3-4}
+ & & Niphatidae & \ldots \\
+\cline{2-4}
+ & \multirow{6}{*}{\color{blue}Petrosina} & Calcifibrospongiidae & \ldots \\
+\cline{3-4}
+ & & \multirow{4}{*}{\color{blue}Petrosiidae} & \emph{Acanthostrongylophora} \\
+\cline{4-4}
+ & & & \emph{Neopetrosia} \\
+\cline{4-4}
+ & & & \color{blue}\emph{Petrosia} \\
+\cline{4-4}
+ & & & \emph{Xestospongia} \\
+\cline{3-4}
+ & & Phloeodyctyidae & \ldots \\
+\cline{2-4}
+ & \multirow{6}{*}{Spongilina} & Lubomirskiidae & \ldots \\
+\cline{3-4}
+ & & Malawispongiidae & \ldots \\
+\cline{3-4}
+ & & Metaniidae & \ldots \\
+\cline{3-4}
+ & & Metschnikowiidae & \ldots \\
+\cline{3-4}
+ & & Potamolepidae & \ldots \\
+\cline{3-4}
+ & & Spongillidae & \ldots \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\section{Combinations}
+
+OK, now here are some examples of the more complicated things you can do with embedded tables/figures/structures etc.  Of particular use is the minipage environment which can break one section of page into several smaller pseudo-pages.
+
+Here is an example of layout out three structures in one line, one of which has two R groups and therefore uses a table to list the compound names.
+
+\small\singlespacing
+\begin{verbatim}
+\begin{structure}
+\centering
+\begin{minipage}[c]{0.33\textwidth}
+\centerline{\includegraphics
+   {structures/bromomethylhexacosadienoicAcids}}
+\centerline{\begin{tabular}{lll}
+\compound{cpdA} & \ce{R1} = H & \ce{R2} = Me \\
+\compound{cpdB} & \ce{R1} = Me & \ce{R2} = H \\
+\end{tabular}}
+\end{minipage}%
+\end{verbatim}
+
+\normalsize\doublespacing
+First, we begin a structure environment to contain all three structures then we turn on centering.  Next, we start a minipage environment which is one third of the textwidth wide, the contents of which should be centered.  Then we include the picture of the structure.  Next, we start a tabular environment with three left-aligned columns.  We fill in the details of the table as for a normal table.  Note the ``\small\verb$\ce{...}$\normalsize'' environment lays out chemical formulae.  Finally, we end the tabular and minipage environments.  Take note of the percent sign at the end of the block -- this ensures that there is no gap left between this minipage and the next one we are about to open.  Since we will create three minipages, each one third of the page wide, any spaces will cause the third minipage to line-wrap.
+
+\small\singlespacing
+\begin{verbatim}
+\begin{minipage}[c]{0.34\textwidth}
+\centerline{\includegraphics
+   {structures/triacontadienoicAcid}}
+\centerline{\compound{cpdC}}
+\end{minipage}%
+\end{verbatim}
+
+\normalsize\doublespacing
+The second structure is pretty self-explanatory -- again, we need the percent sign at the end.
+
+\small\singlespacing
+\begin{verbatim}
+\begin{minipage}[c]{0.33\textwidth}
+\centerline{\includegraphics
+   {structures/tetratriacontapentaenoicAcid}}
+\centerline{\compound{cpdD}}
+\end{minipage}%
+\end{structure}
+\end{verbatim}
+
+\normalsize\doublespacing
+And ditto with the third.  Finally, we end the structure environment.  The output is:
+
+\begin{structure}
+\centering
+\begin{minipage}[c]{0.33\textwidth}
+\centerline{\includegraphics{structures/bromomethylhexacosadienoicAcids}}
+\centerline{\begin{tabular}{lll}
+\compound{cpdA} & \ce{R1} = H & \ce{R2} = Me \\
+\compound{cpdB} & \ce{R1} = Me & \ce{R2} = H \\
+\end{tabular}}
+\end{minipage}%
+\begin{minipage}[c]{0.34\textwidth}
+\centerline{\includegraphics{structures/triacontadienoicAcid}}
+\centerline{\compound{cpdC}}
+\end{minipage}%
+\begin{minipage}[c]{0.33\textwidth}
+\centerline{\includegraphics{structures/tetratriacontapentaenoicAcid}}
+\centerline{\compound{cpdD}}
+\end{minipage}%
+\end{structure}
+
+As a final example, here is one of the most complicated tables I had to put together in my thesis -- the compiled NMR data for dictyodendrin F (\compound{dictyodendrinF}).
+
+\small\singlespacing
+\begin{verbatim}
+\begin{sidewaystable}
+\caption[NMR data (d\textsubscript{6}-DMSO) for
+   dictyodendrin~F.]{\nitrogen{} (60~MHz), \carbon{}
+   (125~MHz) and \proton{} (600~MHz) NMR data
+   (d\textsubscript{6}-DMSO) for dictyodendrin~F
+   (\compound{dictyodendrinF}).}
+\label{tab:dictyodendrinFNMRDMSO}
+\begin{center}
+\begin{threeparttable}[c]
+\scriptsize
+\begin{tabular}{c c ccc c ccc ccc}
+\cline{2-12}
+\rule{0pt}{2.2ex} & & \multicolumn{3}{c}{\carbon{} or
+   \nitrogen{}} & & \multicolumn{3}{c}{\proton{}} &
+   & HMBC & \\
+\cline{3-5}\cline{7-9}
+\rule{0pt}{2.2ex} & Position & $\delta$~(ppm) & mult &
+   \oneJXH{}~(Hz) & & $\delta$~(ppm) & mult &
+   \emph{J}~(Hz) & COSY & (\proton{} to \carbon{} or
+   \nitrogen{}) & NOE\\
+\cline{2-12}
+\multirow{34}{*}{
+\begin{tabular}{c}
+\includegraphics{structures/dictyodendrinF}\\
+\normalsize\compound{dictyodendrinF}\\
+\end{tabular}
+} & 1 & $-$247.6 & s & & & & & & & & \\
+& 2 & 170.6 & s & & & & & & & & \\
+& 3 & 127.9 & s & & & & & & & & \\
+& 4 & 133.3\tnote{\dag} & s & & & & & & & & \\
+& 5 & 111.8 & s & & & & & & & & \\
+& 6 & 124.7 & s & & & & & & & & \\
+& 7 & 114.2 & d & 172 & & 5.74 & dd & 7.8, 1.3 &
+   8,9 & 5,6,9,10,11 & 8,9,32,33\\
+& 8 & 121.9 & d & 156 & & 6.59 & t & 7.6 & 7,9 &
+   6,7,9,10,11 & 7\\
+& 9 & 109.1 & d & 160 & & 6.56 & dd & 7.6, 1.4 &
+   7,8 & 7,10,11,12 & 7\\
+& 10 & 144.5 & s & & & & & & & & \\
+& 11 & 128.7 & s & & & & & & & & \\
+& 12 & $-$249.7 & d & \tnote{*} & & & & & & & \\
+& 13 & 131.7\tnote{\dag} & s & & & & & & & & \\
+& 14 & 178.3\tnote{\dag} & s & & & & & & & & \\
+& 15 & 117.2 & s & & & & & & & & \\
+& 16 & 148.0 & s & & & & & & & & \\
+& 17 & 121.8\tnote{\ddag} & s & & & & & & & & \\
+& 18[22] & 132.4 & d & 168 & & 7.23 & d & 8.3 &
+   19 & 15,19,20,22 & 19,23,24\\
+& 19[21] & 114.7 & d & 160 & & 6.88 & d & 8.6 &
+   18 & 17,20,21 & 18,23,24\\
+& 20 & 157.5 & s & & & & & & & & \\
+& 23 & 42.4 & t & 141 & & 3.30 & t & 8.2 & 24 &
+   2,16,24,25 & 18,19,24,26\\
+& 24 & 33.2 & t & 130 & & 2.30 & t & 8.0 & 23 &
+   1,23,25,26 & 18,19,23,26\\
+& 25 & 127.8 & s & & & & & & & & \\
+& 26[30] & 129.3 & d & 168 & & 6.56 & d & 8.8
+   & 27 & 24,28,30 & 23,24\\
+& 27[29] & 114.9 & d & 160 & & 6.54 & d & 8.8
+   & 26 & 25,26,28,29 & \\
+& 28 & 155.6 & s & & & & & & & & \\
+& 31 & 122.3\tnote{\ddag} & s & & & & & & & & \\
+& 32[36] & 132.0 & d & 164 & & 7.28 & d & 8.6 &
+   33 & 3,33,34,36 & 7,33\\
+& 33[35] & 115.0 & d & 160 & & 6.88 & d & 8.6 & \\
+   32 & 31,34,35 & 7,32\\
+& 34 & 158.5 & s & & & & & & & & \\
+& OH & & & & & 9.15 & br s & & & & \\
+& OH & & & & & 9.70 & br s & & & & \\
+& OH & & & & & 9.90 & br s & & & & \\
+& OH & & & & & 12.04 & br s & & & & \\
+\cline{2-12}
+\end{tabular}
+\begin{tablenotes}
+\item{\dag}{Tentatively assigned by comparison to
+   the \ce{CD3OH} data.}
+\item{\ddag}{Assignment interchangeable.}
+\item{*}{Unable to be determined.}
+\end{tablenotes}
+\end{threeparttable}
+\end{center}
+\end{sidewaystable}
+\end{verbatim}
+
+\normalsize\doublespacing
+I won't go into all the details -- most of it should be fairly self-explanatory by now (I hope).  You'll note however that this table makes uses ''sidewaystable`` instead of just ''table``.  It also uses the ''threeparttable`` package to allow the use of footnotes within the table.  If you can work your way through this example and understand what is going on, then you're standing in good stead.
+
+\begin{sidewaystable}
+\caption[NMR data (d\textsubscript{6}-DMSO) for dictyodendrin~F.]{\nitrogen{} (60~MHz), \carbon{} (125~MHz) and \proton{} (600~MHz) NMR data (d\textsubscript{6}-DMSO) for dictyodendrin~F (\compound{dictyodendrinF}).}
+\label{tab:dictyodendrinFNMRDMSO}
+\begin{center}
+\begin{threeparttable}[c]
+\scriptsize
+\begin{tabular}{c c ccc c ccc ccc}
+\cline{2-12}
+\rule{0pt}{2.2ex} & & \multicolumn{3}{c}{\carbon{} or \nitrogen{}} & & \multicolumn{3}{c}{\proton{}} & & HMBC & \\
+\cline{3-5}\cline{7-9}
+\rule{0pt}{2.2ex} & Position & $\delta$~(ppm) & mult & \oneJXH{}~(Hz) & & $\delta$~(ppm) & mult & \emph{J}~(Hz) & COSY & (\proton{} to \carbon{} or \nitrogen{}) & NOE\\
+\cline{2-12}
+\multirow{34}{*}{
+\begin{tabular}{c}
+\includegraphics{structures/dictyodendrinF}\\
+\normalsize\compound{dictyodendrinF}\\
+\end{tabular}
+} & 1 & $-$247.6 & s & & & & & & & & \\
+& 2 & 170.6 & s & & & & & & & & \\
+& 3 & 127.9 & s & & & & & & & & \\
+& 4 & 133.3\tnote{\dag} & s & & & & & & & & \\
+& 5 & 111.8 & s & & & & & & & & \\
+& 6 & 124.7 & s & & & & & & & & \\
+& 7 & 114.2 & d & 172 & & 5.74 & dd & 7.8, 1.3 & 8,9 & 5,6,9,10,11 & 8,9,32,33\\
+& 8 & 121.9 & d & 156 & & 6.59 & t & 7.6 & 7,9 & 6,7,9,10,11 & 7\\
+& 9 & 109.1 & d & 160 & & 6.56 & dd & 7.6, 1.4 & 7,8 & 7,10,11,12 & 7\\
+& 10 & 144.5 & s & & & & & & & & \\
+& 11 & 128.7 & s & & & & & & & & \\
+& 12 & $-$249.7 & d & \tnote{*} & & & & & & & \\
+& 13 & 131.7\tnote{\dag} & s & & & & & & & & \\
+& 14 & 178.3\tnote{\dag} & s & & & & & & & & \\
+& 15 & 117.2 & s & & & & & & & & \\
+& 16 & 148.0 & s & & & & & & & & \\
+& 17 & 121.8\tnote{\ddag} & s & & & & & & & & \\
+& 18[22] & 132.4 & d & 168 & & 7.23 & d & 8.3 & 19 & 15,19,20,22 & 19,23,24\\
+& 19[21] & 114.7 & d & 160 & & 6.88 & d & 8.6 & 18 & 17,20,21 & 18,23,24\\
+& 20 & 157.5 & s & & & & & & & & \\
+& 23 & 42.4 & t & 141 & & 3.30 & t & 8.2 & 24 & 2,16,24,25 & 18,19,24,26\\
+& 24 & 33.2 & t & 130 & & 2.30 & t & 8.0 & 23 & 1,23,25,26 & 18,19,23,26\\
+& 25 & 127.8 & s & & & & & & & & \\
+& 26[30] & 129.3 & d & 168 & & 6.56 & d & 8.8 & 27 & 24,28,30 & 23,24\\
+& 27[29] & 114.9 & d & 160 & & 6.54 & d & 8.8 & 26 & 25,26,28,29 & \\
+& 28 & 155.6 & s & & & & & & & & \\
+& 31 & 122.3\tnote{\ddag} & s & & & & & & & & \\
+& 32[36] & 132.0 & d & 164 & & 7.28 & d & 8.6 & 33 & 3,33,34,36 & 7,33\\
+& 33[35] & 115.0 & d & 160 & & 6.88 & d & 8.6 & 32 & 31,34,35 & 7,32\\
+& 34 & 158.5 & s & & & & & & & & \\
+& OH & & & & & 9.15 & br s & & & & \\
+& OH & & & & & 9.70 & br s & & & & \\
+& OH & & & & & 9.90 & br s & & & & \\
+& OH & & & & & 12.04 & br s & & & & \\
+\cline{2-12}
+\end{tabular}
+\begin{tablenotes}
+\item{\dag}{Tentatively assigned by comparison to the \ce{CD3OH} data.}
+\item{\ddag}{Assignment interchangeable.}
+\item{*}{Unable to be determined.}
+\end{tablenotes}
+\end{threeparttable}
+\end{center}
+\end{sidewaystable}
+
+\section{Referencing}
+
+If we want to refer to say the picture of \emph{Dictyodendrilla dendyi} then we can use the label we attached to it earlier.  For example, ``See Figure \ref{fig:dictyodendrilladendyi}'' is produced by:\\
+``\small\verb$See Figure \ref{fig:dictyodendtilladendyi}$\normalsize''
+
+As you saw in the Petrosia table, citations are made with the ``\small\verb$\cite{num}$\normalsize'' command where ``num'' is the relevant entry (or comma-separated list of entries) in the thesis.bib file.
+
+Thus, I can cite the last five years of NPR reviews\cite{2,3,4,5,6,7} with ``\small\verb$\cite{2,3,4,5,6,7}$\normalsize''.
+
+\section{The chemscheme Package}
+
+I did not need this package for my thesis so I am less familiar with the details.  However, using this package it is possible to place \LaTeX numbers within chemdraw schemes which are saved as eps documents.  This only works if you use latex to compile your document to a dvi and then convert the document to a pdf with dvipdf or a similar utility.  This will not work at all using pdflatex directly.
+
+In this example, benzene (\compound{benzene}) is acylated via a Friedel-Crafts acylation with benzoyl chloride to form benzophenone (\compound{benzophenone}).
+
+\begin{scheme}[hb]
+\centerline{\includegraphics{schemes/numberedScheme}}
+\caption{A numbered scheme without modification.}
+\label{sch:numberedScheme}
+\end{scheme}
+
+\begin{scheme}[hb]
+\schemeref[TMP1]{benzene}
+\schemeref[TMP2]{benzophenone}
+\centerline{\includegraphics{schemes/numberedScheme}}
+\caption{A numbered scheme with modification.}
+\label{sch:numberedSchemeModified}
+\end{scheme}
+
+The code to achieve the second example is as follows (the first is identical but missing the ''\small\verb$\schemeref$\normalsize'' commands):
+
+\small\singlespacing
+\begin{verbatim}
+\begin{scheme}[hb]
+\schemeref[TMP1]{benzene}
+\schemeref[TMP2]{benzophenone}
+\centerline{\includegraphics{schemes/numberedScheme}}
+\caption{A numbered scheme with modification.}
+\label{sch:numberedSchemeModified}
+\end{scheme}
+\end{verbatim}
+
+\normalsize\doublespacing
+As you can see, the text ``TMP1'' and ``TMP2'' in the chemdraw eps file is replaced with the compound numbers for benzene and benzophenone respectively.

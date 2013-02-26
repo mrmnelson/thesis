@@ -1,0 +1,43 @@
+%!TEX root = Thesis.tex
+
+\chapter{Compiling the Document}
+\label{ch:compiling}
+
+OK, finally to make your document, you're going to need to run the following commands:
+
+\small\singlespacing
+\begin{verbatim}
+pdflatex thesis
+bibtex thesis
+pdflatex thesis
+bibtex thesis
+makeglos.pl thesis
+pdflatex thesis
+pdflatex thesis
+\end{verbatim}
+
+\normalsize\doublespacing
+or
+
+\small\singlespacing
+\begin{verbatim}
+pdflatex thesis
+bibtex thesis
+pdflatex thesis
+bibtex thesis
+makeindex -s thesis.ist -t thesis.glg -o thesis.gls thesis.glo
+pdflatex thesis
+pdflatex thesis
+\end{verbatim}
+
+\normalsize\doublespacing
+
+If you are using Kile or MiKTeX, most of this will be done automatically.  However, you should ensure that BibTeX and makeindex processing are enabled for your project.  In MiKTeX, you can set the makeindex parameters to the following to achieve the required results:
+
+-s ``\%bm''.ist -t ``\%bm''.glg -o ``\%bm''.gls ``\%bm''.glo
+
+In Linux, it is easier to use the provided makeglos.pl perl script.
+
+Note that ``pdflatex'' is run several times (perhaps more than is strictly necessary) in order to ensure that all cross-referencing is correct.
+
+If you are using latex instead of pdflatex, simply substitute ``latex'' for ``pdflatex''. 
