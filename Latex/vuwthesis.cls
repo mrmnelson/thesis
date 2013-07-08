@@ -1,4 +1,4 @@
-w\NeedsTeXFormat{LaTeX2e}
+\NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{vuwthesis}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
@@ -36,7 +36,7 @@ w\NeedsTeXFormat{LaTeX2e}
 	\RequirePackage[dvips]{hyperref}		% hyperlinks [for latex]
 \fi
 %\RequirePackage[nonumberlist,toc]{glossaries}		% glossary package
-\RequirePackage[toc,nonumberlist]{glossaries}
+\RequirePackage[toc,nonumberlist,xindy]{glossaries}
 \RequirePackage{units}
 \RequirePackage{booktabs}
 
