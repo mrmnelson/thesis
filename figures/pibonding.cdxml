@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0.2.1092"
+ Name="Untitled Document-4"
+ BoundingBox="63 186.2 208.12 270.28"
+ WindowPosition="0 0"
+ WindowSize="0 0"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="21"
+ LabelSize="28.4"
+ LabelFace="96"
+ CaptionFont="21"
+ CaptionSize="28.4"
+ HashSpacing="6.4"
+ MarginWidth="4.74"
+ LineWidth="2.37"
+ BoldWidth="9.48"
+ BondLength="71.1"
+ BondSpacing="12"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="HOH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="0003000000480048000000000332022FFFF4FFEE033E02410367057B03E000020000004800480000000002D802280001000000640000000100030303000000017FFF000100010000000000000000000000006808001901900000000000200000000000000000000000000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+</colortable><fonttable>
+<font id="21" charset="x-mac-roman" name="Helvetica"/>
+</fonttable><page
+ id="124"
+ BoundingBox="0 0 523 770"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><fragment
+ id="17"
+ BoundingBox="63 216.2 86.65 244.65"
+><n
+ id="16"
+ p="72.8 229.8"
+ Z="16"
+ NodeType="GenericNickname"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+ GenericNickname="M"
+><t
+ p="63 240"
+ BoundingBox="63 216.2 86.65 244.65"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+><s font="21" size="28.4">M</s></t></n></fragment><fragment
+ id="25"
+ BoundingBox="161 186.2 179.95 214.65"
+><n
+ id="24"
+ p="170.07 199.8"
+ Z="19"
+ NodeType="GenericNickname"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+ GenericNickname="A"
+><t
+ p="161 210"
+ BoundingBox="161 186.2 179.95 214.65"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+><s font="21" size="28.4">A</s></t></n></fragment><fragment
+ id="28"
+ BoundingBox="161 241.83 179.95 270.28"
+><n
+ id="27"
+ p="170.07 255.43"
+ Z="20"
+ NodeType="GenericNickname"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+ GenericNickname="A"
+><t
+ p="161 265.63"
+ BoundingBox="161 241.83 179.95 270.28"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+><s font="21" size="28.4">A</s></t></n></fragment><fragment
+ id="30"
+ BoundingBox="167.94 214.1 170.31 241.6"
+><n
+ id="29"
+ p="169.13 214.1"
+ Z="21"
+ AS="N"
+/><n
+ id="31"
+ p="169.13 241.6"
+ Z="22"
+ AS="N"
+/><b
+ id="32"
+ Z="23"
+ Warning="This isolated bond is probably not intended to have chemical significance."
+ B="29"
+ E="31"
+ BS="N"
+/></fragment><fragment
+ id="41"
+ BoundingBox="179.86 197.36 208.12 262.03"
+><graphic
+ id="42"
+ BoundingBox="193.95 260.46 193.99 230"
+ Z="24"
+ GraphicType="Orbital"
+ OrbitalType="oval"
+ Center3D="193.99 230 0"
+ MajorAxisEnd3D="193.95 260.46 0"
+ MinorAxisEnd3D="181.81 229.98 0"
+/></fragment><graphic
+ id="122"
+ SupersededBy="125"
+ BoundingBox="93.35 229.42 131.27 229.42"
+ Z="17"
+ GraphicType="Line"
+ ArrowType="FullHead"
+ HeadSize="1000"
+/><graphic
+ id="43"
+ BoundingBox="147.01 259.33 147 229"
+ Z="18"
+ GraphicType="Orbital"
+ OvalType="Shaded"
+ OrbitalType="ovalShaded"
+ Center3D="147 229 0"
+ MajorAxisEnd3D="147.01 259.33 0"
+ MinorAxisEnd3D="134.87 229 0"
+/><scheme
+ id="126"
+><step
+ id="127"
+ ReactionStepReactants=" 41 28 25 30"
+ ReactionStepProducts=" 17"
+ ReactionStepArrows=" 122"
+/></scheme><arrow
+ id="125"
+ BoundingBox="93.35 222.5 131.27 235.35"
+ Z="17"
+ FillType="None"
+ ArrowheadHead="Full"
+ ArrowheadType="Solid"
+ HeadSize="1000"
+ ArrowheadCenterSize="875"
+ ArrowheadWidth="250"
+ Head3D="93.35 229.42 0"
+ Tail3D="131.27 229.42 0"
+ Center3D="218.96 384.66 0"
+ MajorAxisEnd3D="256.88 384.66 0"
+ MinorAxisEnd3D="218.96 422.58 0"
+/></page></CDXML>

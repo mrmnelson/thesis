@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0.2.1092"
+ Name="StBuligand.cdxml"
+ BoundingBox="55.97 100.02 174.09 161.82"
+ WindowPosition="0 0"
+ WindowSize="0 0"
+ WindowIsZoomed="yes"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="21"
+ LabelSize="10"
+ LabelFace="96"
+ CaptionFont="20"
+ CaptionSize="12"
+ HashSpacing="2.7"
+ MarginWidth="2"
+ LineWidth="0.57"
+ BoldWidth="4"
+ BondLength="17.01"
+ BondSpacing="12"
+ ChainAngle="120"
+ LabelJustification="Best"
+ CaptionJustification="Left"
+ AminoAcidTermini="HOH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="0003000000480048000000000332022FFFF4FFEE033E02410367057B03E000020000004800480000000002D802280001000000640000000100030303000000017FFF000100010000000000000000000000006808001901900000000000200000000000000000000000000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+</colortable><fonttable>
+<font id="20" charset="x-mac-roman" name="Times"/>
+<font id="21" charset="x-mac-roman" name="Helvetica"/>
+</fonttable><page
+ id="238"
+ BoundingBox="0 0 523 770"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><fragment
+ id="5"
+ BoundingBox="55.97 100.02 174.09 161.82"
+><n
+ id="2"
+ p="70.84 113.45"
+ Z="100"
+/><n
+ id="4"
+ p="70.84 130.46"
+ Z="101"
+ AS="N"
+/><n
+ id="6"
+ p="85.57 138.96"
+ Z="102"
+/><n
+ id="8"
+ p="100.3 130.46"
+ Z="103"
+/><n
+ id="10"
+ p="100.3 113.45"
+ Z="104"
+/><n
+ id="12"
+ p="85.57 104.95"
+ Z="105"
+ AS="N"
+/><n
+ id="20"
+ p="115.03 138.96"
+ Z="112"
+ Element="8"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+ LabelDisplay="Left"
+><t
+ p="111.53 142.66"
+ BoundingBox="111.53 134.03 119.33 142.66"
+ LabelJustification="Left"
+ LabelAlignment="Below"
+><s font="21" size="10" face="96">O</s></t></n><n
+ id="22"
+ p="129.76 130.46"
+ Z="113"
+/><n
+ id="24"
+ p="129.76 113.45"
+ Z="114"
+/><n
+ id="26"
+ p="115.03 104.95"
+ Z="115"
+ Element="16"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+ LabelDisplay="Above"
+><t
+ p="112.23 108.65"
+ BoundingBox="112.23 100.02 118.88 108.65"
+ LabelJustification="Left"
+ LabelAlignment="Above"
+><s font="21" size="10" face="96">S</s></t></n><n
+ id="33"
+ p="144.49 138.96"
+ Z="121"
+/><n
+ id="35"
+ p="159.22 130.46"
+ Z="122"
+ AS="N"
+/><n
+ id="37"
+ p="159.22 113.45"
+ Z="123"
+/><n
+ id="39"
+ p="144.49 104.95"
+ Z="124"
+ AS="N"
+/><n
+ id="46"
+ p="85.57 155.97"
+ Z="130"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+ LabelDisplay="Right"
+><fragment
+ id="239"
+><n
+ id="239"
+ p="70.85 164.47"
+ NumHydrogens="0"
+/><n
+ id="240"
+ p="70.85 181.47"
+ NumHydrogens="3"
+/><n
+ id="241"
+ p="56.13 172.97"
+ NumHydrogens="3"
+/><n
+ id="242"
+ p="56.13 155.97"
+ NumHydrogens="3"
+/><n
+ id="243"
+ p="100.29 164.47"
+ NumHydrogens="0"
+/><n
+ id="244"
+ p="115.01 155.97"
+ NumHydrogens="3"
+/><n
+ id="245"
+ p="115.01 172.97"
+ NumHydrogens="3"
+/><n
+ id="246"
+ p="100.29 181.47"
+ NumHydrogens="3"
+/><n
+ id="247"
+ p="85.57 155.97"
+ Element="15"
+ NumHydrogens="0"
+/><n
+ id="248"
+ p="85.57 138.97"
+ NodeType="ExternalConnectionPoint"
+/><b
+ id="249"
+ B="248"
+ E="247"
+/><b
+ id="250"
+ B="239"
+ E="240"
+/><b
+ id="251"
+ B="239"
+ E="241"
+/><b
+ id="252"
+ B="239"
+ E="242"
+/><b
+ id="253"
+ B="239"
+ E="247"
+/><b
+ id="254"
+ B="243"
+ E="244"
+/><b
+ id="255"
+ B="243"
+ E="245"
+/><b
+ id="256"
+ B="243"
+ E="246"
+/><b
+ id="257"
+ B="243"
+ E="247"
+/></fragment><t
+ p="89.59 159.57"
+ BoundingBox="64.48 151.17 89.59 161.82"
+ LabelJustification="Right"
+ Justification="Right"
+ LabelAlignment="Left"
+><s font="21" size="10" face="64">t</s><s font="21" size="10" face="96">Bu2P</s></t></n><n
+ id="48"
+ p="144.49 155.97"
+ Z="132"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+ LabelDisplay="Left"
+><fragment
+ id="259"
+><n
+ id="259"
+ p="144.49 155.97"
+ Element="15"
+ NumHydrogens="0"
+/><n
+ id="260"
+ p="129.77 164.47"
+ NumHydrogens="0"
+/><n
+ id="261"
+ p="129.77 181.47"
+ NumHydrogens="3"
+/><n
+ id="262"
+ p="115.05 172.97"
+ NumHydrogens="3"
+/><n
+ id="263"
+ p="115.05 155.97"
+ NumHydrogens="3"
+/><n
+ id="264"
+ p="159.21 164.47"
+ NumHydrogens="0"
+/><n
+ id="265"
+ p="173.93 155.97"
+ NumHydrogens="3"
+/><n
+ id="266"
+ p="173.93 172.97"
+ NumHydrogens="3"
+/><n
+ id="267"
+ p="159.21 181.47"
+ NumHydrogens="3"
+/><n
+ id="268"
+ p="144.49 138.97"
+ NodeType="ExternalConnectionPoint"
+/><b
+ id="269"
+ B="268"
+ E="259"
+/><b
+ id="270"
+ B="259"
+ E="260"
+/><b
+ id="271"
+ B="259"
+ E="264"
+/><b
+ id="272"
+ B="260"
+ E="261"
+/><b
+ id="273"
+ B="260"
+ E="262"
+/><b
+ id="274"
+ B="260"
+ E="263"
+/><b
+ id="275"
+ B="264"
+ E="265"
+/><b
+ id="276"
+ B="264"
+ E="266"
+/><b
+ id="277"
+ B="264"
+ E="267"
+/></fragment><t
+ p="141.84 159.57"
+ BoundingBox="141.84 151.17 166.95 161.82"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="21" size="10" face="96">P</s><s font="21" size="10" face="64">t</s><s font="21" size="10" face="96">Bu2</s></t></n><n
+ id="51"
+ p="173.95 104.95"
+ Z="134"
+ AS="N"
+/><n
+ id="53"
+ p="56.11 104.95"
+ Z="136"
+ AS="N"
+/><b
+ id="14"
+ Z="106"
+ B="2"
+ E="4"
+ Order="2"
+ BondCircularOrdering="19 54 0 15"
+/><b
+ id="15"
+ Z="107"
+ B="4"
+ E="6"
+ BS="N"
+/><b
+ id="16"
+ Z="108"
+ B="6"
+ E="8"
+ Order="2"
+ BondCircularOrdering="15 47 28 17"
+/><b
+ id="17"
+ Z="109"
+ B="8"
+ E="10"
+ BS="N"
+/><b
+ id="18"
+ Z="110"
+ B="10"
+ E="12"
+ Order="2"
+ BondCircularOrdering="17 32 0 19"
+/><b
+ id="19"
+ Z="111"
+ B="12"
+ E="2"
+ BS="N"
+/><b
+ id="28"
+ Z="116"
+ B="8"
+ E="20"
+ BS="N"
+/><b
+ id="29"
+ Z="117"
+ B="20"
+ E="22"
+ BS="N"
+/><b
+ id="30"
+ Z="118"
+ B="22"
+ E="24"
+ Order="2"
+ BondCircularOrdering="29 41 45 31"
+/><b
+ id="31"
+ Z="119"
+ B="24"
+ E="26"
+ BS="N"
+/><b
+ id="32"
+ Z="120"
+ B="26"
+ E="10"
+ BS="N"
+/><b
+ id="41"
+ Z="125"
+ B="22"
+ E="33"
+ BS="N"
+/><b
+ id="42"
+ Z="126"
+ B="33"
+ E="35"
+ Order="2"
+ BondCircularOrdering="41 49 0 43"
+/><b
+ id="43"
+ Z="127"
+ B="35"
+ E="37"
+ BS="N"
+/><b
+ id="44"
+ Z="128"
+ B="37"
+ E="39"
+ Order="2"
+ BondCircularOrdering="43 52 0 45"
+/><b
+ id="45"
+ Z="129"
+ B="39"
+ E="24"
+ BS="N"
+/><b
+ id="47"
+ Z="131"
+ B="6"
+ E="46"
+ BS="N"
+/><b
+ id="49"
+ Z="133"
+ B="33"
+ E="48"
+ BS="N"
+/><b
+ id="52"
+ Z="135"
+ B="37"
+ E="51"
+ BS="N"
+/><b
+ id="54"
+ Z="137"
+ B="2"
+ E="53"
+ BS="N"
+/></fragment></page></CDXML>

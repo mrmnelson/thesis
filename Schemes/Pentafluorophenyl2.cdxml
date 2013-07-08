@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0.2.1092"
+ Name="Pentafluorophenyl2.cdxml"
+ BoundingBox="40 108.64 426.26 154.14"
+ WindowPosition="0 0"
+ WindowSize="0 0"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="21"
+ LabelSize="12"
+ LabelFace="96"
+ CaptionFont="21"
+ CaptionSize="12"
+ HashSpacing="2.7"
+ MarginWidth="2"
+ LineWidth="1"
+ BoldWidth="4"
+ BondLength="30"
+ BondSpacing="12"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="HOH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="000300000048004800000000022F030FFFEEFFEE024103380365057B03E000020000004800480000000002D802280001000000640000000100030303000000017FFF000100010000000000000000000000006808001901900000000000200000000000000000000000000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+</colortable><fonttable>
+<font id="21" charset="x-mac-roman" name="Helvetica"/>
+</fonttable><page
+ id="207"
+ BoundingBox="0 0 770 523"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><fragment
+ id="171"
+ BoundingBox="40 124.67 77.97 137.52"
+><n
+ id="170"
+ p="43.77 130.57"
+ Z="214"
+ Warning="An atom in this label has an invalid valence."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="208"
+><n
+ id="208"
+ p="13.77 130.57"
+ NumHydrogens="0"
+/><n
+ id="209"
+ p="43.77 130.57"
+ NumHydrogens="0"
+/><n
+ id="210"
+ p="-16.22 130.57"
+ NumHydrogens="0"
+/><n
+ id="211"
+ p="73.77 130.57"
+ NumHydrogens="0"
+/><n
+ id="212"
+ p="-46.22 130.57"
+ NumHydrogens="0"
+/><n
+ id="213"
+ p="103.77 130.57"
+ NumHydrogens="0"
+/><n
+ id="214"
+ p="-31.22 104.59"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="215"
+ p="-61.22 104.59"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="216"
+ p="-76.22 130.57"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="217"
+ p="-61.22 156.56"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="218"
+ p="-31.22 156.56"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="219"
+ p="133.77 130.57"
+ Element="35"
+ NumHydrogens="0"
+/><b
+ id="220"
+ B="208"
+ E="209"
+ Order="3"
+/><b
+ id="221"
+ B="208"
+ E="210"
+/><b
+ id="222"
+ B="209"
+ E="211"
+/><b
+ id="223"
+ B="210"
+ E="212"
+ Order="3"
+/><b
+ id="224"
+ B="211"
+ E="213"
+ Order="3"
+/><b
+ id="225"
+ B="212"
+ E="214"
+/><b
+ id="226"
+ B="212"
+ E="215"
+/><b
+ id="227"
+ B="212"
+ E="216"
+/><b
+ id="228"
+ B="212"
+ E="217"
+/><b
+ id="229"
+ B="212"
+ E="218"
+/><b
+ id="230"
+ B="213"
+ E="219"
+/></fragment><t
+ id="169"
+ p="40 135"
+ BoundingBox="40 124.67 77.97 137.52"
+ Z="213"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="21" size="12">C</s><s font="21" size="12" face="96">6F5</s><s font="21" size="12">Br</s></t></n></fragment><fragment
+ id="177"
+ BoundingBox="197 124.67 251.62 137.52"
+><n
+ id="178"
+ p="200.77 130.57"
+ Z="217"
+ Warning="An atom in this label has an invalid valence."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="232"
+><n
+ id="232"
+ p="239.75 153.07"
+ NumHydrogens="0"
+/><n
+ id="233"
+ p="213.77 138.07"
+ NumHydrogens="0"
+/><n
+ id="234"
+ p="265.73 168.07"
+ NumHydrogens="0"
+/><n
+ id="235"
+ p="187.78 123.07"
+ NumHydrogens="0"
+/><n
+ id="236"
+ p="291.71 183.07"
+ NumHydrogens="0"
+/><n
+ id="237"
+ p="161.8 108.07"
+ NumHydrogens="0"
+/><n
+ id="238"
+ p="265.73 198.07"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="239"
+ p="291.71 213.07"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="240"
+ p="317.69 198.07"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="241"
+ p="317.69 168.07"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="242"
+ p="291.71 153.07"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="243"
+ p="135.82 93.07"
+ Element="12"
+ NumHydrogens="0"
+/><n
+ id="244"
+ p="109.84 108.07"
+ Element="35"
+ NumHydrogens="0"
+/><b
+ id="245"
+ B="232"
+ E="233"
+ Order="3"
+/><b
+ id="246"
+ B="232"
+ E="234"
+/><b
+ id="247"
+ B="233"
+ E="235"
+/><b
+ id="248"
+ B="234"
+ E="236"
+ Order="3"
+/><b
+ id="249"
+ B="235"
+ E="237"
+ Order="3"
+/><b
+ id="250"
+ B="236"
+ E="238"
+/><b
+ id="251"
+ B="236"
+ E="239"
+/><b
+ id="252"
+ B="236"
+ E="240"
+/><b
+ id="253"
+ B="236"
+ E="241"
+/><b
+ id="254"
+ B="236"
+ E="242"
+/><b
+ id="255"
+ B="237"
+ E="243"
+/><b
+ id="256"
+ B="243"
+ E="244"
+/></fragment><t
+ p="197 135"
+ BoundingBox="197 124.67 251.62 137.52"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="21" size="12">C</s><s font="21" size="12" face="96">6F5Mg</s><s font="21" size="12">Br</s></t></n></fragment><fragment
+ id="205"
+ BoundingBox="368 124.67 426.26 137.75"
+><n
+ id="204"
+ p="369.35 130.57"
+ Z="219"
+ Warning="An atom in this label has an invalid valence."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="258"
+><n
+ id="258"
+ p="291.41 108.07"
+ NumHydrogens="0"
+/><n
+ id="259"
+ p="317.39 123.07"
+ NumHydrogens="0"
+/><n
+ id="260"
+ p="265.43 93.07"
+ NumHydrogens="0"
+/><n
+ id="261"
+ p="343.37 138.07"
+ NumHydrogens="0"
+/><n
+ id="262"
+ p="239.45 78.07"
+ NumHydrogens="0"
+/><n
+ id="263"
+ p="369.35 153.07"
+ NumHydrogens="0"
+/><n
+ id="264"
+ p="265.43 63.07"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="265"
+ p="239.45 48.07"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="266"
+ p="213.47 63.07"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="267"
+ p="213.47 93.07"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="268"
+ p="239.45 108.07"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="269"
+ p="447.29 168.07"
+ NumHydrogens="0"
+/><n
+ id="270"
+ p="473.27 153.07"
+ NumHydrogens="0"
+/><n
+ id="271"
+ p="421.31 153.07"
+ NumHydrogens="0"
+/><n
+ id="272"
+ p="473.27 123.07"
+ NumHydrogens="0"
+/><n
+ id="273"
+ p="421.31 123.07"
+ NumHydrogens="0"
+/><n
+ id="274"
+ p="447.29 108.07"
+ NumHydrogens="0"
+/><n
+ id="275"
+ p="431.57 94.88"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="276"
+ p="411.05 94.88"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="277"
+ p="395.33 108.07"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="278"
+ p="391.77 128.28"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="279"
+ p="402.03 146.06"
+ Element="9"
+ NumHydrogens="0"
+/><n
+ id="280"
+ p="395.33 168.07"
+ Element="15"
+ NumHydrogens="0"
+/><n
+ id="281"
+ p="503.27 108.07"
+ Element="17"
+ NumHydrogens="0"
+/><b
+ id="282"
+ B="258"
+ E="259"
+ Order="3"
+/><b
+ id="283"
+ B="258"
+ E="260"
+/><b
+ id="284"
+ B="259"
+ E="261"
+/><b
+ id="285"
+ B="260"
+ E="262"
+ Order="3"
+/><b
+ id="286"
+ B="261"
+ E="263"
+ Order="3"
+/><b
+ id="287"
+ B="262"
+ E="264"
+/><b
+ id="288"
+ B="262"
+ E="265"
+/><b
+ id="289"
+ B="262"
+ E="266"
+/><b
+ id="290"
+ B="262"
+ E="267"
+/><b
+ id="291"
+ B="262"
+ E="268"
+/><b
+ id="292"
+ B="263"
+ E="280"
+/><b
+ id="293"
+ B="269"
+ E="270"
+ Order="3"
+/><b
+ id="294"
+ B="269"
+ E="271"
+/><b
+ id="295"
+ B="270"
+ E="272"
+/><b
+ id="296"
+ B="271"
+ E="273"
+ Order="2"
+/><b
+ id="297"
+ B="271"
+ E="280"
+/><b
+ id="298"
+ B="272"
+ E="274"
+ Order="3"
+/><b
+ id="299"
+ B="273"
+ E="275"
+/><b
+ id="300"
+ B="273"
+ E="276"
+/><b
+ id="301"
+ B="273"
+ E="277"
+/><b
+ id="302"
+ B="273"
+ E="278"
+/><b
+ id="303"
+ B="273"
+ E="279"
+/><b
+ id="304"
+ B="273"
+ E="274"
+/></fragment><t
+ id="203"
+ p="368 135"
+ BoundingBox="368 124.67 426.26 137.75"
+ Z="218"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="21" size="12">(</s><s font="21" size="12" face="96">C6F5)2PCl</s></t></n></fragment><t
+ id="33"
+ p="132 121"
+ BoundingBox="104.41 108.64 159.59 154.14"
+ Z="32"
+ Warning="ChemDraw can’t interpret this label."
+ CaptionJustification="Center"
+ Justification="Center"
+ LineHeight="auto"
+ LineStarts="3 4 14"
+><s font="21" size="12">Mg
+
+Et</s><s font="21" size="12" face="96">2O, 0</s><s font="21" size="12" face="64"> o</s><s font="21" size="12">C</s></t><t
+ id="59"
+ p="304 125"
+ BoundingBox="273.53 114.67 334.47 150.82"
+ Z="86"
+ Warning="ChemDraw can’t interpret this label."
+ CaptionJustification="Center"
+ Justification="Center"
+ LineHeight="auto"
+ LineStarts="12 13 17"
+><s font="21" size="12">0.5 eq PCl</s><s font="21" size="12" face="96">3
+
+</s><s font="21" size="12">Et</s><s font="21" size="12" face="96">2</s><s font="21" size="12">O</s></t><graphic
+ id="32"
+ SupersededBy="306"
+ BoundingBox="180.45 132 90 132"
+ Z="31"
+ GraphicType="Line"
+ ArrowType="FullHead"
+ HeadSize="1000"
+/><graphic
+ id="61"
+ SupersededBy="307"
+ BoundingBox="353.45 132 263 132"
+ Z="85"
+ GraphicType="Line"
+ ArrowType="FullHead"
+ HeadSize="1000"
+/><scheme
+ id="308"
+><step
+ id="309"
+ ReactionStepReactants=" 171"
+ ReactionStepProducts=" 177"
+ ReactionStepArrows=" 32"
+ ReactionStepObjectsAboveArrow=" 33"
+/><step
+ id="310"
+ ReactionStepReactants=" 177"
+ ReactionStepProducts=" 205"
+ ReactionStepArrows=" 61"
+ ReactionStepObjectsBelowArrow=" 59"
+/></scheme><arrow
+ id="306"
+ BoundingBox="90 128.5 180.45 134.5"
+ Z="31"
+ FillType="None"
+ ArrowheadHead="Full"
+ ArrowheadType="Solid"
+ HeadSize="1000"
+ ArrowheadCenterSize="875"
+ ArrowheadWidth="250"
+ Head3D="180.45 132 0"
+ Tail3D="90 132 0"
+ Center3D="268.95 195.5 0"
+ MajorAxisEnd3D="359.4 195.5 0"
+ MinorAxisEnd3D="268.95 285.95 0"
+/><arrow
+ id="307"
+ BoundingBox="263 128.5 353.45 134.5"
+ Z="85"
+ FillType="None"
+ ArrowheadHead="Full"
+ ArrowheadType="Solid"
+ HeadSize="1000"
+ ArrowheadCenterSize="875"
+ ArrowheadWidth="250"
+ Head3D="353.45 132 0"
+ Tail3D="263 132 0"
+ Center3D="441.95 195.5 0"
+ MajorAxisEnd3D="532.4 195.5 0"
+ MinorAxisEnd3D="441.95 285.95 0"
+/></page></CDXML>

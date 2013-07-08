@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0.2.1092"
+ Name="Shaw.cdxml"
+ BoundingBox="76.54 126.84 151.08 186.83"
+ WindowPosition="0 0"
+ WindowSize="0 0"
+ WindowIsZoomed="yes"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="21"
+ LabelSize="10"
+ LabelFace="96"
+ CaptionFont="21"
+ CaptionSize="10"
+ HashSpacing="2.7"
+ MarginWidth="2"
+ LineWidth="0.85"
+ BoldWidth="1.42"
+ BondLength="17.01"
+ BondSpacing="12"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="HOH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="0003000000480048000000000332022FFFF4FFEE033E02410367057B03E000020000004800480000000002D802280001000000640000000100030303000000017FFF000100010000000000000000000000006808001901900000000000200000000000000000000000000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+</colortable><fonttable>
+<font id="21" charset="x-mac-roman" name="Helvetica"/>
+</fonttable><page
+ id="225"
+ BoundingBox="0 0 523 770"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><fragment
+ id="175"
+ BoundingBox="76.54 126.84 151.08 186.83"
+><n
+ id="176"
+ p="77.03 156.82"
+ Z="28"
+ AS="N"
+/><n
+ id="177"
+ p="85.53 171.55"
+ Z="29"
+ AS="N"
+/><n
+ id="178"
+ p="102.54 171.55"
+ Z="30"
+/><n
+ id="179"
+ p="111.05 156.82"
+ Z="31"
+/><n
+ id="180"
+ p="102.54 142.1"
+ Z="32"
+/><n
+ id="181"
+ p="85.53 142.1"
+ Z="33"
+ AS="N"
+/><n
+ id="182"
+ p="111.05 127.37"
+ Z="40"
+ AS="N"
+/><n
+ id="183"
+ p="111.05 186.28"
+ Z="42"
+ AS="N"
+/><n
+ id="184"
+ p="128.06 156.82"
+ Z="44"
+ NodeType="GenericNickname"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ GenericNickname="M"
+><t
+ p="124.58 160.42"
+ BoundingBox="124.58 152.02 132.93 160.42"
+ LabelJustification="Left"
+><s font="21" size="10" face="96">M</s></t></n><n
+ id="185"
+ p="128.63 134.15"
+ Z="46"
+ Warning="ChemDraw can’t interpret this label."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+><t
+ p="125.98 137.75"
+ BoundingBox="125.98 129.35 151.08 140"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="21" size="10" face="96">PBu</s><s font="21" size="10" face="64">t</s><s font="21" size="10" face="32">2</s></t></n><n
+ id="194"
+ p="128.06 178.37"
+ Z="49"
+ Warning="ChemDraw can’t interpret this label."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+><t
+ p="125.41 181.97"
+ BoundingBox="125.41 173.57 150.52 184.22"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="21" size="10" face="96">PBu</s><s font="21" size="10" face="64">t</s><s font="21" size="10" face="96">2</s></t></n><n
+ id="216"
+ p="145.06 157.03"
+ Z="52"
+ NodeType="GenericNickname"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+ GenericNickname="X"
+><t
+ p="141.91 160.63"
+ BoundingBox="141.91 152.23 148.56 160.63"
+ LabelJustification="Left"
+><s font="21" size="10" face="96">X</s></t></n><b
+ id="203"
+ Z="34"
+ B="176"
+ E="177"
+ Order="2"
+ BondCircularOrdering="208 0 0 204"
+/><b
+ id="204"
+ Z="35"
+ B="177"
+ E="178"
+ BS="N"
+/><b
+ id="205"
+ Z="36"
+ B="178"
+ E="179"
+ Order="2"
+ BondCircularOrdering="204 210 211 206"
+/><b
+ id="206"
+ Z="37"
+ B="179"
+ E="180"
+ BS="N"
+/><b
+ id="207"
+ Z="38"
+ B="180"
+ E="181"
+ Order="2"
+ BondCircularOrdering="206 209 0 208"
+/><b
+ id="208"
+ Z="39"
+ B="181"
+ E="176"
+ BS="N"
+/><b
+ id="209"
+ Z="41"
+ B="180"
+ E="182"
+ BS="N"
+/><b
+ id="210"
+ Z="43"
+ B="178"
+ E="183"
+ BS="N"
+/><b
+ id="211"
+ Z="45"
+ B="179"
+ E="184"
+ BS="N"
+/><b
+ id="212"
+ Z="47"
+ B="182"
+ E="185"
+ BS="N"
+/><b
+ id="213"
+ Z="48"
+ B="185"
+ E="184"
+ BS="N"
+/><b
+ id="214"
+ Z="50"
+ B="184"
+ E="194"
+ BS="N"
+/><b
+ id="215"
+ Z="51"
+ B="194"
+ E="183"
+ BS="N"
+/><b
+ id="217"
+ Z="53"
+ B="184"
+ E="216"
+ BS="N"
+/></fragment></page></CDXML>

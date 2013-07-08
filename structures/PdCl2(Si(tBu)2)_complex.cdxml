@@ -2,8 +2,8 @@
 <!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
 <CDXML
  CreationProgram="ChemDraw 12.0.2.1092"
- Name="PdCl2(s(tBu)2)_complex.cdxml"
- BoundingBox="124.54 241.98 242.66 316.66"
+ Name="PdCl2(Si(tBu)2)_complex.cdxml"
+ BoundingBox="132.35 232.04 236.22 316.66"
  WindowPosition="0 0"
  WindowSize="0 0"
  WindowIsZoomed="yes"
@@ -53,7 +53,7 @@
 <font id="20" charset="x-mac-roman" name="Times"/>
 <font id="21" charset="x-mac-roman" name="Helvetica"/>
 </fonttable><page
- id="112"
+ id="116"
  BoundingBox="0 0 523 770"
  HeaderPosition="36"
  FooterPosition="36"
@@ -62,11 +62,12 @@
  WidthPages="1"
 ><fragment
  id="5"
- BoundingBox="124.54 241.98 242.66 316.66"
+ BoundingBox="132.35 232.04 236.22 316.66"
 ><n
  id="2"
  p="139.41 255.41"
  Z="85"
+ AS="N"
 /><n
  id="4"
  p="139.41 272.42"
@@ -113,15 +114,16 @@
  id="26"
  p="183.6 246.91"
  Z="100"
- Element="16"
+ Element="14"
  NumHydrogens="0"
  NeedsClean="yes"
- AS="N"
 ><t
- p="180.8 250.61"
- BoundingBox="180.8 241.98 187.45 250.61"
- LabelJustification="Left"
-><s font="21" size="10" face="96">S</s></t></n><n
+ p="183.6 250.61"
+ BoundingBox="179.18 241.98 188.03 250.61"
+ LabelJustification="Center"
+ Justification="Center"
+ LabelAlignment="Center"
+><s font="21" size="10" face="96">Si</s></t></n><n
  id="33"
  p="213.06 280.93"
  Z="106"
@@ -134,20 +136,11 @@
  id="37"
  p="227.79 255.41"
  Z="108"
+ AS="N"
 /><n
  id="39"
  p="213.06 246.91"
  Z="109"
- AS="N"
-/><n
- id="46"
- p="242.52 246.91"
- Z="115"
- AS="N"
-/><n
- id="48"
- p="124.68 246.91"
- Z="117"
  AS="N"
 /><n
  id="50"
@@ -159,7 +152,7 @@
  AS="N"
  LabelDisplay="Right"
 ><fragment
- id="113"
+ id="117"
  BoundingBox="109.81 275.36 174.44 312.01"
  ConnectionOrder="80 81"
 ><n
@@ -259,7 +252,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="114"
+ id="118"
  BoundingBox="162.03 268.33 264.33 327.68"
  ConnectionOrder="99 100"
 ><n
@@ -412,13 +405,23 @@
  LabelJustification="Right"
  Justification="Right"
  LabelAlignment="Right"
-><s font="21" size="10" face="96">Cl</s></t></n><b
+><s font="21" size="10" face="96">Cl</s></t></n><n
+ id="111"
+ p="175.1 232.18"
+ Z="130"
+ AS="N"
+/><n
+ id="113"
+ p="192.11 232.18"
+ Z="132"
+ AS="N"
+/><b
  id="14"
  Z="91"
  B="2"
  E="4"
  Order="2"
- BondCircularOrdering="19 49 0 15"
+ BondCircularOrdering="19 0 0 15"
 /><b
  id="15"
  Z="92"
@@ -507,24 +510,12 @@
  B="37"
  E="39"
  Order="2"
- BondCircularOrdering="43 47 0 45"
+ BondCircularOrdering="43 0 0 45"
 /><b
  id="45"
  Z="114"
  B="39"
  E="24"
- BS="N"
-/><b
- id="47"
- Z="116"
- B="37"
- E="46"
- BS="N"
-/><b
- id="49"
- Z="118"
- B="2"
- E="48"
  BS="N"
 /><b
  id="51"
@@ -563,5 +554,17 @@
  B="56"
  E="64"
  Display="WedgedHashBegin"
+ BS="N"
+/><b
+ id="112"
+ Z="131"
+ B="26"
+ E="111"
+ BS="N"
+/><b
+ id="114"
+ Z="133"
+ B="26"
+ E="113"
  BS="N"
 /></fragment></page></CDXML>

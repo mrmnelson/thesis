@@ -1,0 +1,96 @@
+\documentclass[a4paper,12pt, final]{vuwthesis}
+\usepackage{natbib}
+\usepackage{siunitx}
+\usepackage{booktabs}
+
+\title{Late Transition Metal Complexes\\ of POP Pincer Ligands}
+\author{Melanie R. M. Nelson}
+\date{\the\year}
+\degree{Doctor of Philosophy}
+\subject{Chemistry}
+\institution{Victoria University of Wellington}
+\logo{../Figures/VUWLogo}
+
+\hypersetup{plainpages=false,colorlinks,linkcolor=black,citecolor=black,urlcolor=black,pdftitle={Novel POP Pincer Ligands and their use in C-H Activation},pdfauthor={Melanie R. M. Nelson},pdfcreationdate={Month 1, Year},pdfmoddate={\today},pdfsubject={Chemistry},pdfkeywords={Organometallic Chemistry}}
+
+%\makeglossaries
+
+%\nofiles
+%\includeonly{chapter1,chapter3}
+
+\begin{document}
+% Redefine the default placement of schemes here.  See vuwthesis.cls for an explanation.
+\floatplacement{scheme}{bp}
+
+% Set page numbering to roman (i, ii, ...)
+\pagenumbering{roman}
+\maketitle
+
+% Start at page 2.
+\setcounter{page}{2}	
+% Manually add abstract etc. to the table of contents.
+\phantomsection
+\addcontentsline{toc}{chapter}{Abstract}
+% Include a dummy abstract otherwise the toc numbers the abstract incorrectly.
+\include{dummyabstract}
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Acknowledgments}
+\include{acknowledgments}
+\clearpage
+\phantomsection
+\printglossaries
+%\include{glossaryentries}
+\addcontentsline{toc}{chapter}{Table of Contents}
+\tableofcontents
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Schemes}
+\doublespacing % the float package doesn't automatically doublespace the list of schemes
+\listofschemes
+\singlespacing
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+% Glossary is automatically added to the table of contents.
+\printglossaries
+
+%\include{glossaryequations}
+\clearpage
+\pagenumbering{arabic}
+\doublespacing
+
+%\include{glossaryentries}
+%\include{glossaryequations}
+\include{Introduction}
+\include{Ligands}
+\include{Silver}
+\include{Platinum}
+%\include{chapter3}
+%\include{chapter4}
+%\include{chapter5}
+%\include{chapter6}
+\include{experimental}
+%\include{appendix}
+
+% Switch to singlespacing for the references.
+\singlespacing
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{achemso}
+\bibliography{References}
+
+% Now we include the abstract to ensure numbering of compounds & structures is correct.
+% Set doublespacing, page numbering to roman and start at page 2 (ii).
+\clearpage
+\doublespacing
+\pagenumbering{roman}
+\setcounter{page}{2}
+\include{abstract}
+
+\end{document}

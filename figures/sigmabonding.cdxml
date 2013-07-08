@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0.2.1092"
+ Name="Untitled Document-5"
+ BoundingBox="60 282.2 158.07 403.28"
+ WindowPosition="0 0"
+ WindowSize="0 0"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="21"
+ LabelSize="28.4"
+ LabelFace="96"
+ CaptionFont="21"
+ CaptionSize="28.4"
+ HashSpacing="6.4"
+ MarginWidth="4.74"
+ LineWidth="2.37"
+ BoldWidth="9.48"
+ BondLength="71.1"
+ BondSpacing="12"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="HOH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="0003000000480048000000000332022FFFF4FFEE033E02410367057B03E000020000004800480000000002D802280001000000640000000100030303000000017FFF000100010000000000000000000000006808001901900000000000200000000000000000000000000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+</colortable><fonttable>
+<font id="21" charset="x-mac-roman" name="Helvetica"/>
+</fonttable><page
+ id="124"
+ BoundingBox="0 0 523 770"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><fragment
+ id="35"
+ BoundingBox="60 329.2 83.65 357.65"
+><n
+ id="36"
+ p="69.8 342.8"
+ Z="10"
+ NodeType="GenericNickname"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+ GenericNickname="M"
+><t
+ p="60 353"
+ BoundingBox="60 329.2 83.65 357.65"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+><s font="21" size="28.4">M</s></t></n></fragment><fragment
+ id="37"
+ BoundingBox="134 282.2 152.95 310.65"
+><n
+ id="38"
+ p="143.08 295.8"
+ Z="13"
+ NodeType="GenericNickname"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+ GenericNickname="A"
+><t
+ p="134 306"
+ BoundingBox="134 282.2 152.95 310.65"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+><s font="21" size="28.4">A</s></t></n></fragment><fragment
+ id="39"
+ BoundingBox="134.05 374.83 154.55 403.28"
+><n
+ id="40"
+ p="142.08 388.43"
+ Z="14"
+ Warning="An atom in this label has an invalid valence."
+ Element="1"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+><t
+ p="134.05 398.63"
+ BoundingBox="134.05 374.83 154.55 403.28"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+><s font="21" size="28.4">H</s></t></n></fragment><graphic
+ id="122"
+ SupersededBy="125"
+ BoundingBox="90.35 342.42 128.27 342.42"
+ Z="11"
+ GraphicType="Line"
+ ArrowType="FullHead"
+ HeadSize="1000"
+/><graphic
+ id="48"
+ BoundingBox="144.01 372.33 144 342"
+ Z="12"
+ GraphicType="Orbital"
+ OvalType="Shaded"
+ OrbitalType="ovalShaded"
+ Center3D="144 342 0"
+ MajorAxisEnd3D="144.01 372.33 0"
+ MinorAxisEnd3D="131.87 342 0"
+/><scheme
+ id="126"
+><step
+ id="127"
+ ReactionStepProducts=" 35"
+ ReactionStepArrows=" 122"
+/></scheme><arrow
+ id="125"
+ BoundingBox="90.35 335.5 128.27 348.35"
+ Z="11"
+ FillType="None"
+ ArrowheadHead="Full"
+ ArrowheadType="Solid"
+ HeadSize="1000"
+ ArrowheadCenterSize="875"
+ ArrowheadWidth="250"
+ Head3D="90.35 342.42 0"
+ Tail3D="128.27 342.42 0"
+ Center3D="215.96 497.66 0"
+ MajorAxisEnd3D="253.88 497.66 0"
+ MinorAxisEnd3D="215.96 535.58 0"
+/></page></CDXML>

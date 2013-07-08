@@ -1,0 +1,24 @@
+----------------------------------------------------------------
+The chemstyle bundle --- Schemes and style for chemistry
+E-mail: joseph.wright@morningstar2.co.uk
+Released under the LaTeX Project Public License v1.3c or later
+See http://www.latex-project.org/lppl.txt
+----------------------------------------------------------------
+
+The chemstyle bundle provides two packages: chemstyle and
+chemscheme.  Both are intended to help chemists create floating
+graphics and match published styles.
+
+The chemscheme package consists of two parts, both related to
+chemical schemes.  The package adds a scheme float type to the
+LaTeX default types figure and table. The scheme float type
+acts in the same way as those defined by the LaTeX kernel, but
+is intended for chemical schemes.  The package also provides a
+method for adding automatic chemical numbering to schemes.
+
+The chemstyle package provides a "one-stop shop" for setting up
+formatting of LaTeX documents following the editorial policies
+of various chemical journals.  It provides a number of handy
+chemistry-related commands, and loads several support packages
+to aid the chemist.
+

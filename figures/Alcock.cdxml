@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0.2.1092"
+ Name="Alcock.cdxml"
+ BoundingBox="113.04 89.57 194.97 154.65"
+ WindowPosition="0 0"
+ WindowSize="0 0"
+ WindowIsZoomed="yes"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="21"
+ LabelSize="10"
+ LabelFace="96"
+ CaptionFont="21"
+ CaptionSize="10"
+ HashSpacing="2.7"
+ MarginWidth="2"
+ LineWidth="0.85"
+ BoldWidth="1.42"
+ BondLength="17.01"
+ BondSpacing="12"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="HOH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="0003000000480048000000000332022FFFF4FFEE033E02410367057B03E000020000004800480000000002D802280001000000640000000100030303000000017FFF000100010000000000000000000000006808001901900000000000200000000000000000000000000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+</colortable><fonttable>
+<font id="21" charset="x-mac-roman" name="Helvetica"/>
+</fonttable><page
+ id="95"
+ BoundingBox="0 0 523 770"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><fragment
+ id="3"
+ BoundingBox="113.04 94.04 194.97 125.89"
+><n
+ id="2"
+ p="115.69 103.04"
+ Z="137"
+ AS="N"
+/><n
+ id="4"
+ p="115.69 120.04"
+ Z="138"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="96"
+ BoundingBox="71.08 97.19 160.3 154.55"
+><n
+ id="31"
+ p="115.69 120.04"
+ Z="79"
+ Element="15"
+ NumHydrogens="0"
+ NeedsClean="yes"
+><t
+ p="112.52 124.37"
+ BoundingBox="112.52 115.72 120.52 124.37"
+ LabelJustification="Left"
+><s font="21" size="12" face="96">P</s></t></n><n
+ id="32"
+ p="100.97 128.55"
+ Z="80"
+/><n
+ id="33"
+ p="86.24 120.04"
+ Z="81"
+/><n
+ id="34"
+ p="71.51 128.55"
+ Z="82"
+/><n
+ id="35"
+ p="71.51 145.56"
+ Z="83"
+/><n
+ id="36"
+ p="86.24 154.06"
+ Z="84"
+/><n
+ id="37"
+ p="100.97 145.56"
+ Z="85"
+/><n
+ id="38"
+ p="130.42 128.55"
+ Z="86"
+/><n
+ id="39"
+ p="130.42 145.56"
+ Z="87"
+/><n
+ id="40"
+ p="145.15 154.06"
+ Z="88"
+/><n
+ id="41"
+ p="159.88 145.56"
+ Z="89"
+/><n
+ id="42"
+ p="159.88 128.55"
+ Z="90"
+/><n
+ id="43"
+ p="145.15 120.04"
+ Z="91"
+/><n
+ id="44"
+ p="115.69 103.04"
+ Z="92"
+ NodeType="ExternalConnectionPoint"
+/><b
+ id="45"
+ Z="93"
+ B="44"
+ E="31"
+/><b
+ id="46"
+ Z="94"
+ B="31"
+ E="32"
+/><b
+ id="47"
+ Z="95"
+ B="31"
+ E="38"
+/><b
+ id="48"
+ Z="96"
+ B="32"
+ E="33"
+ Order="2"
+ BondCircularOrdering="53 46 0 49"
+/><b
+ id="49"
+ Z="97"
+ B="33"
+ E="34"
+/><b
+ id="50"
+ Z="98"
+ B="34"
+ E="35"
+ Order="2"
+ BondCircularOrdering="49 0 0 51"
+/><b
+ id="51"
+ Z="99"
+ B="35"
+ E="36"
+/><b
+ id="52"
+ Z="100"
+ B="36"
+ E="37"
+ Order="2"
+ BondCircularOrdering="51 0 0 53"
+/><b
+ id="53"
+ Z="101"
+ B="32"
+ E="37"
+/><b
+ id="54"
+ Z="102"
+ B="38"
+ E="39"
+ Order="2"
+ BondCircularOrdering="59 47 0 55"
+/><b
+ id="55"
+ Z="103"
+ B="39"
+ E="40"
+/><b
+ id="56"
+ Z="104"
+ B="40"
+ E="41"
+ Order="2"
+ BondCircularOrdering="55 0 0 57"
+/><b
+ id="57"
+ Z="105"
+ B="41"
+ E="42"
+/><b
+ id="58"
+ Z="106"
+ B="42"
+ E="43"
+ Order="2"
+ BondCircularOrdering="57 0 0 59"
+/><b
+ id="59"
+ Z="107"
+ B="38"
+ E="43"
+/></fragment><t
+ p="113.04 123.64"
+ BoundingBox="113.04 115.24 136.06 125.89"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="21" size="10" face="96">PPh2</s></t></n><n
+ id="10"
+ p="130.42 94.54"
+ Z="140"
+ AS="N"
+/><n
+ id="14"
+ p="145.15 103.04"
+ Z="142"
+ Element="8"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+><t
+ p="141.65 106.74"
+ BoundingBox="141.65 98.1 149.45 106.74"
+ LabelJustification="Left"
+><s font="21" size="10" face="96">O</s></t></n><n
+ id="16"
+ p="159.88 94.54"
+ Z="144"
+ AS="N"
+/><n
+ id="18"
+ p="174.61 103.04"
+ Z="146"
+ AS="N"
+/><n
+ id="20"
+ p="174.61 120.04"
+ Z="148"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="97"
+ BoundingBox="130 97.19 219.23 154.55"
+><n
+ id="61"
+ p="174.61 120.04"
+ Z="108"
+ Element="15"
+ NumHydrogens="0"
+ NeedsClean="yes"
+><t
+ p="171.44 124.37"
+ BoundingBox="171.44 115.72 179.44 124.37"
+ LabelJustification="Left"
+><s font="21" size="12" face="96">P</s></t></n><n
+ id="62"
+ p="159.88 128.55"
+ Z="109"
+/><n
+ id="63"
+ p="145.15 120.04"
+ Z="110"
+/><n
+ id="64"
+ p="130.42 128.55"
+ Z="111"
+/><n
+ id="65"
+ p="130.42 145.56"
+ Z="112"
+/><n
+ id="66"
+ p="145.15 154.06"
+ Z="113"
+/><n
+ id="67"
+ p="159.88 145.56"
+ Z="114"
+/><n
+ id="68"
+ p="189.34 128.55"
+ Z="115"
+/><n
+ id="69"
+ p="189.34 145.56"
+ Z="116"
+/><n
+ id="70"
+ p="204.07 154.06"
+ Z="117"
+/><n
+ id="71"
+ p="218.8 145.56"
+ Z="118"
+/><n
+ id="72"
+ p="218.8 128.55"
+ Z="119"
+/><n
+ id="73"
+ p="204.07 120.04"
+ Z="120"
+/><n
+ id="74"
+ p="174.61 103.04"
+ Z="121"
+ NodeType="ExternalConnectionPoint"
+/><b
+ id="75"
+ Z="122"
+ B="74"
+ E="61"
+/><b
+ id="76"
+ Z="123"
+ B="61"
+ E="62"
+/><b
+ id="77"
+ Z="124"
+ B="61"
+ E="68"
+/><b
+ id="78"
+ Z="125"
+ B="62"
+ E="63"
+ Order="2"
+ BondCircularOrdering="83 76 0 79"
+/><b
+ id="79"
+ Z="126"
+ B="63"
+ E="64"
+/><b
+ id="80"
+ Z="127"
+ B="64"
+ E="65"
+ Order="2"
+ BondCircularOrdering="79 0 0 81"
+/><b
+ id="81"
+ Z="128"
+ B="65"
+ E="66"
+/><b
+ id="82"
+ Z="129"
+ B="66"
+ E="67"
+ Order="2"
+ BondCircularOrdering="81 0 0 83"
+/><b
+ id="83"
+ Z="130"
+ B="62"
+ E="67"
+/><b
+ id="84"
+ Z="131"
+ B="68"
+ E="69"
+ Order="2"
+ BondCircularOrdering="89 77 0 85"
+/><b
+ id="85"
+ Z="132"
+ B="69"
+ E="70"
+/><b
+ id="86"
+ Z="133"
+ B="70"
+ E="71"
+ Order="2"
+ BondCircularOrdering="85 0 0 87"
+/><b
+ id="87"
+ Z="134"
+ B="71"
+ E="72"
+/><b
+ id="88"
+ Z="135"
+ B="72"
+ E="73"
+ Order="2"
+ BondCircularOrdering="87 0 0 89"
+/><b
+ id="89"
+ Z="136"
+ B="68"
+ E="73"
+/></fragment><t
+ p="171.96 123.64"
+ BoundingBox="171.96 115.24 194.97 125.89"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="21" size="10" face="96">PPh2</s></t></n><b
+ id="5"
+ Z="139"
+ B="2"
+ E="4"
+ BS="N"
+/><b
+ id="11"
+ Z="141"
+ B="2"
+ E="10"
+ BS="N"
+/><b
+ id="15"
+ Z="143"
+ B="10"
+ E="14"
+ BS="N"
+/><b
+ id="17"
+ Z="145"
+ B="14"
+ E="16"
+ BS="N"
+/><b
+ id="19"
+ Z="147"
+ B="16"
+ E="18"
+ BS="N"
+/><b
+ id="21"
+ Z="149"
+ B="18"
+ E="20"
+ BS="N"
+/></fragment><t
+ id="24"
+ p="166.72 109.28"
+ BoundingBox="166.72 101.58 172.27 111.63"
+ Z="152"
+ Warning="ChemDraw can’t interpret this label."
+ LineHeight="auto"
+><s font="21" size="10">n</s></t><t
+ id="26"
+ p="129.7 152.77"
+ BoundingBox="129.7 144.6 163.4 154.65"
+ Z="153"
+ Warning="ChemDraw can’t interpret this label."
+ LineHeight="auto"
+><s font="21" size="10">n = 1, 3</s></t><graphic
+ id="22"
+ BoundingBox="162.75 89.99 162.75 107.57"
+ Z="150"
+ GraphicType="Bracket"
+ BracketType="Round"
+ LipSize="60"
+/><graphic
+ id="23"
+ BoundingBox="140.07 107.57 140.07 89.99"
+ Z="151"
+ GraphicType="Bracket"
+ BracketType="Round"
+ LipSize="60"
+/><bracketedgroup
+ id="98"
+ BracketedObjectIDs="14 16"
+ RepeatCount="2"
+><bracketattachment
+ id="99"
+ GraphicID="23"
+><crossingbond
+ id="100"
+ BondID="15"
+ InnerAtomID="14"
+/></bracketattachment><bracketattachment
+ id="101"
+ GraphicID="22"
+><crossingbond
+ id="102"
+ BondID="19"
+ InnerAtomID="16"
+/></bracketattachment></bracketedgroup></page></CDXML>
