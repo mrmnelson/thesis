@@ -2,7 +2,7 @@
 <!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
 <CDXML
  CreationProgram="ChemDraw 12.0.2.1092"
- Name="Untitled Document-4"
+ Name="StBuPtCl2.cdxml"
  BoundingBox="29.97 261.02 148.09 350.73"
  WindowPosition="0 0"
  WindowSize="0 0"
@@ -18,6 +18,7 @@
  ShowTerminalCarbonLabels="no"
  ShowNonTerminalCarbonLabels="no"
  HideImplicitHydrogens="no"
+ Magnification="500"
  LabelFont="21"
  LabelSize="10"
  LabelFace="96"
@@ -52,7 +53,7 @@
 <font id="20" charset="x-mac-roman" name="Times"/>
 <font id="21" charset="x-mac-roman" name="Helvetica"/>
 </fonttable><page
- id="2307"
+ id="2309"
  BoundingBox="0 0 523 770"
  HeaderPosition="36"
  FooterPosition="36"
@@ -151,7 +152,7 @@
  AS="N"
  LabelDisplay="Right"
 ><fragment
- id="2308"
+ id="2310"
  BoundingBox="29.99 294.4 89.15 342.47"
 ><n
  id="1630"
@@ -263,7 +264,7 @@
  AS="N"
  LabelDisplay="Left"
 ><fragment
- id="2309"
+ id="2311"
  BoundingBox="88.91 294.4 148.07 342.47"
 ><n
  id="1651"
@@ -561,11 +562,13 @@
  Z="167"
  B="1694"
  E="1704"
+ Display="WedgeBegin"
  BS="N"
 /><b
  id="1707"
  Z="169"
  B="1694"
  E="1706"
+ Display="WedgedHashBegin"
  BS="N"
 /></fragment></page></CDXML>

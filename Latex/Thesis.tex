@@ -38,9 +38,9 @@
 \phantomsection
 \addcontentsline{toc}{chapter}{Acknowledgments}
 \include{acknowledgments}
-\clearpage
-\phantomsection
-\printglossaries
+%\clearpage
+%\phantomsection
+%\printglossaries
 \addcontentsline{toc}{chapter}{Table of Contents}
 \tableofcontents
 \clearpage
@@ -57,13 +57,17 @@
 \phantomsection
 \addcontentsline{toc}{chapter}{List of Tables}
 \listoftables
+\clearpage
+\phantomsection
+\printglossaries
+
 % Glossary is automatically added to the table of contents.
 %\printglossaries
 
 %\include{glossaryequations}
 \clearpage
 \pagenumbering{arabic}
-\doublespacing
+\onehalfspacing
 
 %\include{glossaryentries}
 %\include{glossaryequations}
@@ -71,7 +75,9 @@
 \include{Ligands}
 \include{Silver}
 \include{Platinum}
-%\include{chapter3}
+\include{Rhodium}
+%\include{Catalysis}
+\include{Conclusion}
 %\include{chapter4}
 %\include{chapter5}
 %\include{chapter6}
@@ -79,7 +85,7 @@
 %\include{appendix}
 
 % Switch to singlespacing for the references.
-\singlespacing
+\onehalfspacing
 \phantomsection
 \addcontentsline{toc}{chapter}{References}
 \bibliographystyle{achemso}
@@ -88,7 +94,7 @@
 % Now we include the abstract to ensure numbering of compounds & structures is correct.
 % Set doublespacing, page numbering to roman and start at page 2 (ii).
 \clearpage
-\doublespacing
+\onehalfspacing
 \pagenumbering{roman}
 \setcounter{page}{2}
 \include{abstract}

@@ -222,6 +222,7 @@
 \newcommand{\oneJNH}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{NH}}}
 \newcommand{\oneJXH}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{XH}}}
 \newcommand{\oneJPtP}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PtP}}}
+\newcommand{\oneJPtC}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PtC}}}
 \newcommand{\oneJPM}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PM}}}
 \newcommand{\JPSe}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PSe}}}
 \newcommand{\JHH}{\mbox{\emph{J}\textsubscript{HH}}}
@@ -239,6 +240,8 @@
 \newcommand{\JAgP}{\mbox{$^1\textit{J}$\textsubscript{AgP}}}
 \newcommand{\JAgPseven}{\mbox{$^1\textit{J}$\textsubscript{$^{107}$AgP}}}
 \newcommand{\JAgPnine}{\mbox{$^1\textit{J}$\textsubscript{$^{109}$AgP}}}
+\newcommand{\twoJPtH}{\mbox{\textsuperscript{2}\emph{J}\textsubscript{PtP}}}
+
 
 
 % Shortcuts for [M + H]+, [M + Na]+, [M + NH4]+, [M - H]-, [M - Na]- and [M - 2Na]2-
