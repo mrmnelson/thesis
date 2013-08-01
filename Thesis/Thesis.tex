@@ -1,0 +1,182 @@
+\documentclass[12pt, a4paper, twoside, openright]{book}
+
+\usepackage{vuwthesis} % sets up some local things, mostly the front page
+
+\usepackage{palatino} % sets palatino as the default font
+
+\usepackage{url} % for typesetting urls
+
+\usepackage[version=3]{mhchem}		%Chemical formula i.e. /ce
+\usepackage{color}					%For using different colour formats
+\usepackage{siunitx} 				%SI units package
+\usepackage{booktabs}				%For making tables pretty
+\usepackage[floats=float]{chemscheme}	%Scheme environment
+\usepackage{nicefrac}				%For nice fractions
+\usepackage{graphicx}				%Required to set figure widths
+\usepackage{mciteplus}
+\usepackage{achemso}
+\usepackage{hyperref}
+\usepackage[xindy]{glossaries}
+
+\newfloat{structure}{hbp}{lox}[chapter]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%NEW COMMANDS GO HERE%
+
+% Misc. Commands
+\newcommand{\sub}[1]{$_{\mbox{#1}}$}
+\newcommand{\fixme}[1]{\colorbox[rgb]{1,0.5,0}{\textbf{#1}}}
+\newcommand{\textprime}{$\textquoteright$}
+\newcommand{\textsubscript}[1]{$_{\mbox{#1}}$}  % Required to get it to compile remove at the end
+
+\newcommand{\percm}{\fixme{PER CM}}
+
+% Shortcuts for degrees and degrees C
+\newcommand{\degC}{\mbox{$\,^\circ$C}}
+\newcommand{\degrees}{$^\circ$}
+
+% Shortcuts for pKa and pKb
+\newcommand{\pKa}{p\emph{K}\textsubscript{a}}
+\newcommand{\pKb}{p\emph{K}\textsubscript{b}}
+
+% Shortcuts for NMR intros
+\newcommand{\Protonintro}[2]{\proton{} NMR (#1 MHz, \ce{#2}): $\delta{}$}
+\newcommand{\Phosphorusintro}[1]{\phosphorus{} NMR (121 MHz, \ce{#1}): $\delta{}$}
+\newcommand{\Carbonintro}[2]{\carbon{} NMR (#1 MHz, \ce{#2}): $\delta{}$}
+\newcommand{\Fluorineintro}[1]{\fluorine{} NMR (282 MHz, \ce{#1}): $\delta{}$}
+
+% Shortcuts for 1H, 10B, 11B, 13C, 19F, 31P, 77Se, 107Ag, 109Ag and 195Pt
+\newcommand{\proton}{\ce{^{1}H}}
+\newcommand{\Bten}{${^{10}}$B}
+\newcommand{\Beleven}{${^{11}}$B}
+\newcommand{\carbon}{\ce{^{13}C}}
+\newcommand{\fluorine}{\ce{^{19}F}}
+\newcommand{\phosphorus}{\ce{^{31}P}}
+\newcommand{\selenium}{\ce{^{77}Se}}
+\newcommand{\Agseven}{${^{107}}$Ag}
+\newcommand{\Agnine}{${^{109}\mbox{Ag}}$}
+\newcommand{\Pt}{\ce{^{195}Pt}}
+
+%Shortcut for J, 1J and 2J
+\newcommand{\J}{\mbox{\emph{J}}}
+\newcommand{\oneJ}{\mbox{\textsuperscript{1}\emph{J}}}
+\newcommand{\twoJ}{\mbox{\textsuperscript{2}\emph{J}}}
+
+% Shortcut for 1JCH etc.
+\newcommand{\oneJCH}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{CH}}}
+\newcommand{\oneJNH}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{NH}}}
+\newcommand{\oneJXH}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{XH}}}
+\newcommand{\oneJPtP}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PtP}}}
+\newcommand{\oneJPtC}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PtC}}}
+\newcommand{\oneJPM}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PM}}}
+\newcommand{\JPSe}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PSe}}}
+\newcommand{\JHH}{\mbox{\emph{J}\textsubscript{HH}}}
+\newcommand{\JPH}{\mbox{\emph{J}\textsubscript{PH}}}
+\newcommand{\JPC}{\mbox{\emph{J}\textsubscript{PC}}}
+\newcommand{\JPF}{\mbox{\emph{J}\textsubscript{PC}}}
+\newcommand{\JPtP}{\mbox{\emph{J}\textsubscript{PtP}}}
+\newcommand{\JRhP}{\mbox{\emph{J}\textsubscript{RhP}}}
+\newcommand{\JRhC}{\mbox{\emph{J}\textsubscript{RhC}}}
+\newcommand{\JPtH}{\mbox{\emph{J}\textsubscript{PtH}}}
+\newcommand{\JPtC}{\mbox{\emph{J}\textsubscript{PtC}}}
+\newcommand{\JPP}{\mbox{\emph{J}\textsubscript{PP}}}
+\newcommand{\JCF}{\mbox{\emph{J}\textsubscript{CF}}}
+\newcommand{\JPtF}{\mbox{\emph{J}\textsubscript{PtF}}}
+\newcommand{\JAgP}{\mbox{$^1\textit{J}$\textsubscript{AgP}}}
+\newcommand{\JAgPseven}{\mbox{$^1\textit{J}$\textsubscript{$^{107}$AgP}}}
+\newcommand{\JAgPnine}{\mbox{$^1\textit{J}$\textsubscript{$^{109}$AgP}}}
+\newcommand{\twoJPtH}{\mbox{\textsuperscript{2}\emph{J}\textsubscript{PtP}}}
+
+% Shortcuts for NMR data
+\newcommand{\NMRPC}[4]{#1 (#2, \JPC{}~=~#3~Hz, #4)}  % C1 (C2, \JPC{}~=~C3~Hz)
+\newcommand{\NMRAgP}[3]{#1 (d, \JAgPseven{}~=~#2~Hz, d, \JAgPnine{}~=~#3~Hz)}
+\newcommand{\NMRPH}[4]{#1 (#2, \JPH{}~=~#3~Hz, #4)} 
+\newcommand{\NMRPPt}[2]{#1 (s, \JPtP{}~=~#2~Hz)}
+\newcommand{\NMRPtwoPt}[4]{#1 (#2, \JPtP{}~=~#3~Hz, #4)}
+\newcommand{\NMRPtH}[5]{#1 (#2, \textsuperscript{#3}\JPtH{}~=~#4~Hz, #5)}
+\newcommand{\NMRPtC}[5]{#1 (#2, \textsuperscript{#3}\JPtC{}~=~#4~Hz, #5)}
+\newcommand{\NMRHH}[4]{#1 (#2, #3~Hz, #4)} 
+\newcommand{\NMRCF}[4]{#1 (#2, \JCF{}~=~#3~Hz, #4)} 
+\newcommand{\NMRPF}[4]{#1 (#2, \JPF{}~=~#3~Hz, #4)} 
+\newcommand{\NMRbsinglet}[2]{#1 (bs, #2)}
+\newcommand{\NMRsinglet}[2]{#1 (s, #2)}
+\newcommand{\NMRcoupled}[4]{#1 (#2, \J{}~=~#3~Hz, #4)} 
+\newcommand{\NMRPsinglet}[1]{#1 (s)}
+\newcommand{\NMRmultiplet}[2]{#1 (m, #2)}
+\newcommand{\NMRdd}[4]{#1 (dd, #2, #3~Hz, #4)}
+\newcommand{\NMRobscuredH}[4]{#1 (obscured, assigned by #2 correlation, #3, #4)}
+\newcommand{\NMRobscuredC}[3]{#1 (obscured, assigned by #2 correlation, #3)}
+
+%\renewcommand{\baselinestretch}{1.00}
+
+\include{glossaryentries}
+\makeglossaries
+
+\begin{document}
+
+\frontmatter
+% Book style knows about front matter
+% Report style doesn't so you need to set roman numbering etc yourself :-(
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Late Transition Metal Complexes of POP Pincer Ligands}
+\author{Melanie R. M. Nelson}
+
+\subject{Chemistry}
+\abstract{An abstract of fewer than 500 words must be included.}
+% Books don't normally have abstracts, and this is a bit of a hack
+
+% Uncomment the appropriate degree
+\phd
+%\mscthesisonly
+%\mscwithhonours
+%\mscbothparts
+% \otherdegree{DEGREE OR DIPLOMA NAME}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\maketitle
+
+\include{Acknowledgements}
+
+\tableofcontents
+\printglossaries
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% book style knows about mainmatter
+% if you are using report style you will have to rest page numbering etc.
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% individual chapters included here
+
+\include{Introduction}
+\include{Ligands}
+\include{Silver}
+\include{Platinum}
+\include{Rhodium}
+\include{Conclusion}
+\include{Experimental}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% and of course book style knows about backmatter
+% \backmatter caused problems with appendices :-(
+% and of course report style doesn't
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\bibliographystyle{ieeetr}
+%\bibliographystyle{achemso}
+\bibliography{References}
+
+
+\end{document}
