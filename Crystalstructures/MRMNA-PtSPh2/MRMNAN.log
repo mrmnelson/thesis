@@ -1,0 +1,59 @@
+Merging summary:
+Total reflections: 175511
+Unique reflections: 19386
+Systematic Absences: 0 removed
+Inconsistent equivalents: 0
+R(int): 0.037022
+R(sigma): 0.020753
+R-linear = sum(abs(data - mean(data))) / sum(abs(data))
+R-square = sum((data - mean(data))**2) / sum(data**2)
+In these sums single measurements are excluded.
+                              Redundancy                   Mean      Mean
+                           Min  Max    Mean              R-linear  R-square
+unused:         - 11.3097
+bin  1: 11.3097 -  1.5093    1   32  15.150                0.0133    0.0358
+bin  2:  1.5093 -  1.1984    4   20  12.668                0.0083    0.0842
+bin  3:  1.1984 -  1.0470    3   18  10.336                0.0112    0.0993
+bin  4:  1.0470 -  0.9513    3   16   8.961   23061338363491.2891    0.1145
+bin  5:  0.9513 -  0.8832    3   11   8.129                0.2862    0.1347
+bin  6:  0.8832 -  0.8311    3   10   7.537                0.0854    0.1603
+bin  7:  0.8311 -  0.7895    2   10   6.982                0.1098    0.1602
+bin  8:  0.7895 -  0.7552    1   10   6.617    7390852825247.0762    0.1866
+bin  9:  0.7552 -  0.7261    1   10   6.434  -12295046561162.3887    0.1993
+bin 10:  0.7261 -  0.7010    1   10   5.857    7360653148304.7998    0.2239
+unused:  0.7010 -
+d min: 0.355365
+n reflections filtered by resolution: 0
+n reflections filtered by hkl: 0
+wR2 = 0.0807 for 19386 data and 809 parameters
+GooF = 1.1229
+Max shift site: 0.0001 A for Cl
+Max dU: 0.0000 for Cl
+Sorted site shifts in Angstrom:
+shift scatterer
+0.000 Cl
+... (remaining 149 not shown)
+Sorted adp shift norms:
+dU scatterer
+0.000 Cl
+... (remaining 149 not shown)
+wR2 = 0.0807 for 19386 data and 809 parameters
+GooF = 1.1229
+Max shift site: 0.0000 A for Cl
+Max dU: 0.0000 for Cl
+Sorted site shifts in Angstrom:
+shift scatterer
+0.000 Cl
+... (remaining 149 not shown)
+Sorted adp shift norms:
+dU scatterer
+0.000 Cl
+... (remaining 149 not shown)
+pure Gauss-Newton with damping and shift scaling
+Summary after 2 cycles:
+R1 (all data): 0.0340 for 19386 reflections
+R1: 0.0222 for 16685 reflections I >= 2u(I)
+wR2 = 0.0807, GooF: 1.1229
+Difference map: max=1.66, min=-1.14
+
+Disagreeable reflections:

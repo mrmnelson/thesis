@@ -1,0 +1,117 @@
+
+ SADABS-2008/1 - Bruker AXS area detector scaling and absorption correction 
+ --------------------------------------------------------------------------
+
+ Equivalent reflections defined by point group 2/m    for scaling
+
+ Equivalent reflections defined by point group 2/m    for error model
+
+ Reading file MRMNAN_01.raw
+ Reading file MRMNAN_02.raw
+ Reading file MRMNAN_03.raw
+ Reading file MRMNAN_04.raw
+ Reading file MRMNAN_05.raw
+ Reading file MRMNAN_06.raw
+ Reading file MRMNAN_07.raw
+ Reading file MRMNAN_08.raw
+
+ Mean and maximum errors in direction cosine check function =   0.001   0.006
+ The mean error should not exceed 0.005, and is usually caused by matrix
+ changes during data processing.
+
+ Approximate wavelength, cell and maximum 2-theta (from cosines etc.):
+ 0.71110   47.018   13.149   21.850   90.044  105.258   90.017   60.83
+
+ ==============================================================================
+
+ PART 1 - Refinement of parameters to model systematic errors
+
+
+ Settings for parameter refinement:
+
+ Maximum resolution =  0.1000 A
+ (Intensity/sigma) threshold = 1.500
+ Restraint esd for equal adjacent scale factors =  0.0050
+ Maximum odd and even orders for spherical harmonics =   3   6
+
+  137972 Reflections employed for parameter determination
+ Effective data to parameter ratio =   53.97
+
+ wR2(int) =  0.0600 (selected reflections only, before parameter refinement)
+
+ Cycle  wR2(incid)  wR2(diffr)  Mean wt.
+    1     0.0572      0.0511     0.9383
+    2     0.0499      0.0489     0.9461
+    3     0.0485      0.0480     0.9473
+    4     0.0477      0.0474     0.9477
+    5     0.0472      0.0470     0.9480
+    6     0.0469      0.0468     0.9481
+    7     0.0467      0.0466     0.9481
+    8     0.0465      0.0465     0.9482
+    9     0.0464      0.0464     0.9482
+   10     0.0463      0.0463     0.9482
+   11     0.0463      0.0463     0.9482
+   12     0.0462      0.0462     0.9482
+   13     0.0462      0.0462     0.9482
+   14     0.0462      0.0462     0.9482
+   15     0.0461      0.0461     0.9482
+   16     0.0461      0.0461     0.9483
+   17     0.0461      0.0461     0.9482
+   18     0.0461      0.0461     0.9483
+   19     0.0461      0.0461     0.9483
+   20     0.0461      0.0461     0.9483
+   21     0.0461      0.0461     0.9483
+   22     0.0461      0.0461     0.9483
+   23     0.0461      0.0461     0.9483
+   24     0.0461      0.0461     0.9483
+   25     0.0461      0.0461     0.9483
+
+ wR2(int) =  0.0461 (selected reflections only, after parameter refinement)
+
+ ==============================================================================
+
+ PART 2 - Reject outliers and establish error model
+
+ Rejected reflections are ignored in the statistics and Postscript plots
+ (except the detector diagnostics) and in the output .hkl file
+ Before applying rejections there are:
+
+  175653 total and  20080 unique reflections assuming Friedel's law. 
+ Reflections rejected for which |I-<I>|/su >   4.00
+ Where:  su^2 = sigma(I)^2 + (  0.04000 <I>)^2  (sigma(I) from SAINT)
+
+  175511 total and  20080 unique reflections left after |I-<I>|/su test
+
+ (gI) raised to power 2.000 in error model
+
+ g = 0.0537 gave best error model; g set to 0.0537 for statistics and .hkl
+ file output
+
+  Run 2-theta  R(int)  Incid. factors  Diffr. factors    K     Total I>2sig(I)
+    1   24.0  0.0353   0.993 - 1.082   0.933 - 1.074   0.602   53750   42656
+    2   29.0  0.0357   0.959 - 1.053   0.940 - 1.346   0.577   11436    9468
+    3  -24.0  0.0393   1.020 - 1.132   0.932 - 1.091   0.642   54034   42975
+    4  -24.0  0.0381   0.675 - 0.740   0.966 - 1.346   0.603   11298    9436
+    5   29.0  0.0381   0.647 - 0.706   0.942 - 1.346   0.587   11488    9549
+    6  -24.0  0.0372   0.963 - 1.050   0.940 - 1.346   0.590   11263    9389
+    7   29.0  0.0358   0.629 - 0.704   0.966 - 1.347   0.582   10935    9079
+    8  -24.0  0.0390   0.673 - 0.753   0.935 - 1.346   0.605   11307    9424
+
+ su = K * Sqrt[ sigma^2(I) + (g<I>)^2.00 ]  where sigma(I) is from SAINT
+
+ The above statistics are based on all non-rejected data, ignoring
+ reflections without equivalents when estimating R(int) and K.
+
+
+ ==============================================================================
+
+ PART 3 - Output Postscript diagnostics and corrected data
+
+ Diagnostic plots written to Postscript file MRMNANA.EPS
+
+  175511 Corrected reflections written to file mrmnan.HKL
+ Estimated minimum and maximum transmission:  0.5160  0.7460
+ The ratio of these values is more reliable than their absolute values!
+ Additional spherical absorption correction applied with mu*r =  0.2000
+ Lambda/2 correction factor = 0.0015
+

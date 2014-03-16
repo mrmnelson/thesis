@@ -1,0 +1,123 @@
+data_MRMNEa
+_audit_creation_method            
+;
+Olex2 1.2
+(compiled 2014.02.28 svn.r2900 for OlexSys, GUI svn.r4781)
+;
+
+_audit_creation_date              2014-03-05
+_computing_molecular_graphics     'Olex2 (Dolomanov et al., 2009)'
+_computing_publication_material   'Olex2 (Dolomanov et al., 2009)'
+_publ_contact_author_email        ?
+_publ_contact_author_phone        ?
+_publ_contact_author_address      ?
+_computing_structure_solution     'ShelXS (Sheldrick, 2008)'
+_atom_sites_solution_primary      heavy
+_computing_structure_refinement   'ShelXL (Sheldrick, 2008)'
+_computing_data_collection        
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.28 (release 01-02-2013 CrysAlis171 .NET)
+(compiled Feb  1 2013,16:14:44)
+;
+
+_computing_cell_refinement        
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.28 (release 01-02-2013 CrysAlis171 .NET)
+(compiled Feb  1 2013,16:14:44)
+;
+
+_computing_data_reduction         
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.28 (release 01-02-2013 CrysAlis171 .NET)
+(compiled Feb  1 2013,16:14:44)
+;
+
+_cell_measurement_temperature     285.47(10)
+_cell_measurement_reflns_used     12293
+_cell_measurement_theta_min       2.8600
+_cell_measurement_theta_max       73.5680
+_exptl_crystal_description        block
+_exptl_crystal_colour             'clear pale colourless'
+_exptl_crystal_size_max           0.3842
+_exptl_crystal_size_mid           0.3421
+_exptl_crystal_size_min           0.1062
+_exptl_absorpt_correction_T_min   0.377
+_exptl_absorpt_correction_T_max   1.994
+_exptl_absorpt_correction_type    gaussian
+_exptl_absorpt_process_details    
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.28 (release 01-02-2013 CrysAlis171 .NET)
+(compiled Feb  1 2013,16:14:44)
+Numerical absorption correction based on gaussian integration over
+			a multifaceted crystal model
+;
+
+_diffrn_ambient_temperature       285.47(10)
+_diffrn_radiation_wavelength      1.54184
+_diffrn_radiation_type            'Cu K\a'
+_diffrn_radiation_source          'SuperNova (Cu) X-ray Source'
+_diffrn_radiation_monochromator   mirror
+_diffrn_measurement_device_type   'SuperNova, Dual, Cu at zero, Atlas'
+_diffrn_detector_area_resol_mean  5.3250
+_diffrn_measured_fraction_theta_max 0.9102
+_diffrn_measured_fraction_theta_full 0.9983
+_diffrn_orient_matrix_UB_11       -0.0582462000
+_diffrn_orient_matrix_UB_12       0.0239640000
+_diffrn_orient_matrix_UB_13       -0.1251173000
+_diffrn_orient_matrix_UB_21       0.1568018000
+_diffrn_orient_matrix_UB_22       0.0454849000
+_diffrn_orient_matrix_UB_23       -0.0049495000
+_diffrn_orient_matrix_UB_31       0.0672738000
+_diffrn_orient_matrix_UB_32       -0.0855050000
+_diffrn_orient_matrix_UB_33       -0.0377717000
+_diffrn_measurement_method        '\w scans'
+_reflns_odcompleteness_completeness 99.83
+_reflns_odcompleteness_theta      66.97
+_reflns_odcompleteness_iscentric  1
+_chemical_oxdiff_formula          'C30 H46 O P2 S Cl Ag'
+loop_
+  _exptl_crystal_face_index_h
+  _exptl_crystal_face_index_k
+  _exptl_crystal_face_index_l
+  _exptl_crystal_face_perp_dist
+  _exptl_oxdiff_crystal_face_indexfrac_h
+  _exptl_oxdiff_crystal_face_indexfrac_k
+  _exptl_oxdiff_crystal_face_indexfrac_l
+  _exptl_oxdiff_crystal_face_x
+  _exptl_oxdiff_crystal_face_y
+  _exptl_oxdiff_crystal_face_z
+   3  -4  -6  0.1206   3.4604  -3.9468  -6.0353   0.4590   0.3929   0.7982
+   2   7  -6  0.1547   1.9322   6.6478  -5.5327   0.7390   0.6327  -0.2295
+  -3   5   6  0.1909  -3.3663   4.9934   5.5892  -0.3836  -0.3284  -0.8645
+  -1  -9   4  0.1505  -0.6708  -8.9102   3.5339  -0.6166  -0.5280   0.5833
+  -2   9   3  0.2263  -2.3226   8.5854   2.9186  -0.0241   0.0119  -1.0006
+  -3  -1  -6  0.0374  -2.9931  -1.0011  -6.0081   0.9021  -0.4851   0.1112
+   6  -2  -1  0.1264   6.0002  -2.0139  -0.9931  -0.2735   0.8542   0.6134
+  -4  -2   6  0.2182  -4.0073  -1.9849   5.9975  -0.5645  -0.7483  -0.3264
+   3   2   6  0.0591   2.9933   2.0013   6.0085  -0.8782   0.5306  -0.1967
+  -5  -2  -2  0.1051  -4.9979  -1.9924  -2.0088   0.4947  -0.8644  -0.0900
+  -3  -4  -5  0.0618  -2.9951  -4.0004  -5.0086   0.7052  -0.6268   0.3297
+  -5   3  -1  0.1232  -4.9977   3.0096  -1.0064   0.4891  -0.6418  -0.5555
+
+_olex2_computing_structure_solution_long 'ShelXS (Sheldrick, 2008)'
+_olex2_computing_structure_refinement_long 'ShelXL (Sheldrick, 2008)'
+_publ_section_references          
+;
+Dolomanov, O.V., Bourhis, L.J., Gildea, R.J, Howard, J.A.K. & Puschmann, H.
+ (2009), J. Appl. Cryst. 42, 339-341.
+
+ShelXL (Sheldrick, 2008)
+
+ShelXS (Sheldrick, 2008)
+
+Sheldrick, G.M. (2008). Acta Cryst. A64, 112-122
+
+Sheldrick, G.M. (2008). Acta Cryst. A64, 112-122
+;
+
+_publ_contact_author_name         ''
+

@@ -1,0 +1,163 @@
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++  XPREP - Reciprocal space exploration - Version 2008/2 for Windows  +
++  Copyright(C) 2008 Bruker-AXS                  All Rights Reserved  +
++  mrmnan                         started at 12:42:58 on 19-Jul-2010  +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Original cell in Angstroms and degrees:
+
+   46.874   13.100   21.785    90.00   105.21    90.00
+
+  175511 Reflections read from file mrmnan.HKL; mean (I/sigma) =   12.88
+
+
+Lattice exceptions:  P      A      B      C      I      F     Obv    Rev    All
+
+N (total) =           0  87767  87767      0  87720  87767 116941 117048 175511
+N (int>3sigma) =      0  67254  67254      0  66331  67254  89626  89817 134585
+Mean intensity =    0.0   17.9   17.9    0.0   22.1   17.9   22.6   22.7   22.6
+Mean int/sigma =    0.0   12.6   12.6    0.0   12.8   12.6   12.9   13.0   13.0
+
+Lattice type: C chosen          Volume:     12908.83
+
+-------------------------------------------------------------------------------
+
+DETERMINATION OF REDUCED (NIGGLI) CELL
+
+Transformation from original cell (HKLF-matrix): 
+    0.0000 -1.0000  0.0000    0.0000  0.0000 -1.0000    0.5000 -0.5000  0.0000
+
+Unitcell:      13.100   21.785   24.335   75.37   74.39   90.00
+
+Niggli form:     a.a =    171.61      b.b =    474.59      c.c =    592.20
+                 b.c =    133.93      a.c =     85.81      a.b =      0.00
+
+-------------------------------------------------------------------------------
+
+Search for higher metric symmetry
+Identical indices and Friedel opposites combined before calculating R(sym)
+------------------------------------------------------------------------------
+Option A: FOM = 0.000 deg.   MONOCLINIC   C-lattice   R(sym) = 0.015 [  18441]
+Cell:   46.874  13.100  21.785   90.00  105.21   90.00    Volume:     12908.83
+Matrix: 1.0000  0.0000  0.0000  0.0000  1.0000  0.0000  0.0000  0.0000  1.0000
+------------------------------------------------------------------------------
+Option B: FOM = 0.000 deg.   MONOCLINIC   I-lattice   R(sym) = 0.015 [  18441]
+Cell:   21.785  13.100  46.217   90.00  101.85   90.00    Volume:     12908.82
+Matrix: 0.0000  0.0000 -1.0000  0.0000  1.0000  0.0000  1.0000  0.0000  1.0000
+
+Option A selected
+
+-------------------------------------------------------------------------------
+
+SPACE GROUP DETERMINATION
+
+
+Lattice exceptions:  P      A      B      C      I      F     Obv    Rev    All
+
+N (total) =           0  87767  87767      0  87720  87767 116941 117048 175511
+N (int>3sigma) =      0  67254  67254      0  66331  67254  89626  89817 134585
+Mean intensity =    0.0   17.9   17.9    0.0   22.1   17.9   22.6   22.7   22.6
+Mean int/sigma =    0.0   12.6   12.6    0.0   12.8   12.6   12.9   13.0   13.0
+
+
+Crystal system M and Lattice type C selected
+
+Mean |E*E-1| = 0.914 [expected .968 centrosym and .736 non-centrosym]
+
+Chiral flag NOT set
+
+
+
+Systematic absence exceptions:
+
+         -c- 
+
+N      2941
+N I>3s    2
+<I>     0.1
+<I/s>   0.4
+
+
+Identical indices and Friedel opposites combined before calculating R(sym)
+
+Option  Space Group  No.  Type  Axes  CSD  R(sym) N(eq)  Syst. Abs.   CFOM
+
+[A] C2/c           # 15  centro   1  3696  0.015  18441  0.4 / 13.0   1.11
+[B] Cc             #  9  non-cen  1   566  0.015  18441  0.4 / 13.0   4.14
+
+Option [A] chosen
+
+-------------------------------------------------------------------------------
+
+INTENSITY STATISTICS FOR DATASET # 1  mrmnan.HKL
+
+ Resolution  #Data #Theory %Complete Redundancy Mean I Mean I/s R(int) Rsigma
+
+ Inf - 1.96    1005   1015     99.0    15.54      64.3   80.95  0.0255  0.0098
+1.96 - 1.55    1005   1005    100.0    13.28      48.4   70.98  0.0290  0.0116
+1.55 - 1.35    1006   1006    100.0    12.63      30.0   60.82  0.0348  0.0127
+1.35 - 1.22    1044   1044    100.0    12.09      25.0   53.26  0.0379  0.0139
+1.22 - 1.13    1063   1063    100.0    10.67      25.4   48.95  0.0352  0.0149
+1.13 - 1.06    1061   1061    100.0     9.67      20.5   43.62  0.0357  0.0170
+1.06 - 1.00    1167   1167    100.0     8.97      18.2   38.32  0.0375  0.0189
+1.00 - 0.95    1199   1199    100.0     8.51      16.0   34.04  0.0397  0.0211
+0.95 - 0.91    1198   1198    100.0     7.99      13.5   29.53  0.0455  0.0243
+0.91 - 0.87    1414   1414    100.0     7.66      12.3   26.66  0.0479  0.0270
+0.87 - 0.84    1222   1222    100.0     7.32      11.3   24.73  0.0525  0.0300
+0.84 - 0.81    1425   1425    100.0     6.92       9.7   21.62  0.0587  0.0353
+0.81 - 0.79    1068   1068    100.0     6.79       8.8   19.75  0.0644  0.0388
+0.79 - 0.77    1174   1174    100.0     6.47       8.5   18.42  0.0674  0.0430
+0.77 - 0.75    1318   1343     98.1     6.21       8.4   17.78  0.0709  0.0447
+0.75 - 0.73    1391   1473     94.4     6.00       7.5   16.30  0.0776  0.0490
+0.73 - 0.70    1320   1547     85.3     4.89       7.0   14.27  0.0831  0.0582
+------------------------------------------------------------------------------
+0.79 - 0.70    5752   6086     94.5     5.93       7.9   16.96  0.0733  0.0474
+ Inf - 0.70   20080  20424     98.3     8.59      18.4   34.62  0.0369  0.0206
+
+Merged [A],  lowest resolution = 11.31 Angstroms,   5740 outliers downweighted
+
+-------------------------------------------------------------------------------
+
+Current dataset is # 1  mrmnan.HKL
+
+-------------------------------------------------------------------------------
+
+Determination of unit-cell contents
+
+Formula: C72H52O2P4S2Pt                                    
+
+Formula weight =   1332.29
+
+Tentative Z (number of formula units/cell) =   8.0  giving rho = 1.371,
+non-H atomic volume =  19.9  and following cell contents and analysis:
+
+ C     576.00    64.91 %              H     416.00     3.93 %
+ O      16.00     2.40 %              P      32.00     9.30 %
+ S      16.00     4.81 %              Pt      8.00    14.64 %
+
+F(000) =    5360.0        Mo-K(alpha) radiation        Mu (mm-1) =   2.38
+
+
+-------------------------------------------------------------------------------
+
+File mrmnan.ins set up as follows:
+
+TITL mrmnan in C2/c  
+CELL 0.71073  46.8743  13.1000  21.7852  90.000 105.208  90.000
+ZERR    8.00   0.0016   0.0004   0.0007   0.000   0.002   0.000
+LATT  7
+SYMM -X, Y, 0.5-Z
+SFAC C H O P S PT
+UNIT 576 416 16 32 16 8
+TEMP 23.000
+SIZE 0.15 0.18 0.61
+TREF     
+HKLF 4
+END 
+
+  175511 Reflections written to new reflection file mrmnan.hkl
+
+-------------------------------------------------------------------------------
+

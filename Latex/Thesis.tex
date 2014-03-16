@@ -1,4 +1,4 @@
-\documentclass[12pt, a4paper, twoside, openright]{book}
+\documentclass[12pt, a4paper, oneside, openright]{book}
 
 \usepackage{vuwthesis} % sets up some local things, mostly the front page
 
@@ -10,13 +10,20 @@
 \usepackage{color}					%For using different colour formats
 \usepackage{siunitx} 				%SI units package
 \usepackage{booktabs}				%For making tables pretty
+\usepackage{bpchem}
+%\usepackage{auto-pst-pdf}		%needed for compound numbering, converts eps to pdf
 \usepackage[floats=float]{chemscheme}	%Scheme environment
 \usepackage{nicefrac}				%For nice fractions
 \usepackage{graphicx}				%Required to set figure widths
 \usepackage{mciteplus}
 \usepackage{achemso}
-\usepackage{hyperref}
 \usepackage[xindy]{glossaries}
+\usepackage[parfill]{parskip}   			 %Paragraphs have an empty line rather than an indent
+\usepackage{layouts}
+\usepackage{tocbibind}
+\usepackage[euler]{textgreek}
+\usepackage{placeins}
+\usepackage{hyperref}				%Must be last package
 
 \newfloat{structure}{hbp}{lox}[chapter]
 
@@ -24,24 +31,55 @@
 %NEW COMMANDS GO HERE%
 
 % Misc. Commands
-\newcommand{\sub}[1]{$_{\mbox{#1}}$}
+\newcommand{\sub}[1]{$_{\mbox{\scriptsize{#1}}}$}
 \newcommand{\fixme}[1]{\colorbox[rgb]{1,0.5,0}{\textbf{#1}}}
 \newcommand{\textprime}{$\textquoteright$}
-\newcommand{\textsubscript}[1]{$_{\mbox{#1}}$}  % Required to get it to compile remove at the end
+%\newcommand{\textsubscript}[1]{$_{\mbox{\footnotesize{#1}}}$}  % Required to get it to compile remove at the end
 
 \newcommand{\percm}{\fixme{PER CM}}
+\newcommand{\natbiteangle}{$\beta_n$}
+\newcommand{\biteangle}{bite-angle}
+%\newcommand{\cis}{\emph{cis}} 				%also defined in bpchem
+%\newcommand{\trans}{\emph{trans}}
 
 % Shortcuts for degrees and degrees C
 \newcommand{\degC}{\mbox{$\,^\circ$C}}
 \newcommand{\degrees}{$^\circ$}
 
 % Shortcuts for pKa and pKb
-\newcommand{\pKa}{p\emph{K}\textsubscript{a}}
-\newcommand{\pKb}{p\emph{K}\textsubscript{b}}
+\newcommand{\pKa}{p\emph{K}\sub{a}}
+\newcommand{\pKb}{p\emph{K}\sub{b}}
+
+% Shortcuts for names
+\newcommand{\tBuxantphos}{\emph{t}-Bu-xantphos}
+\newcommand{\tBuXantphos}{\emph{t}-Bu-Xantphos}
+\newcommand{\tBuxantphosk}{\tBuxantphos-\textkappa$^3$}
+\newcommand{\tBuXantphosk}{\tBuXantphos-\textkappa$^3$}
+
+\newcommand{\tButhixantphos}{\emph{t}-Bu-thixantphos}
+\newcommand{\tBuThixantphos}{\emph{t}-Bu-Thixantphos}
+\newcommand{\tButhixantphosk}{\tButhixantphos-\textkappa$^3$}
+\newcommand{\tBuThixantphosk}{\tBuThixantphos-\textkappa$^3$}
+
+\newcommand{\tBusixantphos}{\emph{t}-Bu-sixantphos}
+\newcommand{\tBuSixantphos}{\emph{t}-Bu-Sixantphos}
+\newcommand{\tBusixantphosk}{\tBusixantphos-\textkappa$^3$}
+\newcommand{\tBuSixantphosk}{\tBuSixantphos-\textkappa$^3$}
+
+\newcommand{\iPrxantphos}{\emph{i}-Pr-xantphos}
+\newcommand{\tBu}{\emph{tert}-butyl}
+\newcommand{\Phxantphos}{Ph-xantphos}
+\newcommand{\Phthixantphos}{Ph-thixantphos}
+\newcommand{\Phsixantphos}{Ph-sixantphos}
+\newcommand{\PhXantphos}{Ph-Xantphos}
+\newcommand{\PhThixantphos}{Ph-Thixantphos}
+\newcommand{\PhSixantphos}{Ph-Sixantphos}
+
 
 % Shortcuts for NMR intros
 \newcommand{\Protonintro}[2]{\proton{} NMR (#1 MHz, \ce{#2}): $\delta{}$}
 \newcommand{\Phosphorusintro}[1]{\phosphorus{} NMR (121 MHz, \ce{#1}): $\delta{}$}
+\newcommand{\Phosphorusintrofive}[1]{\phosphorus{} NMR (202 MHz, \ce{#1}): $\delta{}$}
 \newcommand{\Carbonintro}[2]{\carbon{} NMR (#1 MHz, \ce{#2}): $\delta{}$}
 \newcommand{\Fluorineintro}[1]{\fluorine{} NMR (282 MHz, \ce{#1}): $\delta{}$}
 
@@ -63,33 +101,38 @@
 \newcommand{\twoJ}{\mbox{\textsuperscript{2}\emph{J}}}
 
 % Shortcut for 1JCH etc.
-\newcommand{\oneJCH}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{CH}}}
-\newcommand{\oneJNH}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{NH}}}
-\newcommand{\oneJXH}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{XH}}}
-\newcommand{\oneJPtP}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PtP}}}
-\newcommand{\oneJPtC}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PtC}}}
-\newcommand{\oneJPM}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PM}}}
-\newcommand{\JPSe}{\mbox{\textsuperscript{1}\emph{J}\textsubscript{PSe}}}
-\newcommand{\JHH}{\mbox{\emph{J}\textsubscript{HH}}}
-\newcommand{\JPH}{\mbox{\emph{J}\textsubscript{PH}}}
-\newcommand{\JPC}{\mbox{\emph{J}\textsubscript{PC}}}
-\newcommand{\JPF}{\mbox{\emph{J}\textsubscript{PC}}}
-\newcommand{\JPtP}{\mbox{\emph{J}\textsubscript{PtP}}}
-\newcommand{\JRhP}{\mbox{\emph{J}\textsubscript{RhP}}}
-\newcommand{\JRhC}{\mbox{\emph{J}\textsubscript{RhC}}}
-\newcommand{\JPtH}{\mbox{\emph{J}\textsubscript{PtH}}}
-\newcommand{\JPtC}{\mbox{\emph{J}\textsubscript{PtC}}}
-\newcommand{\JPP}{\mbox{\emph{J}\textsubscript{PP}}}
-\newcommand{\JCF}{\mbox{\emph{J}\textsubscript{CF}}}
-\newcommand{\JPtF}{\mbox{\emph{J}\textsubscript{PtF}}}
-\newcommand{\JAgP}{\mbox{$^1\textit{J}$\textsubscript{AgP}}}
-\newcommand{\JAgPseven}{\mbox{$^1\textit{J}$\textsubscript{$^{107}$AgP}}}
-\newcommand{\JAgPnine}{\mbox{$^1\textit{J}$\textsubscript{$^{109}$AgP}}}
-\newcommand{\twoJPtH}{\mbox{\textsuperscript{2}\emph{J}\textsubscript{PtP}}}
+\newcommand{\oneJCH}{\mbox{\textsuperscript{1}\emph{J}\sub{CH}}}
+\newcommand{\oneJNH}{\mbox{\textsuperscript{1}\emph{J}\sub{NH}}}
+\newcommand{\oneJXH}{\mbox{\textsuperscript{1}\emph{J}\sub{XH}}}
+\newcommand{\oneJPtP}{\mbox{\textsuperscript{1}\emph{J}\sub{PtP}}}
+\newcommand{\oneJPtC}{\mbox{\textsuperscript{1}\emph{J}\sub{PtC}}}
+\newcommand{\twoJPtC}{\mbox{\textsuperscript{2}\emph{J}\sub{PtC}}}
+\newcommand{\oneJPM}{\mbox{\textsuperscript{1}\emph{J}\sub{PM}}}
+\newcommand{\oneJRhP}{\mbox{\textsuperscript{1}\emph{J}\sub{RhP}}}
+\newcommand{\JPSe}{\mbox{\textsuperscript{1}\emph{J}\sub{PSe}}}
+\newcommand{\JHH}{\mbox{\emph{J}\sub{HH}}}
+\newcommand{\JPH}{\mbox{\emph{J}\sub{PH}}}
+\newcommand{\JPC}{\mbox{\emph{J}\sub{PC}}}
+\newcommand{\JPF}{\mbox{\emph{J}\sub{PC}}}
+\newcommand{\JPtP}{\mbox{\emph{J}\sub{PtP}}}
+\newcommand{\JRhP}{\mbox{\emph{J}\sub{RhP}}}
+\newcommand{\JRhC}{\mbox{\emph{J}\sub{RhC}}}
+\newcommand{\JRhH}{\mbox{\emph{J}\sub{RhH}}}
+\newcommand{\JPtH}{\mbox{\emph{J}\sub{PtH}}}
+\newcommand{\JPtC}{\mbox{\emph{J}\sub{PtC}}}
+\newcommand{\JPP}{\mbox{\emph{J}\sub{PP}}}
+\newcommand{\JCF}{\mbox{\emph{J}\sub{CF}}}
+\newcommand{\JPtF}{\mbox{\emph{J}\sub{PtF}}}
+\newcommand{\JAgP}{\mbox{$^1\textit{J}$\sub{AgP}}}
+\newcommand{\JAgPseven}{\mbox{$^1\textit{J}$\sub{$^{107}$AgP}}}
+\newcommand{\JAgPnine}{\mbox{$^1\textit{J}$\sub{$^{109}$AgP}}}
+\newcommand{\twoJPtH}{\mbox{\textsuperscript{2}\emph{J}\sub{PtP}}}
+\newcommand{\XJXX}[2]{\mbox{\textsuperscript{#1}\emph{J}\sub{#2}}}
 
 % Shortcuts for NMR data
 \newcommand{\NMRPC}[4]{#1 (#2, \JPC{}~=~#3~Hz, #4)}  % C1 (C2, \JPC{}~=~C3~Hz)
 \newcommand{\NMRAgP}[3]{#1 (d, \JAgPseven{}~=~#2~Hz, d, \JAgPnine{}~=~#3~Hz)}
+\newcommand{\NMRRhP}[2]{#1 (d, \JRhP{}~=~#2~Hz)}
 \newcommand{\NMRPH}[4]{#1 (#2, \JPH{}~=~#3~Hz, #4)} 
 \newcommand{\NMRPPt}[2]{#1 (s, \JPtP{}~=~#2~Hz)}
 \newcommand{\NMRPtwoPt}[4]{#1 (#2, \JPtP{}~=~#3~Hz, #4)}
@@ -99,18 +142,75 @@
 \newcommand{\NMRCF}[4]{#1 (#2, \JCF{}~=~#3~Hz, #4)} 
 \newcommand{\NMRPF}[4]{#1 (#2, \JPF{}~=~#3~Hz, #4)} 
 \newcommand{\NMRbsinglet}[2]{#1 (bs, #2)}
+\newcommand{\NMRbcarbon}[1]{#1 (bs)}
 \newcommand{\NMRsinglet}[2]{#1 (s, #2)}
 \newcommand{\NMRcoupled}[4]{#1 (#2, \J{}~=~#3~Hz, #4)} 
 \newcommand{\NMRPsinglet}[1]{#1 (s)}
+\newcommand{\NMRPasysinglet}[2]{#1 (s, #2)}
 \newcommand{\NMRmultiplet}[2]{#1 (m, #2)}
 \newcommand{\NMRdd}[4]{#1 (dd, #2, #3~Hz, #4)}
 \newcommand{\NMRobscuredH}[4]{#1 (obscured, assigned by #2 correlation, #3, #4)}
 \newcommand{\NMRobscuredC}[3]{#1 (obscured, assigned by #2 correlation, #3)}
 
-%\renewcommand{\baselinestretch}{1.00}
+% Shortcuts for positional descriptors
+\newcommand{\CtBuaH}{C(bridge)CC\emph{H}}
+\newcommand{\CtBubH}{PCCC\emph{H}}
+\newcommand{\CtBucH}{PC(Ar)C\emph{H}}
+\newcommand{\CtBuhH}{C(bridge)(C\emph{\ce{H3)2}}}
+\newcommand{\CtBujH}{PC(C\emph{H\sub{3}})\emph{\sub{3}}}
+\newcommand{\CtBuaC}{C(bridge)C\emph{C}H}
+\newcommand{\CtBubC}{PCC\emph{C}H}
+\newcommand{\CtBucC}{PC(Ar)\emph{C}H}
+\newcommand{\CtBudC}{P\emph{C}(Ar)}
+\newcommand{\CtBueC}{PC\emph{C}O}
+\newcommand{\CtBufC}{C(bridge)\emph{C}CH}
+\newcommand{\CtBugC}{\emph{C}(bridge)}
+\newcommand{\CtBuhC}{C(bridge)(\emph{C}\ce{H3)2}}
+\newcommand{\CtBuiC}{P\emph{C}\ce{(CH3)3}}
+\newcommand{\CtBujC}{PC(\emph{C}\ce{H3)3}}
+
+\newcommand{\StBuaH}{SCC\emph{H}}
+\newcommand{\StBucH}{PC(Ar)C\emph{H}}
+\newcommand{\StBugH}{C(Ar)C\emph{H\sub{3}}}
+\newcommand{\StBuiH}{PC(C\emph{H\sub{3}})\emph{\sub{3}}}
+\newcommand{\StBuaC}{SC\emph{C}H}
+\newcommand{\StBubC}{\emph{C}(Ar)\ce{CH3}}
+\newcommand{\StBucC}{PC(Ar)\emph{C}H}
+\newcommand{\StBudC}{P\emph{C}(Ar)}
+\newcommand{\StBueC}{PC\emph{C}O}
+\newcommand{\StBufC}{S\emph{C}CH}
+\newcommand{\StBugC}{C(Ar)\emph{C}\ce{H3}}
+\newcommand{\StBuhC}{P\emph{C}\ce{(CH3)3}}
+\newcommand{\StBuiC}{PC(\emph{C}\ce{H3)3}}
+
+\newcommand{\SitBuaH}{SiCC\emph{H}}
+\newcommand{\SitBubH}{PCCC\emph{H}}
+\newcommand{\SitBucH}{PC(Ar)C\emph{H}}
+\newcommand{\SitBugH}{Si(C\emph{H\sub{3})\emph{\sub{2}}}}
+\newcommand{\SitBuiH}{PC(C\emph{H\sub{3}})\emph{\sub{3}}}
+\newcommand{\SitBuaC}{SiC\emph{C}H}
+\newcommand{\SitBubC}{PCC\emph{C}H}
+\newcommand{\SitBucC}{PC(Ar)\emph{C}H}
+\newcommand{\SitBudC}{P\emph{C}(Ar)}
+\newcommand{\SitBueC}{PC\emph{C}O}
+\newcommand{\SitBufC}{Si\emph{C}CH}
+\newcommand{\SitBugC}{Si(\emph{C}\ce{H3)2}}
+\newcommand{\SitBuhC}{P\emph{C}\ce{(CH3)3}}
+\newcommand{\SitBuiC}{PC(\emph{C}\ce{H3)3}}
+
+
+\renewcommand{\baselinestretch}{1.24}
 
 \include{glossaryentries}
 \makeglossaries
+\makeatletter
+\setlength{\topmargin}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{1.2cm}
+\setlength{\footskip}{1.2cm}
+\setlength{\textwidth}{15cm}
+\setlength{\textheight}{22.5cm}
+\makeatother
 
 \begin{document}
 
@@ -120,7 +220,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Late Transition Metal Complexes of POP Pincer Ligands}
+\title{Late Transition Metal Complexes of Sterically Bulky Diphosphine Ligands}
 \author{Melanie R. M. Nelson}
 
 \subject{Chemistry}
@@ -144,8 +244,11 @@
 \maketitle
 
 \include{Acknowledgements}
-
 \tableofcontents
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Schemes}
+\listofschemes
+\listoftables
 \printglossaries
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -163,6 +266,7 @@
 \include{Silver}
 \include{Platinum}
 \include{Rhodium}
+\include{Catalysis}
 \include{Conclusion}
 \include{Experimental}
 

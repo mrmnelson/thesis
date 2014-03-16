@@ -8,8 +8,12 @@
 
 \fixme{copied from Almas, check that the necessary info is here, everything is correct and everything unneccessary is removed}
 
-All reactions and manipulation of products and reagents were carried out under an inert nitrogen atmosphere using standard Schlenk line techniques unless otherwise stated.  Analytical grade reagents and high purity solvents were degassed and purged with nitrogen before use, except for diethyl ether and tetrahydrofuran which were dried by refluxing over sodium/benzophenone ketyl.  NMR spectra were recorded using a Varian Unity Inova 300 (300~MHz for \proton, 75~MHz for \carbon, 121~MHz for \phosphorus{} and 282~MHz for \fluorine), a Varian Unity Inova 500 (500~MHz for \proton{} and 125~MHz for \carbon), or a Varian DirectDrive 600 (600~MHz for \proton and 150~MHz for \carbon{}) spectrometers.   The 600~MHz instrument was equipped with a Varian inverse-detected triple-resonance HCN cold probe operating at 25~K.  All direct-detected \proton{} and \carbon{} chemical shifts were referenced to the residual solvent peak.\cite{Fulmer2010}  NMR samples were prepared under an inert nitrogen or argon atmosphere unless otherwise stated, using \ce{C6D6}, \ce{CDCl3}, \ce{CD2Cl2}, acetone-\ce{d6} and toluene-\ce{d8}.  All NMR solvents were degassed before use and stored under inert atmosphere over molecular sieves.  Variable temperature NMR was carried out in toluene-\ce{d8} or \ce{CD2Cl2} using Varian Unity Inova 300~MHz NMR spectrometer.  Infrared spectra were recorded with a PerkinElmer Spectrum One FT-IR spectrophotometer using pressed KBr discs.  Microanalyses were performed by The Campbell Microanalytical Laboratory at Otago University.  Melting points were recorded on a Gallenkamp Melting Point Apparatus under vacuum unless otherwise stated. Single crystal \textit{X}-ray diffraction data were recorded by the \textit{X}-ray Crystallography Laboratory at the University of Canterbury.  Electrospray ionisation mass spectra were either recorded on a PE Biosystem Mariner 5158 TOF mass spectrometer at Victoria University, or performed by the GlycoSyn QC laboratory at Industrial Research Limited using a Waters Q-TOF Premier Tandem mass spectrometer.  Calculated \proton{} NMR spectra were obtained from gNMR spectral simulation programme, version 5.0.6.0 written by P. H. M. Budzelaar, IvorySoft 2006.
+All reactions and manipulation of products and reagents were carried out under an inert nitrogen atmosphere using standard Schlenk line techniques unless otherwise stated.  Analytical grade reagents and high purity solvents were degassed and purged with nitrogen before use, except for diethyl ether and tetrahydrofuran which were dried by refluxing over sodium/benzophenone ketyl.  
 
+NMR spectra were recorded using a Varian Unity Inova 300 (300~MHz for \proton, 75~MHz for \carbon, 121~MHz for \phosphorus{} and 282~MHz for \fluorine), a Varian Unity Inova 500 (500~MHz for \proton{} and 125~MHz for \carbon), or a Varian DirectDrive 600 (600~MHz for \proton and 150~MHz for \carbon{}) spectrometers.   The 600~MHz instrument was equipped with a Varian inverse-detected triple-resonance HCN cold probe operating at 25~K.  All direct-detected \proton{} and \carbon{} chemical shifts were referenced to the residual solvent peak.\cite{Fulmer2010}  NMR samples were prepared under an inert nitrogen or argon atmosphere unless otherwise stated, using \ce{C6D6}, \ce{CDCl3}, \ce{CD2Cl2}, acetone-\ce{d6} and toluene-\ce{d8}.  All NMR solvents were degassed before use and stored under inert atmosphere over molecular sieves.  Variable temperature NMR was carried out in toluene-\ce{d8} or \ce{CD2Cl2} using Varian Unity Inova 300~MHz NMR spectrometer.  Infrared spectra were recorded with a PerkinElmer Spectrum One FT-IR spectrophotometer using pressed KBr discs.  Microanalyses were performed by The Campbell Microanalytical Laboratory at Otago University.  Melting points were recorded on a Gallenkamp Melting Point Apparatus under vacuum unless otherwise stated. Single crystal \textit{X}-ray diffraction data were recorded by the \textit{X}-ray Crystallography Laboratory at the University of Canterbury.  Electrospray ionisation mass spectra were either recorded on a PE Biosystem Mariner 5158 TOF mass spectrometer at Victoria University, or performed by the GlycoSyn QC laboratory at Industrial Research Limited using a Waters Q-TOF Premier Tandem mass spectrometer.  Calculated \proton{} NMR spectra were obtained from gNMR spectral simulation programme, version 5.0.6.0 written by P. H. M. Budzelaar, IvorySoft 2006.
+
+\fixme{All reactions with silver were performed in tinfoil wrapped vessels to prevent degradation due to light}
+\fixme{In the case of a 1:1 CDCl3:CD2Cl2 solvent mixing being used for NMR the spectra were referenced to the CD2Cl2 residual solvent peak}
 %\subsection*{Crystallography} 
 %\label{subsec:X-ray}
 
@@ -17,6 +21,8 @@ All reactions and manipulation of products and reagents were carried out under a
 
 \section{Ligands and Non-Transition Metal Derivatives}
 \label{section:experimental:ligands}
+
+%\pagevalues
 
 %%%%%
 %S-tBu %
@@ -26,7 +32,7 @@ All reactions and manipulation of products and reagents were carried out under a
 
 \begin{structure}
 \begin{center}
-\includegraphics[scale=0.7]{../Structures/SP(tBu)2_ligand.pdf}
+\includegraphics{../Structures/StBuligand.pdf}
 \end{center}
 \end{structure}
 
@@ -34,21 +40,23 @@ All reactions and manipulation of products and reagents were carried out under a
 \Phosphorusintro{CDCl3}
 \NMRPsinglet{9.5}.
 \Protonintro{500}{\fixme{CDCl3}}
-\NMRsinglet{7.29}{PC(Ar)C\emph{H}},
-\NMRsinglet{6.88}{SCC\emph{H}},
-\NMRsinglet{2.25}{C(Ar)\ce{C\emph{H}3}},
-\NMRmultiplet{1.22-1.24}{PCC\emph{H}\textsubscript{3}}.
+\NMRsinglet{7.29}{\StBucH},
+\NMRsinglet{6.88}{\StBuaH},
+\NMRsinglet{2.25}{\StBugH},
+\NMRmultiplet{1.22-1.24}{\StBuiH}.
 \Carbonintro{125}{\fixme{CDCl3}}
-\NMRPC{155.3}{vt}{13.0}{\emph{C}O}
-\NMRsinglet{134.6}{PC(Ar)\emph{C}H}
-\NMRsinglet{131.9}{SCC\emph{C}(\ce{CH3})}
-\fixme{something at 128?}
-\NMRsinglet{127.4}{SC\emph{C}H}
-\NMRPC{120.1}{vt}{2.4}{\emph{C}S}
-\fixme{tBu groups}
-\NMRPC{30.8}{vt}{9.1}{PC\emph{C}\ce{H3}}
-\NMRsinglet{20.9}{C(Ar)\emph{C}\ce{H3}}.
-\fixme{IR, EA, MS}
+\NMRPC{155.3}{vt}{13.0}{\StBueC},
+\NMRsinglet{134.6}{\StBucC},
+\NMRsinglet{131.9}{\StBubC},
+\fixme{something at 128?},
+\NMRsinglet{127.4}{\StBuaC},
+\NMRPC{120.1}{vt}{2.4}{\StBufC},
+\fixme{tBu groups},
+\NMRPC{30.8}{vt}{9.1}{\StBuiC},
+\NMRsinglet{20.9}{\StBugC}.
+HRMS calcd for \ce{C30H47OP2S} [M+H]$^+$ \emph{m/z} = 517.2817; found = 517.2819.
+\\\fixme{this is from MRMND check what sample this was and if there is one for just H+}
+\fixme{IR, EA}
 
 %%%%%
 %Si-tBu%
@@ -58,32 +66,115 @@ All reactions and manipulation of products and reagents were carried out under a
 
 \begin{structure}[h]
 \begin{center}
-\includegraphics[scale=0.7]{../Structures/SiP(tBu)2_ligand.pdf}
+\includegraphics{../Structures/SitBuligand.pdf}
 \end{center}
 \end{structure}
 
 This compound was prepared similarly to \fixme{reference to S-tBu ligand} using 10,10-dimethylphenoxasilin (0.40 g, 1.8 mmol) giving white crystals (0.127 g, 14\%).
 \Phosphorusintro{CD2Cl2}
-\NMRPsinglet{8.42} \fixme{it has silicon satellites? should I add them?}.
+8.42 (s, \XJXX{4}{PSi} = 4.8 Hz).
+%\NMRPsinglet{8.42} \fixme{it has silicon satellites? should I add them?}.
 \Protonintro{500}{CD2Cl2}
-\NMRsinglet{0.46}{SiC\emph{H}\textsubscript{3}}
-\NMRPH{1.29}{vt}{5.6}{PCC\emph{H}\textsubscript{3}}
-\NMRHH{7.12}{t}{7.5}{PCCC\emph{H}}
-\NMRHH{7.53}{d}{7.1}{SiCC\emph{H}}
-\NMRHH{7.87}{d}{7.4}{PCC\emph{H}}.
+\NMRcoupled{7.87}{d}{7.4}{\SitBucH},
+\NMRcoupled{7.53}{d}{7.1}{\SitBuaH},
+\NMRcoupled{7.12}{t}{7.5}{\SitBubH},
+\NMRPH{1.29}{vt}{5.6}{\SitBuiH},
+\NMRsinglet{0.46}{\SitBugH},
 \Carbonintro{125}{CD2Cl2}
-\NMRPC{164.3}{vt}{11.3}{\emph{C}O}
-\NMRsinglet{138.5}{PC\emph{C}H}
-\NMRsinglet{134.8}{SiC\emph{C}H}
-\NMRsinglet{\fixme{128}}{P\emph{C}(Ar)}
-\NMRsinglet{121.4}{PCC\emph{C}H}
-\NMRsinglet{119.4}{Si\emph{C}(Ar)}
-\NMRPC{33.2}{\fixme{dd}}{16.3, 13.9}{P\emph{C}\ce{CH3}}
-\NMRPC{31.0}{vt}{9.6}{PC\emph{C}\ce{H3}}
-\NMRsinglet{-0.09}{Si\emph{C}\ce{H3}}.
-\fixme{IR, mass spec, EA}
+\NMRPC{164.3}{vt}{11.3}{\SitBueC},
+\NMRsinglet{138.5}{\SitBucC},
+\NMRsinglet{134.8}{\SitBuaC},
+\NMRsinglet{\fixme{128}}{\SitBudC},
+\NMRsinglet{121.4}{\SitBubC},
+\NMRsinglet{119.4}{\SitBufC},
+\NMRPC{33.2}{\fixme{dd}}{16.3, 13.9}{\SitBuhC},
+\NMRPC{31.0}{vt}{9.6}{\SitBuiC},
+\NMRsinglet{-0.09}{\SitBugC}.
+HRMS calcd for \ce{C30H49OP2Si} [M + H]$^+$ \emph{m/z} = 515.3022; found = 515.3021.
+\fixme{IR, EA}
 
 \fixme{change the NMR data so it goes from large to small}
+
+%%%%%
+%C-tBu%
+%%%%%
+
+\subsection*{9,9-Dimethyl-4,6-bis(diphenylphosphino)xanthene \\(\tBuxantphos)}
+
+\begin{structure}[h]
+\begin{center}
+\includegraphics{../Structures/CtBuligand.pdf}
+\end{center}
+\end{structure}
+
+Dissolved 9,9-dimethylxanthene (0.50 g, 2.38 mmol) and \gls{TMEDA} (1.07 mL, 7.13 mmol) in diethyl ether (20 mL).  Added s-BuLi drop wise causing the reaction to change to yellow then a deep red.  After stirring for 24 hours chlorodi-(\emph{tert}-butyl)phosphine (1.36 mL, 7.13 mmol) was added dropwise.  After six days of stirring a white precipitate had formed and a pale yellow solution remained.  The solvent was removed \emph{in vacuo} and the resulting yellow oil was taken up in dichloromethane (20 mL) and washed with degassed water (10 mL).  The aqueous layer was further extracted with dichloromethane (20 mL) and the combined organic layers were washed with water (3 x 10 mL).  The organic layers were dried over magnesium sulfate and the solvent was removed \emph{in vacuo}.  The resulting pale yellow solid was recrystallised from n-propanol yielding the title compound as fine white needles (0.44 g, 37\%).
+
+The \proton{} and \carbon{} NMR data are consistent with the literature values.\cite{Mispelaere2005}  However, the literature reported \phosphorus{} chemical shift is 12.4 ppm.  Due to this discrepancy full characterisation data for this compound is given below.
+
+\Phosphorusintro{CDCl3}
+\NMRPsinglet{10.2},
+\Protonintro{500}{CDCl3}
+\NMRcoupled{7.60}{d}{7.6}{\CtBucH},
+\NMRdd{7.38}{7.8}{1.5}{\CtBuaH},
+\NMRcoupled{7.03}{t}{7.6}{\CtBubH},
+\NMRsinglet{1.57}{\CtBuhH},
+\NMRmultiplet{1.21-1.25}{\CtBujH}.
+\Carbonintro{125}{CDCl3}
+\NMRPC{155.8}{vt}{12.0}{\CtBueC},
+\NMRbsinglet{133.7}{\CtBucC},
+\NMRPC{130.7}{vt}{2.0}{\CtBufC},
+\NMRPC{126.6}{dd}{21.6, 15.4}{\CtBudC},
+\NMRsinglet{125.5}{\CtBuaC},
+\NMRsinglet{121.5}{\CtBubC},
+\NMRbsinglet{35.0}{\CtBugC},
+\NMRPC{32.7}{dd}{16.1, 12.7}{\CtBuiC},
+\NMRsinglet{31.1}{\CtBuhC},
+\NMRPC{30.8}{vt}{9.4}{\CtBujC}.
+HRMS calcd for \ce{C31H49OP2} [M+H]$^+$ \emph{m/z} = 499.3253; found = 499.3241.
+
+%%%%%%%%
+% C-tBu acid %
+%%%%%%%%
+\subsection*{Protonated 4,6-bis(di-\emph{tert}-butylphosphino)-9,9-dimethylxanthene\\(\emph{t}-Bu-xantphos) with \ce{CH2(SO2CF3)2}}
+
+\begin{structure}[h]
+\begin{center}
+\includegraphics{../Structures/CtBuH.pdf}
+\end{center}
+\end{structure}
+
+%Reaction3013
+
+%Phosphorus
+\Phosphorusintro{CDCl3}
+\NMRbsinglet{17.4}
+%Proton
+
+\Protonintro{600}{CDCl3}
+\NMRPH{8.57}{vt}{470.6}{P\emph{H}}, \fixme{kind of not really}
+\NMRmultiplet{7.67-7.74}{4H, Ar},
+\NMRbsinglet{7.39}{2H, Ar},
+\NMRbsinglet{4.06}{C\emph{H}\ce{(SO2CF3)2}}, \fixme{check this is there},
+\NMRsinglet{1.65}{\CtBuhH},
+\NMRmultiplet{1.37-1.43}{\CtBujH}.
+%Fluorine
+\Fluorineintro{CDCl3}
+\NMRsinglet{-80.9}{C\emph{F}\sub{3}}
+%Carbon
+\Carbonintro{150}{CDCl3}
+\NMRmultiplet{153.6-153.8}{\CtBueC},
+\NMRbcarbon{132.5},
+\NMRbcarbon{130.3},
+\NMRbcarbon{125.0},
+\NMRCF{121.0}{quartet}{317.9}{CH\ce{(SO2}\emph{C}\ce{F3)2}},
+\NMRsinglet{54.1}{\emph{C}H\ce{(SO2CF3)2}},
+\NMRsinglet{35.5}{\CtBugC},
+\NMRbsinglet{34.0}{\CtBuiC},
+\NMRsinglet{30.8}{\CtBuhC},
+\NMRbsinglet{29.4}{\CtBujC}.
+HRMS calcd for \ce{C31H49OP2} [M]$^+$ \emph{m/z} = 499.3253; found = 499.3254.
+
+
 
 %%%%%%%
 %S-tBu acid%
@@ -102,23 +193,25 @@ This compound was prepared similarly to \fixme{reference to S-tBu ligand} using 
 \Phosphorusintro{CD2Cl2}
 \NMRPsinglet{15.8}
 \Protonintro{500}{CD2Cl2}
-\NMRmultiplet{8.99}{P\emph{H}}
-\NMRsinglet{7.29}{SCC\emph{H}},
-\NMRsinglet{7.22}{PC(Ar)C\emph{H}},
-\NMRsinglet{3.83}{\ce{C\emph{H}(SO2CF3)}}
-\NMRsinglet{2.36}{C(Ar)\ce{C\emph{H}3}},
-\NMRmultiplet{1.41-1.44}{PCC\emph{H}\textsubscript{3}}.
+\NMRmultiplet{8.99}{P\emph{H}},
+\NMRsinglet{7.29}{\StBuaH},
+\NMRsinglet{7.22}{\StBucH},
+\NMRsinglet{3.83}{\ce{C\emph{H}(SO2CF3)}},
+\NMRsinglet{2.36}{\StBugH},
+\NMRmultiplet{1.41-1.44}{\StBuiH}.
 \Carbonintro{125}{\fixme{CD2Cl2}}
-\NMRsinglet{152.9}{\emph{C}O}
-\NMRsinglet{136.2}{SCC\emph{C}(\ce{CH3})}
-\NMRsinglet{132.5}{SC\emph{C}H}
-\NMRsinglet{131.8}{PC(Ar)\emph{C}H}
-\NMRsinglet{122.2}{\emph{C}S}
-\NMRCF{121.5}{quartet}{325.6}{\ce{CF3}}
-\NMRsinglet{115.3}{\emph{C}(Ar)}
-\NMRsinglet{34.4}{P\emph{C}C\ce{H3}}
-\NMRsinglet{29.5}{PC\emph{C}\ce{H3}}
+\NMRsinglet{152.9}{\StBueC},
+\NMRsinglet{136.2}{\StBubC},
+\NMRsinglet{132.5}{\StBuaC},
+\NMRsinglet{131.8}{\StBucC},
+\NMRsinglet{122.2}{\StBufC},
+\NMRCF{121.5}{quartet}{325.6}{\ce{CF3}},
+\NMRsinglet{115.3}{\StBudC},
+\NMRsinglet{34.4}{\StBuhC},
+\NMRsinglet{29.5}{\StBuiC}.
 One peak (\emph{C}\ce{H(SO2CF3)}) obscured by solvent.
+HRMS calcd for \ce{C30H47OP2S} [M]$^+$ \emph{m/z} = 517.2817; found = 517.2817.
+
 \fixme{IR, EA, MS}
 
 %%%%%%%%
@@ -140,29 +233,31 @@ One peak (\emph{C}\ce{H(SO2CF3)}) obscured by solvent.
 \NMRPsinglet{14.3}
 %Proton
 \Protonintro{500}{CDCl3}
-\NMRmultiplet{9.57}{P\emph{H}}
-\NMRmultiplet{7.85-7.87}{PCC\emph{H}}
-\NMRHH{7.79}{d}{6.6}{SiCC\emph{H}}
-\NMRHH{7.41}{t}{7.5}{PCCC\emph{H}}
-\NMRbsinglet{4.06}{C\emph{H}\ce{(SO2CF3)2}}
-\NMRPH{1.43}{vt}{7.5}{PCC\emph{H}\textsubscript{3}}
-\NMRsinglet{0.53}{SiC\emph{C}\ce{H3}}
+\NMRmultiplet{9.57}{P\emph{H}},
+\NMRmultiplet{7.85-7.87}{\SitBucH},
+\NMRHH{7.79}{d}{6.6}{\SitBuaH},
+\NMRHH{7.41}{t}{7.5}{\SitBubH},
+\NMRbsinglet{4.06}{C\emph{H}\ce{(SO2CF3)2}},
+\NMRPH{1.43}{vt}{7.5}{\SitBuiH},
+\NMRsinglet{0.53}{\SitBugH}.
 %Fluorine
 \Fluorineintro{CDCl3}
-\NMRsinglet{-80.8}{C\emph{F}\textsubscript{3}}
+\NMRsinglet{-80.8}{C\emph{F}\sub{3}}
 %Carbon
 \Carbonintro{125}{CDCl3}
-\NMRPC{161.5}{vt}{5.3}{\emph{C}O}
-\NMRsinglet{139.1}{SiC\emph{C}H}
-\NMRsinglet{136.9}{PC\emph{C}H}
-\NMRPC{124.0}{vt}{2.4}{PCC\emph{C}H}
-\NMRsinglet{121.1}{Si\emph{C}(Ar)}
-\NMRCF{121.1}{quartet}{327.2}{CH\ce{(SO2}\emph{C}\ce{F3)2}}
-\NMRbsinglet{115.0}{P\emph{C}(Ar)}
-\NMRsinglet{53.6}{\emph{C}H\ce{(SO2CF3)2}}
-\NMRPC{34.2}{vt}{3.9}{P\emph{C}\ce{CH3}}
-\NMRPC{29.5}{vt}{4.3}{PC\emph{C}\ce{H3}}
-\NMRsinglet{-0.4}{Si\emph{C}\ce{H3}}
+\NMRPC{161.5}{vt}{5.3}{\SitBueC},
+\NMRsinglet{139.1}{\SitBuaC},
+\NMRsinglet{136.9}{\SitBucC},
+\NMRPC{124.0}{vt}{2.4}{\SitBubC},
+\NMRsinglet{121.1}{\SitBufC},
+\NMRCF{121.1}{quartet}{327.2}{CH\ce{(SO2}\emph{C}\ce{F3)2}},
+\NMRbsinglet{115.0}{\SitBudC},
+\NMRsinglet{53.6}{\emph{C}H\ce{(SO2CF3)2}},
+\NMRPC{34.2}{vt}{3.9}{\SitBuhC},
+\NMRPC{29.5}{vt}{4.3}{\SitBuiC},
+\NMRsinglet{-0.4}{\SitBugC}.
+HRMS calcd for \ce{C30H49OP2Si} [M]$^+$ \emph{m/z} = 515.3022; found = 515.3023.
+
 
 \fixme{IR, EA, MS}
 
@@ -170,19 +265,86 @@ One peak (\emph{C}\ce{H(SO2CF3)}) obscured by solvent.
 %CtBu Se%
 %%%%%%
 
-%Reaction4031
-\subsection*{9,9-Dimethyl-4,6-bis(di\emph{tert}-butylphosphino)xanthene}
-
+%Reaction4031, 6010
+\subsection*{9,9-Dimethyl-4,6-bis(di\emph{tert}-butylphosphino)xanthene selenide}
+\fixme{Correct this name}
 \begin{structure}[h]
 \begin{center}
 \includegraphics{../Structures/CtBuSe.pdf}
 \end{center}
 \end{structure}
 
-\fixme{rewrite this}Some CtBu ligand was combined with lots of selenium in a flask under nitrogen and heated to reflux with stirring for 3 days.  After which the excess selenium was removed by filtration and the solvent was remove in vacuo to obtain a pale yellow oil with a yield in excess of 100\% due to the enormous amount of grease present.
+A solution of \tBuxantphos{} (0.041 g, 0.082 mmol) in toluene (5 mL) was added to grey selenium (0.130 g, 1.65 mmol) in toluene (5 mL).  The reaction was heated to reflux with stirring for 3 days.  The resulting yellow solution was allowed to cool, filtered and reduced \emph{in vacuo} to give a pale yellow solid (0.038 g, 80\%).    
+
+\Phosphorusintro{1:1, CDCl3:CD2Cl2}
+\NMRPsinglet{10.2},
+\NMRPasysinglet{10.6}{P},
+\NMRPasysinglet{101.9}{P=Se}.
+\Protonintro{500}{1:1 CDCl3:CD2Cl2}
+\NMRdd{9.26}{17.4}{7.8}{P(=Se)CC\emph{H}},
+\NMRcoupled{7.67}{d}{7.6}{\CtBucH},
+\NMRcoupled{7.60}{d}{7.5}{P(=Se)CCCC\emph{H}},
+\NMRcoupled{7.50}{d}{7.5}{PCCCC\emph{H}},
+\NMRcoupled{7.24}{t}{7.8}{P(=Se)CCC\emph{H}},
+\NMRcoupled{7.19}{t}{7.6}{\CtBubH},
+\NMRcoupled{1.66}{d}{16.6}{\ce{P(=Se)C(C\emph{H3})3}},
+\NMRsinglet{1.57}{\CtBuhH},
+\NMRcoupled{1.19}{d}{11.8}{\CtBujH}.
+\Carbonintro{125}{1:1, CDCl3:CD2Cl2},
+\NMRPC{157.0}{d}{21.1}{\CtBueC},
+\NMRsinglet{154.2}{P(=Se)C\emph{C}O},
+\NMRPC{143.5}{d}{11.6}{P(=Se)C\emph{C}H},
+\NMRsinglet{136.0}{\CtBucC},
+\NMRsinglet{132.8}{PCC\emph{C}C(bridge)},
+\NMRPC{132.0}{d}{4.8}{P(=Se)CC\emph{C}C(bridge)},
+\NMRPC{129.2}{d}{2.4}{P(=Se)CCC\emph{C}H},
+\NMRsinglet{126.3}{PCCC\emph{C}H},
+\NMRPC{125.3}{d}{35}{\CtBudC},
+\NMRsinglet{123.2}{2C, P(=Se)CC\emph{C}H, PCC\emph{C}H},
+\NMRPC{115.4}{d}{39.8}{P(=Se)\emph{C}(Ar)},
+\NMRPC{39.2}{d}{34.6}{P(=Se)\emph{C}(CH3)3},
+\NMRsinglet{35.3}{\emph{C}(bridge)},
+\NMRPC{33.5}{d}{26.9}{\CtBuiC},
+\NMRPC{31.2}{d}{15.4}{\CtBujC}.
+\NMRdd{30.9}{7.7}{2.0}{P(=Se)C(\emph{C}\ce{H3)3}},
+\NMRsinglet{30.8}{C(bridge)\emph{C}\ce{H3}}.
+HRMS calcd for \ce{C31H49OP2Se} [M+H]$^+$ \emph{m/z} = 579.2421; found = 579.2381.
 
 \section{Silver Complexes}
 \label{section:experimental:silver}
+
+%%%%%%
+%StBu Se%
+%%%%%%
+
+%Reaction4026, 6009
+\subsection*{2,8-Dimethyl-4,6-bis(di-\emph{tert}-butylphosphino)phenoxathiin \\(\emph{t}-Bu-thixantphos) selenide}
+\fixme{Correct this name}
+\begin{structure}[h]
+\begin{center}
+\includegraphics{../Structures/StBuSe.pdf}
+\end{center}
+\end{structure}
+
+A solution of \tButhixantphos{} (0.042 g, 0.081 mmol) in toluene (5 mL) was added to grey selenium (0.128 g, 1.62 mmol) in toluene (5 mL).  The reaction was heated to reflux with stirring for 3 days.  The resulting yellow solution was allowed to cool, filtered and reduced \emph{in vacuo} to give the title compound as a yellow solid (0.047 g, 98\%).   
+HRMS calcd for \ce{C31H49OP2SSe} [M+H]$^+$ \emph{m/z} = 597.1984; found = 597.1919.
+
+%%%%%%
+%SitBu Se%
+%%%%%%
+
+%Reaction6008
+\subsection*{4,6-bis(di-\emph{tert}-butylphosphino)-10,10-dimethylphenoxasilin \\(\emph{t}-Bu-sixantphos) selenide}
+\fixme{Correct this name}
+\begin{structure}[h]
+\begin{center}
+\includegraphics{../Structures/SitBuSe.pdf}
+\end{center}
+\end{structure}
+
+A solution of \tBuXantphos{} (0.031 g, 0.060 mmol) in toluene (5 mL) was added to grey selenium (0.095 g, 1.20 mmol) in toluene (5 mL).  The reaction was heated to reflux with stirring for 3 days.  The resulting yellow solution was allowed to cool, filtered and reduced \emph{in vacuo} to give a pale yellow solid (0.036 g, 100\%).
+HRMS calcd for \ce{C30H49OP2SeSi} [M+H]$^+$ \emph{m/z} = 595.2190; found = 595.2172.
+
 
 %%%%%%
 %AgCl StBu%
@@ -208,21 +370,23 @@ This reaction was carried out in the dark.  \fixme{StBu ligand} (88 mg, 0.17 mmo
 \NMRAgP{21.81}{406.7}{469.6}.
 %Proton
 \Protonintro{600}{CDCl3}
-\NMRPH{7.39}{d}{1.0}{PC(Ar)C\emph{H}},
-\NMRPH{7.11}{d}{1.6}{SCC\emph{H}},
-\NMRsinglet{2.31}{C(Ar)\ce{C\emph{H}3}}
-\NMRmultiplet{1.41}{PCC\emph{H}\textsubscript{3}}.
+\NMRPH{7.39}{d}{1.0}{\StBucH},
+\NMRPH{7.11}{d}{1.6}{\StBuaH},
+\NMRsinglet{2.31}{\StBugH}
+\NMRmultiplet{1.41}{\StBuiH}.
 %Carbon
 \Carbonintro{150}{CDCl3}
-\NMRPC{155.5}{vt}{6.6}{\emph{C}O}
-\NMRPC{134.8}{d}{4.9}{PC(Ar)\emph{C}H}
-\NMRPC{133.1}{d}{1.5}{\emph{C}(Ar)\ce{CH3}}
-\NMRsinglet{130.3}{SC\emph{C}H})
-\NMRPC{122.8}{vt}{3.0}{\emph{C}S}
-\NMRmultiplet{120.9}{P\emph{C}(Ar)} \fixme{virtual quartet?}
-\NMRmultiplet{35.3}{P\emph{C}C\ce{H3}} \fixme{virtual quartet?}
-\NMRPC{30.9}{vt}{5.6}{PC\emph{C}\ce{H3}}
-\NMRsinglet{20.8}{C(Ar)\emph{C}\ce{H3}}
+\NMRPC{155.5}{vt}{6.6}{\StBueC},
+\NMRPC{134.8}{d}{4.9}{\StBucC},
+\NMRPC{133.1}{d}{1.5}{\StBubC},
+\NMRsinglet{130.3}{\StBuaC},
+\NMRPC{122.8}{vt}{3.0}{\StBufC},
+\NMRmultiplet{120.9}{\StBudC}, \fixme{virtual quartet?}
+\NMRmultiplet{35.3}{\StBuhC}, \fixme{virtual quartet?}
+\NMRPC{30.9}{vt}{5.6}{\StBuiC},
+\NMRsinglet{20.8}{\StBugC}.
+HRMS calcd for \ce{C30H46OP2SAg} [M-Cl]$^+$ \emph{m/z} = 623.1796; found = 623.1805.
+
 \fixme{IR, EA, MS}
 \fixme{Check frequency of 13C on 600 MHz}
 
@@ -239,29 +403,31 @@ This reaction was carried out in the dark.  \fixme{StBu ligand} (88 mg, 0.17 mmo
 \end{center}
 \end{structure}
 
-This reaction was carried out in the dark.  Combined \fixme{SitBu ligand} and silver chloride in an NMR tube and dissolved in \ce{CDCl3} and sonicated for 5 mins.  After four days the reaction was sonicated for 6 x 5 mins.  Decanted the solution and washed the solid with dichloromethane (3 x 1 mL).  The solution was removed in vacuo yielding the title compound as a white solid (31 mg, 97\%).  The resulting silver complex is light sensitive and care should be taken to exclude light.
+This reaction was carried out in the dark.  Combined \fixme{SitBu ligand} and silver chloride in an NMR tube and dissolved in \ce{CDCl3} and sonicated for 5 mins.  After four days the reaction was sonicated for 6 x 5 mins.  Decanted the solution and washed the solid with dichloromethane (3 x 1 mL).  The solution was removed \emph{in vacuo} yielding the title compound as a white solid (31 mg, 97\%).  The resulting silver complex is light sensitive and care should be taken to exclude light.
 
 %Phosphorus
 \Phosphorusintro{CDCl3}
 \NMRAgP{24.2}{408.1}{471.1}
 %Proton
 \Protonintro{600}{CDCl3}
-\NMRmultiplet{7.88}{PCC\emph{H}}
-\NMRdd{7.61}{7.0}{1.8}{SiCC\emph{H}}
-\NMRHH{7.21}{t}{7.3}{PCCC\emph{H}}
-\NMRmultiplet{1.42}{PCC\emph{H}\textsubscript{3}}
-\NMRsinglet{0.46}{SiC\emph{H}\textsubscript{3}}
+\NMRmultiplet{7.88}{\SitBucH},
+\NMRdd{7.61}{7.0}{1.8}{\SitBuaH},
+\NMRHH{7.21}{t}{7.3}{\SitBubH},
+\NMRmultiplet{1.42}{\SitBuiH},
+\NMRsinglet{0.46}{\SitBugH}.
 %Carbon
 \Carbonintro{150}{CDCl3}
-\NMRPC{163.9}{vt}{5.2}{\emph{C}O}
-\NMRPC{138.2}{d}{4.4}{PC\emph{C}H}
-\NMRsinglet{136.3}{SiC\emph{C}H}
-\NMRsinglet{122.2}{Si\emph{C}(Ar)}
-\NMRsinglet{122.1}{PCC\emph{C}H}
-\NMRmultiplet{120.5}{P\emph{C}(Ar)} \fixme{quartet?}
-\NMRmultiplet{35.5}{P\emph{C}\ce{CH3}} \fixme{quartet?}
-\NMRPC{31.0}{vt}{5.6}{PC\emph{C}\ce{H3}}
-\NMRsinglet{-1.3}{Si\emph{C}\ce{H3}}.
+\NMRPC{163.9}{vt}{5.2}{\SitBueC},
+\NMRPC{138.2}{d}{4.4}{\SitBucC},
+\NMRsinglet{136.3}{\SitBuaC},
+\NMRsinglet{122.2}{\SitBufC},
+\NMRsinglet{122.1}{\SitBubC},
+\NMRmultiplet{120.5}{\StBudC}, \fixme{quartet?}
+\NMRmultiplet{35.5}{\StBuhC}, \fixme{quartet?}
+\NMRPC{31.0}{vt}{5.6}{\StBuiC},
+\NMRsinglet{-1.3}{\StBugC}.
+HRMS calcd for \ce{C30H48OP2Ag} [M-Cl]$^+$ \emph{m/z} = 621.2001; found = 621.2021.
+
 \fixme{IR, mass spec, EA}
 
 
@@ -286,27 +452,30 @@ This reaction was carried out in the dark as silver chloride and the product are
 \NMRAgP{20.7}{409.3}{472.2}
 %Proton
 \Protonintro{500}{CDCl3}
-\NMRPH{7.68}{d}{6.9}{PC(Ar)C\emph{H}}
-\NMRdd{7.53}{7.6}{1.2}{PCCCC\emph{H}}
-\NMRHH{7.19}{t}{7.7}{PC(Ar)CC\emph{H}}
-\NMRsinglet{1.56}{C(bridge)C\emph{H\textsubscript{3}}}
-\NMRmultiplet{1.40-1.43}{PCC\emph{H}\textsubscript{3}}
+\NMRPH{7.68}{d}{6.9}{\CtBucH},
+\NMRdd{7.53}{7.6}{1.2}{\CtBuaH},
+\NMRHH{7.19}{t}{7.7}{\CtBubH},
+\NMRsinglet{1.56}{\CtBuhH},
+\NMRmultiplet{1.40-1.43}{\CtBujH}.
 %Carbon
 \Carbonintro{125}{CDCl3}
-\NMRPC{156.5}{vt}{6.5}{\emph{C}O}
-\NMRmultiplet{133.7}{PC(Ar)(\emph{C}H}
-\NMRPC{130.7}{vt}{\fixme{?}}{C(bridge)\emph{C}(Ar)}
-\NMRsinglet{126.8}{PCCC\emph{C}H}
-\NMRPC{122.7}{d}{\fixme{?}}{PC(Ar)C\emph{C}H}
-\NMRsinglet{119.3}{P\emph{\emph{C}(Ar)}}
-\NMRPC{35.6}{\fixme{?}}{vt}{\emph{C}(Bridge)}
-\NMRPC{35.1}{\fixme{?}}{vt}{P\emph{C}\ce{CH3}}
-\NMRPC{30.8}{vt}{5.6}{PC\emph{C}\ce{H3}}
-\NMRsinglet{28.5}{C(bridge)\emph{C}\ce{H3}}
+\NMRPC{156.5}{vt}{6.5}{\CtBueC},
+\NMRmultiplet{133.7}{\CtBucC},
+\NMRPC{130.7}{vt}{\CtBufC},
+\NMRsinglet{126.8}{\CtBuaC},
+\NMRPC{122.7}{d}{\fixme{?}}{\CtBubC},
+\NMRsinglet{119.3}{\CtBudC},
+\NMRPC{35.6}{\fixme{?}}{vt}{\CtBugC},
+\NMRPC{35.1}{\fixme{?}}{vt}{\CtBuiC},
+\NMRPC{30.8}{vt}{5.6}{\CtBujC},
+\NMRsinglet{28.5}{\CtBuhC}.
+HRMS calcd for \ce{C31H48OP2Ag} [M-Cl]$^+$ \emph{m/z} = 605.2226; found = 605.2163.
+
 
 \fixme{Need to check and get all of the couplings}
 \fixme{Make sure that all of the proton couplings around all of the rings have consistent PH or HH}
 \fixme{Consider using numbering}
+
 
 %%%%%%%%
 %AgBF  CtBu%
@@ -314,45 +483,46 @@ This reaction was carried out in the dark as silver chloride and the product are
 
 %Reaction3016
 %\newpage{}
-\subsection*{\emph{t}-Bu-xantphossilver tetrafluoroborate} \fixme{check name}
+\subsection*{(\tBuxantphos)silver tetrafluoroborate} %\fixme{check name}
 
 \begin{structure}[h]
 \begin{center}
 \includegraphics{../Structures/CtBuSilverBF4.pdf}
 \end{center}
 \end{structure}
-
-%This reaction was carried out in the dark as silver chloride and the product are light sensitive.  Combined \fixme{CtBu ligand} (17 mg, 0.034 mmol) and silver chloride (5 mg, 0.035 mmol) in an NMR tube and dissolved in \ce{CDCl3}.  After 48 hours sonicated 10 x 5 mins, decanted the solution from the solid and vacced to dryness leaving a white powder.  \fixme{yield}
+This reaction was carried out in the dark as silver compounds are typically light sensitive.  Combined \tBuxantphos{} (0.017 g, 0.034 mmol) and silver tetrafluoroborate (0.008 g, 0.041 mmol) in an NMR tube and dissolved in \ce{CDCl3}.  After 48 hours the reaction was complete by NMR.  Decanted the solution into another flask and removed the solvent in vacuo yielding a white solid in quantitative yield.  
 
 %Phosphorus
 \Phosphorusintro{CDCl3}
 \NMRAgP{27.6}{486.3}{561.1}
 %Proton
 \Protonintro{500}{CDCl3}
-\NMRmultiplet{7.63-7.67}{4H, PC(Ar)C\emph{H}, PCCCC\emph{H}}
-\NMRHH{7.29}{t}{7.7}{PC(Ar)CC\emph{H}}
-\NMRsinglet{1.59}{C(bridge)C\emph{H\textsubscript{3}}}
-\NMRmultiplet{1.39-1.42}{PCC\emph{H}\textsubscript{3}}
+\NMRmultiplet{7.63-7.67}{\CtBuaH, \CtBucH},
+\NMRHH{7.29}{t}{7.7}{\CtBubH},
+\NMRsinglet{1.59}{\CtBuhH},
+\NMRmultiplet{1.39-1.42}{\CtBujH}.
 %Carbon
 \Carbonintro{125}{CDCl3}
-\NMRPC{154.9}{vt}{5.6}{\emph{C}O}
-\NMRPC{133.5}{vt}{1.9}{PC(Ar)(\emph{C}H}
-\NMRPC{133.5}{d}{5.8}{C(bridge)\emph{C}(Ar)}
-\NMRsinglet{128.4}{PCCC\emph{C}H}
-\NMRsinglet{123.8}{PC(Ar)C\emph{C}H}
-\NMRsinglet{117.8}{P\emph{\emph{C}(Ar)}}
-\NMRPC{35.6}{vtd}{5.3, 2.4}{\emph{C}(Bridge)}
-\NMRPC{35.3}{\fixme{d,d,d?}}{4.8, 2.7, 7.6}{P\emph{C}\ce{CH3}}
-\NMRPC{30.6}{\fixme{d,d,d?}}{5.3, 4.4, 6.5}{PC\emph{C}\ce{H3}}
-\NMRsinglet{29.4}{C(bridge)\emph{C}\ce{H3}}
+\NMRPC{154.9}{vt}{5.6}{\CtBueC},
+\NMRPC{133.5}{vt}{1.9}{\CtBucC},
+\NMRPC{133.5}{d}{5.8}{\CtBufC},
+\NMRsinglet{128.4}{\CtBuaC},
+\NMRsinglet{123.8}{\CtBubC},
+\NMRsinglet{117.8}{\CtBudC},
+\NMRPC{35.6}{vtd}{5.3, 2.4}{\CtBugC},
+\NMRPC{35.3}{\fixme{d,d,d?}}{4.8, 2.7, 7.6}{\CtBuiC},
+\NMRPC{30.6}{\fixme{d,d,d?}}{5.3, 4.4, 6.5 }{\CtBujC},
+\NMRsinglet{29.4}{\CtBuhC}.
 %Fluorine
 \Fluorineintro{CDCl3}
 \NMRsinglet{-152.0ppm}{\ce{BF4-}}
+HRMS calcd for \ce{C31H48OP2Ag} [M-Cl]$^+$ \emph{m/z} = 605.2226; found = 605.2217.
 
-\fixme{Need to check and get all of the couplings}
-\fixme{Make sure that all of the proton couplings around all of the rings have consistent PH or HH}
-\fixme{Consider using numbering}
-\fixme{check how on earth to write up all of the tBu couplings...}
+
+%\fixme{Need to check and get all of the couplings}
+%\fixme{Make sure that all of the proton couplings around all of the rings have consistent PH or HH}
+%\fixme{Consider using numbering}
+%\fixme{check how on earth to write up all of the tBu couplings...}
 
 %%%%%%%%
 %PdCl2 StBu %
@@ -375,7 +545,7 @@ This reaction was carried out in the dark as silver chloride and the product are
 %\NMRsinglet{7.17}{PC(Ar)\emph{H}},
 %\NMRsinglet{7.15}{SCC\emph{H}}
 %\NMRsinglet{2.33}{C(Ar)\ce{C\emph{H}3}}
-%\NMRPH{1.59}{vt}{7.1}{PCC\emph{H}\textsubscript{3}}
+%\NMRPH{1.59}{vt}{7.1}{PCC\emph{H}\sub{3}}
 %Carbon
 %\Carbonintro{125}{CDCl3}
 %\NMRPC{155.1}{vt}{4.8}{\emph{C}O}
@@ -412,20 +582,20 @@ This reaction was carried out in the dark as silver chloride and the product are
 \Phosphorusintro{C6D6}
 \NMRPPt{78.6}{4809.5}
 \Protonintro{600}{C6D6}
-\NMRPH{7.32}{d}{1.8}{PC(Ar)C\emph{H}},
-\NMRsinglet{6.87}{SCC\emph{H}},
-\NMRsinglet{1.95}{C(Ar)\ce{C\emph{H}3}},
-\NMRPH{1.52}{vt}{13.8}{PCC\emph{H}\textsubscript{3}}.
+\NMRPH{7.32}{d}{1.8}{\StBucH},
+\NMRsinglet{6.87}{\StBuaH},
+\NMRsinglet{1.95}{\StBugH},
+\NMRPH{1.52}{vt}{13.8}{\StBuiH}.
 \Carbonintro{150}{C6D6}
-\NMRPC{155.9}{vt}{10.4}{\emph{C}O}
-\NMRsinglet{133.3}{PC(Ar)\emph{C}H}
-\NMRPC{132.1}{vt}{5.2}{SCC\emph{C}(\ce{CH3})}
-\NMRsinglet{128.8}{\emph{C}(Ar)\ce{CH3}}
-\NMRPC{126.6}{vt}{28.9}{P\emph{C}(Ar)}
-\NMRPC{126.1}{vt}{5.8}{\emph{C}S}
-\NMRPC{37.8}{vt}{15}{P\emph{C}\ce{CH3}}
-\NMRPC{31.7}{vt}{10.4}{PC\emph{C}\ce{H3}}
-\NMRsinglet{20.5}{C(Ar)\emph{C}\ce{H3}}.
+\NMRPC{155.9}{vt}{10.4}{\StBueC},
+\NMRsinglet{133.3}{\StBucC},
+\NMRPC{132.1}{vt}{5.2}{\StBubC},
+\NMRsinglet{128.8}{\StBuaC},
+\NMRPC{126.6}{vt}{28.9}{\StBudC},
+\NMRPC{126.1}{vt}{5.8}{\StBufC},
+\NMRPC{37.8}{vt}{15}{\StBuhC},
+\NMRPC{31.7}{vt}{10.4}{\StBuiC},
+\NMRsinglet{20.5}{\StBugC}.
 \fixme{IR, EA, MS}
 
 
@@ -443,29 +613,29 @@ This reaction was carried out in the dark as silver chloride and the product are
 \Phosphorusintro{C6D6}
 \NMRPPt{55.6}{3612}
 \Protonintro{600}{C6D6}
-\NMRsinglet{7.61}{PC(Ar)C\emph{H}},
-\NMRsinglet{6.95}{SCC\emph{H}},
+\NMRsinglet{7.61}{\StBucH},
+\NMRsinglet{6.95}{\StBuaH},
 \NMRsinglet{3.12}{nb CH},
 \NMRPtH{2.37}{bs}{1}{67.8}{nb =C\emph{H}},
-\NMRsinglet{1.96}{C(Ar)\ce{C\emph{H}3}},
-\NMRobscuredH{1.93}{COSY}{2H}{nb C\emph{H}\textsubscript{2}},
-\NMRmultiplet{1.42-1.56}{PCC\emph{H}\textsubscript{3}},
-\NMRobscuredH{1.32}{COSY}{3H}{nb C\emph{H}\textsubscript{2}, bridge \ce{CH2}},
-\NMRHH{0.62}{d}{15.3}{1H, nb bridge \ce{CH2}}
+\NMRsinglet{1.96}{\StBugH},
+\NMRobscuredH{1.93}{COSY}{2H}{nb C\emph{H}\sub{2}},
+\NMRmultiplet{1.42-1.56}{\StBuiH},
+\NMRobscuredH{1.32}{COSY}{3H}{nb C\emph{H}\sub{2}, bridge \ce{CH2}},
+\NMRHH{0.62}{d}{15.3}{1H, nb bridge \ce{CH2}}.
 \Carbonintro{150}{C6D6}
-\NMRPC{158.9}{vt}{9.8}{\emph{C}O},
-\NMRPtC{135.4}{s}{2}{26.6}{PC(Ar)\emph{C}H},
-\NMRbsinglet{130.9}{\emph{C}(Ar)\ce{CH3}},
-\NMRbsinglet{130.7}{SCC\emph{C}(\ce{CH3})},
-\NMRPC{127.6}{vt}{5.8}{\emph{C}S},
-\NMRbsinglet{125.9}{P\emph{C}(Ar)},
+\NMRPC{158.9}{vt}{9.8}{\StBueC},
+\NMRPtC{135.4}{s}{2}{26.6}{\StBucC},
+\NMRbsinglet{130.9}{\StBubC},
+\NMRbsinglet{130.7}{\StBuaC},
+\NMRPC{127.6}{vt}{5.8}{\StBufC},
+\NMRbsinglet{125.9}{\StBudC},
 \NMRPtC{51.9}{bs}{1}{343.9}{nb =\emph{C}H},
 \NMRsinglet{44.9}{nb \emph{C}H},
-\NMRmultiplet{38.5}{P\emph{C}\ce{CH3}},
+\NMRmultiplet{38.5}{\StBuhC},
 \NMRobscuredC{38.0-38.5}{HSQC}{nb bridge \emph{C}\ce{H2}},
-\NMRbsinglet{31.7}{PC\emph{C}\ce{H3}},
+\NMRbsinglet{31.7}{\StBuiC},
 \NMRPtC{31.4}{bs}{3}{61.4}{nb \emph{C}\ce{H2}},
-\NMRsinglet{20.7}{C(Ar)\emph{C}\ce{H3}}.
+\NMRsinglet{20.7}{\StBugC}.
 \fixme{IR, EA, MS}
 
 %%%%%%%%%
@@ -481,22 +651,22 @@ This reaction was carried out in the dark as silver chloride and the product are
 \Phosphorusintro{C6D6}
 \NMRPPt{55.7}{3899}
 \Protonintro{600}{C6D6}
-\NMRsinglet{7.63}{PC(Ar)C\emph{H}},
-\NMRsinglet{6.96}{SCC\emph{H}},
-\NMRPtH{2.50}{bs}{1}{59.5}{\ce{C=C-H2}},
-\NMRsinglet{1.97}{C(Ar)\ce{C\emph{H}3}},
-\NMRmultiplet{1.38-1.40}{PCC\emph{H}\textsubscript{3}},
+\NMRsinglet{7.63}{\StBucH},
+\NMRsinglet{6.96}{\StBuaH},
+\NMRPtH{2.50}{bs}{1}{59.5}{\ce{C=C\emph{H\sub{2}}}},
+\NMRsinglet{1.97}{\StBugH},
+\NMRmultiplet{1.38-1.40}{\StBuiH}.
 \Carbonintro{150}{C6D6}
-\NMRbsinglet{158.7}{\emph{C}O},
-\NMRPtC{135.3}{s}{2}{29.5}{PC(Ar)\emph{C}H},
-\NMRbsinglet{131.0}{\emph{C}(Ar)\ce{CH3}},
-\NMRbsinglet{130.5}{SCC\emph{C}(\ce{CH3})},
-\NMRPC{128.5}{vt}{5.8}{\emph{C}S},
-\NMRbsinglet{125.7}{P\emph{C}(Ar)},
-\NMRmultiplet{38.7}{P\emph{C}\ce{CH3}},
+\NMRbsinglet{158.7}{\StBueC},
+\NMRPtC{135.3}{s}{2}{29.5}{\StBucC},
+\NMRbsinglet{131.0}{\StBubC},
+\NMRbsinglet{130.5}{\StBuaC},
+\NMRPC{128.5}{vt}{5.8}{\StBufC},
+\NMRbsinglet{125.7}{\StBudC},
+\NMRmultiplet{38.7}{\StBuhC},
 \NMRPtC{34.2}{bs}{1}{223.2}{\ce{C=C}}
-\NMRbsinglet{31.6}{PC\emph{C}\ce{H3}},
-\NMRsinglet{20.7}{C(Ar)\emph{C}\ce{H3}}.
+\NMRbsinglet{31.6}{\StBuiC},
+\NMRsinglet{20.7}{\StBugC}.
 \fixme{IR, EA, MS}
 
 %%%%%%%
@@ -595,14 +765,16 @@ This reaction was carried out in the dark as silver chloride and the product are
 \end{center}
 \end{structure}
 
+\tBuThixantphos (0.198 g, 0.38 mmol) and \ce{[Pt(hex)Cl2]} (0.133 g, 0.38 mmol) were dissolved in toluene (10 mL) and heated to 50 \degC for three days, resulting in an orange solution.  The solvent was removed \emph{in vacuo} and the resulting solid was dissolved in a minimum of dichloromethane.  Diethyl ether was a small amount of oily residue became evident.  The sample was cooled to -14 \degC, resulting the title compound as red crystals (0.117 g, \fixme{\%}).
+
 \Phosphorusintro{C6D6}
 \NMRPPt{32.9}{2700}
 \Protonintro{500}{C6D6}
-\NMRsinglet{7.11}{PC(Ar)C\emph{H}},
-\NMRsinglet{6.98}{SCC\emph{H}},
-\NMRsinglet{1.86}{C(Ar)\ce{C\emph{H}3}},
-\NMRPH{1.71}{vt}{7.3}{PCC\emph{H}\textsubscript{3}},
-\NMRbsinglet{1.56}{PCC\emph{H}\textsubscript{3}},
+\NMRsinglet{7.11}{\StBucH},
+\NMRsinglet{6.98}{\StBuaH},
+\NMRsinglet{1.86}{\StBugH},
+\NMRPH{1.71}{vt}{7.3}{PCC\emph{H}\sub{3}},
+\NMRbsinglet{1.56}{PCC\emph{H}\sub{3}},
 \Carbonintro{125}{C6D6}
 \NMRPC{155.8}{vt}{\fixme{?}}{\emph{C}O},
 \NMRsinglet{134.3}{PC(Ar)\emph{C}H},
@@ -615,7 +787,10 @@ This reaction was carried out in the dark as silver chloride and the product are
 \NMRPC{38.8}{vt}{11.1}{PC\emph{C}\ce{H3}},
 \NMRPC{32.8}{vt}{3.9}{P\emph{C}\ce{CH3}},
 \NMRbsinglet{30.2}{P\emph{C}\ce{CH3}},
+HRMS calcd for \ce{C30H46OP2SClPt} [M-Cl]$^+$ \emph{m/z} = 745.2060; found = 745.2052.
 \fixme{IR, EA, MS}
+
+\fixme{Assigned the protonated and quaternary carbons of the tBu incorrectly}
 
 %%%%%%%%%
 %PtStBuCl PF6%
@@ -627,32 +802,34 @@ This reaction was carried out in the dark as silver chloride and the product are
 \end{center}
 \end{structure}
 
+Dissolved (\tBu-Thixantphos)platinum dichloride (0.035 g, 0.045 mmol) in dichloromethane (2 mL) and added ammonium hexafluorophosphate (0.015 g, 0.090 mmol).  After 1 hour of stirring the red solution had become yellow with a white precipitate.  The solution was filtered through a plug of alumina and the solvent removed \emph{in vacuo} yielding the title compound as a yellow solid (0.030g, \fixme{\%}).  
+
 \Phosphorusintro{CD2Cl2}
 \NMRPsinglet{46.4}
 \NMRPF{-144.5}{septet}{710.5}{\emph{P}\ce{F6}}
 \Protonintro{500}{CD2Cl2}
-\NMRsinglet{7.41}{PC(Ar)C\emph{H}},
-\NMRsinglet{7.11}{SCC\emph{H}},
-\NMRsinglet{2.38}{C(Ar)\ce{C\emph{H}3}},
-\NMRPH{1.55}{vt}{8.0}{PCC\emph{H}\textsubscript{3}},
+\NMRsinglet{7.41}{\StBucH},
+\NMRsinglet{7.11}{\StBuaH},
+\NMRsinglet{2.38}{\StBugH},
+\NMRPH{1.55}{vt}{8.0}{\StBuiH},
 \Carbonintro{125}{C6D6}
-\NMRmultiplet{157.4}{\emph{C}O},
-\NMRsinglet{138.9}{\emph{C}(Ar)\ce{CH3}},
-\NMRsinglet{134.4}{PC(Ar)\emph{C}H},
-\NMRsinglet{132.6}{SC\emph{C}C(\ce{CH3})},
-\NMRmultiplet{119.8}{P\emph{C}(Ar)},
-\NMRmultiplet{119.1}{\emph{C}S},
-\NMRPC{40.0}{vt}{10.4}{P\emph{C}C\ce{H3}},
-\NMRsinglet{30.1}{PC\emph{C}\ce{H3}},
-\NMRsinglet{20.4}{C(Ar)\emph{C}\ce{H3}},
+\NMRmultiplet{157.4}{\StBueC},
+\NMRsinglet{138.9}{\StBubC},
+\NMRsinglet{134.4}{\StBucC},
+\NMRsinglet{132.6}{\StBuaC},
+\NMRmultiplet{119.8}{\StBudC},
+\NMRmultiplet{119.1}{\StBufC},
+\NMRPC{40.0}{vt}{10.4}{\StBuhC},
+\NMRsinglet{30.1}{\StBuiC},
+\NMRsinglet{20.4}{\StBugC},
 \Fluorineintro{CD2Cl2}
-\NMRPF{-73.4}{d}{710.6}{P\emph{F}\textsubscript{6}}
+\NMRPF{-73.4}{d}{710.6}{P\emph{F}\sub{6}}
 \fixme{IR, EA, MS}
 
 %%%%%%%%%
 % PtStBuMe Cl %
 %%%%%%%%%
-\subsection*{\emph{trans}-(\emph{t}-Bu-Thixantphos)platinumchloride hexafluorophosphate}
+\subsection*{\emph{trans}-(\emph{t}-Bu-Thixantphos)platinummethyl chloride}
 \begin{structure}[h]
 \begin{center}
 \includegraphics{../Structures/StBuPtMe.pdf}
@@ -660,28 +837,128 @@ This reaction was carried out in the dark as silver chloride and the product are
 \end{structure}
 
 \Phosphorusintro{d6-acetone}
-\NMRPsinglet{50.5}
+\NMRPPt{50.5}{2793.3}
 \Protonintro{600}{d6-acetone}
-\NMRPH{7.69}{d}{1.8}{PC(Ar)C\emph{H}},
-\NMRPH{7.34}{d}{1.2}{SCC\emph{H}},
-\NMRsinglet{2.42}{C(Ar)\ce{C\emph{H}3}},
-\NMRPH{1.56}{vt}{15.6}{PCC\emph{H}\textsubscript{3}},
-\NMRPH{1.94}{t}{5.5, \twoJPtH{}~=~97.4}{Pt-C\emph{H}\textsubscript{3}},
+\NMRPH{7.69}{d}{1.8}{\StBucH},
+\NMRPH{7.34}{d}{1.2}{\StBuaH},
+\NMRsinglet{2.42}{\StBugH},
+\NMRPH{1.56}{vt}{15.6}{\StBuiH},
+\NMRPH{1.94}{t}{5.5, \twoJPtH{}~=~97.4}{Pt-C\emph{H}\sub{3}},
 \Carbonintro{150}{d6-acetone}
-\NMRPC{153.8}{vt}{10.3}{\emph{C}O},
-\NMRPC{137.1}{vt}{6.3}{\emph{C}(Ar)\ce{CH3}},
-\NMRsinglet{134.4}{PC(Ar)\emph{C}H},
-\NMRsinglet{131.4}{SC\emph{C}C(\ce{CH3})},
-\NMRPC{120.8}{vt}{31.8}{P\emph{C}(Ar)},
-\NMRPC{118.2}{vt}{7.2}{\emph{C}S},
-\NMRPC{38.8}{vt}{20.6}{P\emph{C}C\ce{H3}},
-\NMRobscuredC{29.6}{\fixme{HSQC?}}{PC\emph{C}\ce{H3}},
-\NMRsinglet{19.2}{C(Ar)\emph{C}\ce{H3}},
+\NMRPC{153.8}{vt}{10.3}{\StBueC},
+\NMRPC{137.1}{vt}{6.3}{\StBubC},
+\NMRsinglet{134.4}{\StBucC},
+\NMRsinglet{131.4}{\StBuaC},
+\NMRPC{120.8}{vt}{31.8}{\StBudC},
+\NMRPC{118.2}{vt}{7.2}{\StBufC},
+\NMRPC{38.8}{vt}{20.6}{\StBuhC},
+\NMRobscuredC{29.6}{\fixme{HSQC?}}{\StBuiC},
+\NMRsinglet{19.2}{\StBugC},
 \NMRPC{-23.8}{t}{5.6, \oneJPtC{}~=~777.2}{Pt-\emph{C}\ce{H3}}
 \fixme{IR, EA, MS}
 
+%%%%%%%%%
+% PtCtBuMe Cl %
+%%%%%%%%%
+
+\subsection*{(\tBuXantphosk)-platinummethyl chloride}
+\begin{structure}[h]
+\begin{center}
+\includegraphics{../Structures/CtBuPtMe.pdf}
+\end{center}
+\end{structure}
+
+\Phosphorusintro{d6-acetone}
+\NMRPPt{51.0}{2788.2}
+\Protonintro{500}{d6-acetone}
+\NMRcoupled{8.15}{dt}{7.5, 3.7}{\CtBucH},
+\NMRcoupled{8.07}{d}{7.8}{\CtBuaH},
+\NMRcoupled{7.63}{t}{7.9}{\CtBubH},
+\NMRPH{1.92}{t}{5.4, \twoJPtH{}~=~97.4}{Pt-C\emph{H}\sub{3}},
+\NMRsinglet{1.78}{\CtBuhH}
+\NMRPH{1.55}{vt}{15.4}{\CtBujH}
+\Carbonintro{125}{d6-acetone}
+\NMRPC{156.1}{vt}{10.2}{\CtBueC},
+\NMRsinglet{135.9}{\CtBucC},
+\NMRsinglet{133.2}{\CtBuaC},
+\NMRsinglet{132.7}{\CtBufC},
+\NMRPC{127.4}{vt}{6.6}{\CtBubC},
+\NMRPC{119.7}{vt}{34.1}{\CtBudC},
+\NMRPC{39.5}{vt}{21.4, \twoJPtC{}~=~43.3}{\CtBuiC},
+\NMRsinglet{35.0}{\CtBugC},
+\NMRsinglet{33.7}{\CtBuhC},
+\NMRPC{30.4}{vt}{6.1}{\CtBujC}.
+\NMRPC{-23.9}{t}{5.6, \oneJPtC{}~=~774.6}{Pt-\emph{C}\ce{H3}}
+
+%%%%%%%%%
+% PtSitBuMe Cl %
+%%%%%%%%%
+
+\subsection*{(\tBuSixantphosk)-platinummethyl chloride}
+\begin{structure}[h]
+\begin{center}
+\includegraphics{../Structures/SitBuPtMe.pdf}
+\end{center}
+\end{structure}
+
+%Experiment 6006
+\Phosphorusintro{d6-acetone}
+\NMRPPt{48.7}{2762.9}
+\Protonintro{500}{d6-acetone}
+\NMRmultiplet{8.39-8.36}{\SitBucH},
+\NMRdd{8.11}{7.1}{1.7}{\SitBuaH},
+\NMRcoupled{7.65}{t}{7.4}{\SitBubH},
+\NMRcoupled{2.01}{t}{5.5 \twoJPtH{}~=~98.6}{Pt-C\emph{H}\sub{3}},
+\NMRcoupled{1.55}{vt}{15.2}{\SitBuiH},
+\NMRsinglet{0.59}{\SitBugH}.
+\Carbonintro{125}{d6-acetone}
+\NMRPC{167.3}{vt}{8.2}{\SitBueC},
+\NMRPC{140.72}{vt}{\fixme{???}}{\SitBucC},
+\NMRsinglet{140.67}{\SitBuaC},
+\NMRPC{126.1}{vt}{6.1}{\SitBubC},
+\NMRPC{123.5}{vt}{\fixme{???}}{\SitBufC},
+\NMRPC{121.2}{\fixme{???}}{\fixme{???}}{\SitBudC},
+\NMRPC{39.7}{vt}{21.8}{\SitBuhC},
+\NMRPC{30.6}{vt}{5.6}{\SitBuiC},
+\NMRsinglet{-0.5}{\SitBugC},
+\NMRPC{-22.7}{t}{5.6, \oneJPtC{}~=~780.5}{Pt-\emph{C}\ce{H3}}.
+HRMS calcd for \ce{C31H51OP2PtSit} [M-Cl]$^+$ \emph{m/z} = 724.2829; found = 724.2760.
+
+
 \section{Palladium Complexes}
 \label{section:experimental:palladium}
+
+
+%%%%%%%%
+% PdStBuO2 %
+%%%%%%%%
+\subsection*{\emph{trans}-(\emph{t}-Bu-Thixantphos)palladiumdioxygen}
+\begin{structure}[h]
+\begin{center}
+\includegraphics{../Structures/StBuPdO2.pdf}
+\end{center}
+\end{structure}
+
+\fixme{check the frequency of the 500 for carbons}
+
+\Phosphorusintro{C6D6}
+\NMRPsinglet{42.9}
+\Protonintro{500}{C6D6}
+\NMRsinglet{7.35}{\StBucH},
+\NMRsinglet{6.83}{\StBuaH},
+\NMRsinglet{1.95}{\StBugH},
+\NMRPH{1.46}{vt}{13.7}{\StBuiH},
+\Carbonintro{125}{C6D6}
+\NMRPC{155.9}{vt}{14.0}{\StBueC},
+\NMRsinglet{133.6}{\StBucC},
+\NMRsinglet{131.9}{\StBubC},
+\NMRsinglet{128.8}{\StBuaC}
+\NMRPC{127.8}{vt}{8.2}{\StBudC},
+\NMRPC{124.6}{vt}{5.3}{\StBufC},
+\NMRPC{35.7}{vt}{3.8}{\StBuhC},
+\NMRsinglet{31.9}{\StBuiC},
+\NMRsinglet{20.4}{\StBugC}
+\fixme{IR, EA, MS}
 
 %%%%%%%%
 % PdStBuCl2 %
@@ -693,26 +970,30 @@ This reaction was carried out in the dark as silver chloride and the product are
 \end{center}
 \end{structure}
 
+\tBuThixantphos{} (0.197 g, 0.38 mmol) and \ce{[Pd(COD)Cl2]} (0.108 g, 0.38 mmol) were dissolved in toluene then heated to 40\degC for three days.  The solvent was removed \emph{in vacuo} yielding the title compound as an orange solid (0.265 g, 100\%).
+
 \fixme{Check solvent}
 
 \Phosphorusintro{C6D6}
 \NMRPsinglet{41.9}
 \Protonintro{500}{C6D6}
-\NMRsinglet{7.17}{PC(Ar)C\emph{H}},
-\NMRsinglet{7.15}{SCC\emph{H}},
-\NMRsinglet{2.33}{C(Ar)\ce{C\emph{H}3}},
-\NMRPH{1.59}{vt}{7.1}{PCC\emph{H}\textsubscript{3}},
+\NMRsinglet{7.17}{\StBucH},
+\NMRsinglet{7.15}{\StBuaH},
+\NMRsinglet{2.33}{\StBugH},
+\NMRPH{1.59}{vt}{7.1}{\StBuiH}.
 \Carbonintro{125}{C6D6}
-\NMRPC{155.1}{vt}{4.8}{\emph{C}O},
-\NMRsinglet{134.4}{PC(Ar)\emph{C}H},
-\NMRPC{133.4}{vt}{\fixme{?}}{\emph{C}(Ar)\ce{CH3}},
-\NMRsinglet{130.4}{SC\emph{C}C(\ce{CH3})},
-\NMRPC{123.5}{vt}{12.5}{P\emph{C}(Ar)},
-\NMRsinglet{123.1}{\emph{C}S},
-\NMRPC{39.5}{vt}{5.8}{P\emph{C}C\ce{H3}},
-\NMRsinglet{31.2}{PC\emph{C}\ce{H3}},
-\NMRsinglet{20.7}{C(Ar)\emph{C}\ce{H3}}
+\NMRPC{155.1}{vt}{4.8}{\StBueC},
+\NMRsinglet{134.4}{\StBucC},
+\NMRPC{133.4}{vt}{\StBubC},
+\NMRsinglet{130.4}{\StBuaC},
+\NMRPC{123.5}{vt}{12.5}{\StBudC},
+\NMRsinglet{123.1}{\StBufC},
+\NMRPC{39.5}{vt}{5.8}{\StBuhC},
+\NMRsinglet{31.2}{\StBuiC},
+\NMRsinglet{20.7}{\StBugC}.
+HRMS calcd for \ce{C30H46OP2SPdCl} [M-Cl]$^+$ \emph{m/z} = 657.1468; found = 657.1446.
 \fixme{IR, EA, MS}
+\fixme{Check this mass spec - reprocess as Ian didn't get a good match for it}
 
 %%%%%%%%
 %PdCl2 SitBu %
@@ -729,27 +1010,24 @@ This reaction was carried out in the dark as silver chloride and the product are
 Combined \fixme{StBu ligand} (12 mg, 0.023 mmol) and \ce{[Pd(COD)Cl2]} (7 mg, 0.025 mmol) in an \fixme{Youngs tube} and stirred at room temperature for 24 hours then 35\degC for a further 30 hours.  The solvent was removed in vacuo yielding a the title compound as a red solid \fixme{yield}.
 
 \fixme{Include a structure}
-%Phosphorus
 \Phosphorusintro{CDCl3}
 \NMRPsinglet{\fixme{get this value?}}
-%Proton
 \Protonintro{500}{CDCl3}
-\NMRmultiplet{7.71}{PCC\emph{H}}
-\NMRHH{7.68}{d}{7.1}{SiCC\emph{H}}
-\NMRHH{7.33}{t}{7.3}{PCCC\emph{H}}
-\NMRPH{1.60}{vt}{7.3}{PCC\emph{H}\textsubscript{3}}
-\NMRsinglet{0.52}{SiC\emph{H}\textsubscript{3}}
-%Carbon
+\NMRmultiplet{7.71}{\SitBucH},
+\NMRHH{7.68}{d}{7.1}{\SitBuaH},
+\NMRHH{7.33}{t}{7.3}{\SitBubH},
+\NMRPH{1.60}{vt}{7.3}{\SitBuiH},
+\NMRsinglet{0.52}{\SitBugH}.
 \Carbonintro{125}{CDCl3}
-\NMRPC{165.1}{vt}{\fixme{?}}{\emph{C}O}
-\NMRsinglet{137.6}{PC\emph{C}H}
-\NMRsinglet{136.9}{SiC\emph{C}H}
-\NMRsinglet{124.9}{Si\emph{C}(Ar)}
-\NMRsinglet{123.1}{PCC\emph{C}H}
-\NMRPC{121.8}{vt}{13.4}{P\emph{C}(Ar)}
-\NMRPC{39.6}{vt}{6.3}{P\emph{C}\ce{CH3}}
-\NMRPC{31.1}{vt}{2.7}{PC\emph{C}\ce{H3}}
-\NMRsinglet{-2.0}{Si\emph{C}\ce{H3}}.
+\NMRPC{165.1}{vt}{\fixme{?}}{\SitBueC},
+\NMRsinglet{137.6}{\SitBucC},
+\NMRsinglet{136.9}{\SitBuaC},
+\NMRsinglet{124.9}{\SitBufC},
+\NMRsinglet{123.1}{\SitBubC},
+\NMRPC{121.8}{vt}{13.4}{\SitBudC},
+\NMRPC{39.6}{vt}{6.3}{\SitBuhC},
+\NMRPC{31.1}{vt}{2.7}{\SitBuiC},
+\NMRsinglet{-2.0}{\SitBugC}.
 \fixme{IR, mass spec, EA}
 \fixme{Check the solvent}
 
@@ -769,28 +1047,29 @@ Combined \fixme{StBu ligand} (12 mg, 0.023 mmol) and \ce{[Pd(COD)Cl2]} (7 mg, 0.
 \NMRPsinglet{56.4}
 \NMRPF{-144.5}{septet}{710.5}{\emph{P}\ce{F6}}
 \Protonintro{500}{CD2Cl2}
-\NMRPH{7.36}{d}{2.0}{PC(Ar)C\emph{H}},
-\NMRsinglet{7.15}{SCC\emph{H}},
-\NMRsinglet{2.38}{C(Ar)\ce{C\emph{H}3}},
-\NMRPH{1.58}{vt}{8.2}{PCC\emph{H}\textsubscript{3}},
+\NMRPH{7.36}{d}{2.0}{\StBucH},
+\NMRsinglet{7.15}{\StBuaH},
+\NMRsinglet{2.38}{\StBugH},
+\NMRPH{1.58}{vt}{8.2}{\StBuiH},
 \Carbonintro{125}{C6D6}
-\NMRPC{154.86}{vt}{6.5}{\emph{C}O},
-\NMRPC{138.3}{vt}{\fixme{?}}{\emph{C}(Ar)\ce{CH3}},
-\NMRsinglet{134.6}{PC(Ar)\emph{C}H},
-\NMRsinglet{132.6}{SC\emph{C}C(\ce{CH3})},
-\NMRsinglet{119.1}{\emph{C}S},
-\NMRPC{118.7}{vt}{10.8}{P\emph{C}(Ar)},
-\NMRPC{40.2}{vt}{7.2}{P\emph{C}C\ce{H3}},
-\NMRsinglet{30.1}{PC\emph{C}\ce{H3}},
-\NMRsinglet{20.4}{C(Ar)\emph{C}\ce{H3}}
+\NMRPC{154.86}{vt}{6.5}{\StBueC},
+\NMRPC{138.3}{vt}{\fixme{?}}{\StBubC},
+\NMRsinglet{134.6}{\StBucC},
+\NMRsinglet{132.6}{\StBuaC},
+\NMRsinglet{119.1}{\StBufC},
+\NMRPC{118.7}{vt}{10.8}{\StBudC},
+\NMRPC{40.2}{vt}{7.2}{\StBuhC},
+\NMRsinglet{30.1}{\StBuiC},
+\NMRsinglet{20.4}{\StBugC}
 \Fluorineintro{CD2Cl2}
-\NMRPF{-73.4}{d}{710.6}{P\emph{F}\textsubscript{6}}
+\NMRPF{-73.4}{d}{710.6}{P\emph{F}\sub{6}}
 \fixme{IR, EA, MS}
 
 %%%%%%%%%
 % PdStBuOAc2 %
 %%%%%%%%%
 \subsection*{\emph{trans}-(\emph{t}-Bu-Thixantphos)palladiumdiacetate}
+
 \begin{structure}[h]
 \begin{center}
 \includegraphics{../Structures/StBuPdOAc2.pdf}
@@ -800,68 +1079,107 @@ Combined \fixme{StBu ligand} (12 mg, 0.023 mmol) and \ce{[Pd(COD)Cl2]} (7 mg, 0.
 \Phosphorusintro{C6D6}
 \NMRPsinglet{33.7}
 \Protonintro{500}{C6D6}
-\NMRPH{7.07}{d}{2.0}{PC(Ar)C\emph{H}},
-\NMRsinglet{6.83}{SCC\emph{H}},
-\NMRsinglet{1.89}{C(Ar)\ce{C\emph{H}3}},
-\NMRbsinglet{1.42}{PCC\emph{H}\textsubscript{3}},
+\NMRPH{7.07}{d}{2.0}{\StBucH},
+\NMRsinglet{6.83}{\StBuaH},
+\NMRsinglet{1.89}{\StBugH},
+\NMRbsinglet{1.42}{\StBuiH},
 \fixme{Peak for acetates?}
 \Carbonintro{125}{C6D6}
 \NMRbsinglet{177.7}{O\emph{C}(O)\ce{CH3}}
-\NMRPC{156.3}{vt}{8.4}{\emph{C}O},
-\NMRPC{134.4}{d}{13.9}{PC(Ar)\emph{C}H},
-\NMRsinglet{132.9}{\emph{C}(Ar)\ce{CH3}},
-\NMRsinglet{129.9}{SC\emph{C}C(\ce{CH3})},
-\NMRPC{123.5}{vt}{\fixme{?}}{\emph{C}S},
-\NMRPC{120.3}{vt}{22.4}{P\emph{C}(Ar)},
-\NMRPC{37.0}{vt}{10.2}{P\emph{C}C\ce{H3}},
-\NMRbsinglet{30.3}{PC\emph{C}\ce{H3}},
+\NMRPC{156.3}{vt}{8.4}{\StBueC},
+\NMRPC{134.4}{d}{13.9}{\StBucC},
+\NMRsinglet{132.9}{\StBubC},
+\NMRsinglet{129.9}{\StBuaC},
+\NMRPC{123.5}{vt}{\StBufC},
+\NMRPC{120.3}{vt}{22.4}{\StBudC},
+\NMRPC{37.0}{vt}{10.2}{\StBuhC},
+\NMRbsinglet{30.3}{\StBuiC},
 \NMRbsinglet{24.3}{OC(O)\emph{C}\ce{H3}}
-\NMRsinglet{20.3}{C(Ar)\emph{C}\ce{H3}}
+\NMRsinglet{20.3}{\StBugC}
 \fixme{IR, EA, MS}
+
+\section{Rhodium complexes}
+
+%%%%%%%%
+%Rh(CtBu)Cl %
+%%%%%%%%
+
+\subsection*{(\tBuXantphosk-\emph{P,O,P})-rhodiumchloride}
+
+\begin{structure}[h]
+\begin{center}
+\includegraphics{../Structures/RhCl(CtBu).pdf}
+\end{center}
+\end{structure}
+
+\Phosphorusintro{C6D6}
+\NMRRhP{47.7}{142.3}
+\Protonintro{500}{C6D6}
+\NMRcoupled{7.78}{d}{7.3}{\CtBucH},
+\NMRcoupled{7.01}{d}{7.6}{\CtBuaH},
+\NMRcoupled{6.80}{t}{7.7}{\CtBubH},
+\NMRPH{1.68}{vt}{13.4}{\CtBujH},
+\NMRsinglet{1.16}{\CtBuhH}.
+\Carbonintro{500}{C6D6}
+\NMRPC{158.9}{vt}{16.3}{\CtBueC},
+\NMRsinglet{133.6}{\CtBucC},
+\NMRsinglet{131.6}{\CtBufC},
+\NMRsinglet{127.7}{\CtBuaC},
+\NMRPC{125.7}{vt}{12.0}{\CtBudC},
+\NMRsinglet{123.8}{\CtBubC},
+\NMRPC{37.6}{vt}{10.1}{\CtBuiC},
+\NMRsinglet{32.5}{\CtBugC},
+\NMRsinglet{33.8}{\CtBuhC},
+\NMRPC{30.8}{vt}{7.7}{\CtBujC}.
 
 \newpage{}
 \section{Things that need to be fixed or added for final thesis}
 \begin{itemize}
 \item{Check that negative sign is actually negative and not a hyphen or other type of dash}
-\item{Check freezer temperature for recrystallisations}
+\item{Check freezer temperature for recrystallisations, approx -14\degC}
 \item{Include reaction between Pt(tBu-thixantphos)O2 and PTA}
 \item{Include reaction between Pt(COD)2 and tBu-thixantphos}
 \item{Make sure all captions have full stops}
-\item{Check that bis and cis etc. are all italics or not as necessary}
+\item{Check that bis and cis etc. are all italics or not as necessary, bis should not be, cis and trans should be.  Also sec should be \emph{sec} not s as s is stereochemical}
 \item{Double bonds look better in ce rather than as equals}
 \item{Check that the correct measurements for virtual triplets are made}
 \item{Correct my nmr stuff such that a is actually labelled correctly}
-\item{Explain why my dichloride has two different tbu environments in the NMR}
 \item{Note that tBu-xantphos is also used for the tBu on the backbone...}
 \item{Should it be square-planar or square planar?}
+\item{A note on nomenclature tBu-xantphos means two different things and tBu-xantphos vs Ph-xantphos}
+\item{Consider using mg for NMR scale reactions}
+\item{Check that the silver complexes have complete coupling data, as much as possible}
+\item{Check if X-ray should be capitalised, it should so make sure that it is}
 \end{itemize}
 
 \newpage{}
 \section{Lab work that still needs to be done}
 \begin{itemize}
+\item{Get 31P chemical shift for PdO2 complex in acetone - sample 4042}
 \item{React dioxygen complex with CO2 to get a peroxycarbonate c.f. Goel1983b}
 \item{See if reaction of the dioxygen complex with hydrogen results in the reduction to platinum(0), c.f. Sergeev2010}
+\begin{itemize}
+	\item{Has been reacted at 1 atm and RT, with no reaction observed}
+	\item{Repeat at higher pressure}
+\end{itemize}
 \item{Repeat reaction of dioxygen complex with CO}
 	\begin{itemize}
-	\item{Get 13C shift of the metallated carbon}
-	\item{Run long HSQC to low ppm to see if I can identify the protons}
-	\item{Run VERY long 13C to try and see platinum satellites - very unlikely}
+	\item{Get 13C shift of the metallated carbon - seems very likely to be 15.5 ppm}
+	\item{Run long HSQC to low ppm to see if I can identify the protons - unsuccessful}
+	\item{Run VERY long 13C to try and see platinum satellites - very unlikely - should be able to see them, but no luck}
 	\item{React metallated product with methane and hydrogen}
 	\end{itemize}
-\item{Run long carbon on 600 MHz of RhCl (4023) to find the missing carbon}
 \item{Purifiy the StBu selenide then get and assign full set}
 \item{Repeat reaction with Pt(C2H4)3 and StBu to in sealed tube to prevent oxidation and check that everything that is made is the ethene complex}
 \item{Repeat reaction with Pt(COD)2 and StBu in a sealed NMR tube to ensure that no COD complex forms}
 \item{Repeat reaction with Rh(COE)2Cl and StBu in acetone and see if the Rh(III) complex forms faster - check the NMR of 4037 to see any sign of complexed acetone}
-\item{Complete reaction between Ir(COE)2Cl and StBu}
+%\item{Complete reaction between Ir(COE)2Cl and StBu}
 \item{React CtBu and SitBu with Pt(nb)3 as comparisons or sterics etc.}
 \item{React PtMeStBu complex with PF6 to confirm the structure as without a chloride}
-\item{Reduce PdCl complex in the air to form a palladium dioxygen complex look at 2009 before you do this}
-\item{Get John to make Pd(nb)3 to react and form a palladium(0) complex}
 \item{Calculate structure of Pt(POP)Me complex to see if an agostic is present}
 \item{React C bridged ligand with Pt(nb)3}
-\item{React ligand with RhCl3 to see if the degradation product is a RhCl3 complex}
-\item{Purify and re-run full set on the StBu selenide - 4026}
+\item{Investigation of PP distance in the ligands, is the Si ligand to hard to make because of a lithium complex with the phosphines, according to David's thesis page 47 the smaller the distance the greater the bond strength}
+%\item{React ligand with RhCl3 to see if the degradation product is a RhCl3 complex}
 \end{itemize}
 
 \section{Lab work that would be nice to do}
@@ -870,6 +1188,7 @@ Combined \fixme{StBu ligand} (12 mg, 0.023 mmol) and \ce{[Pd(COD)Cl2]} (7 mg, 0.
 	\begin{itemize}
 	\item{Get coalescence temperatures as an indication of the amount of exchange that is occurring}
 	\end{itemize}
+\item{VT NMR with the lithiated ligand to try and get P-Li coupling constant}
 \item{React 14-electron complex with silane and HCl to try and identify the unknown hydride that forms when reacting with Pt(COD)2 or Pt(nb)3}
 \item{Palladium analogue of PtMe}
 \item{Protonation of PtMe complex}
@@ -878,8 +1197,6 @@ Combined \fixme{StBu ligand} (12 mg, 0.023 mmol) and \ce{[Pd(COD)Cl2]} (7 mg, 0.
 \newpage{}
 \section{Home work that still needs to be done}
 \begin{itemize}
-\item{Update Olex2 on laptop}
-\item{Get scifinder working on laptop}
 \item{Get mercury working on laptop}
 	\begin{itemize}
 	\item{Find out how to measure backbone bending}
@@ -906,12 +1223,9 @@ Combined \fixme{StBu ligand} (12 mg, 0.023 mmol) and \ce{[Pd(COD)Cl2]} (7 mg, 0.
 \item{Check the integrals for nb, ethene and COD complexes to go into thesis}
 \item{ORTEP diagrams of crystal structures}
 \item{Update the synthesis books}
-\item{Read paper from John on dioxygen reactivity}
 \item{Read up on iridium hydride metallation stuff, see Kranenburg1995 for an unusual Rh complex}
 \item{Read Mora2008 to get ideas for catalysis}
-\item{Read Casey1990 for full description of bite-angle stuff}
 \item{Read up on through space NMR coupling with relation to the protonated ligands - ask Robin?}
-\item{Update lab book}
 \item{Get mestranova NMR stuff for the VT on the dichloride (4009?) that I did}
 \end{itemize}
 
