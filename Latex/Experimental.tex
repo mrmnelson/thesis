@@ -36,7 +36,7 @@ NMR spectra were recorded using a Varian Unity Inova 300 (300~MHz for \proton, 7
 \end{center}
 \end{structure}
 
-\noindent{}\emph{s}-Butyllithium (29.8 mL, 1.0 M in cyclohexane, 29.8 mmol) was added dropwise to a stirred solution of 2,8-dimethylphenoxathiin (2.27 g, 9.94 mmol) and TMEDA (4.47 mL, 29.8 mmol) in diethyl ether (96 mL) at -78\degC{}.  The resulting yellow solution was warmed to at room temperature and stirred for a further 16 hours over which time a dark red colour developed.  The reaction was cooled to -78\degC{} and chlorodi-\emph{t}-butylphosphine (5.67 mL, 29.8 mmil) was added dropwise.  The reaction mixture was stirred for a further seven days resulting in a yellow solution with a white precipitate of lithium chloride.  The solvent was removed \emph{in vacuo} giving an orange oil.  This oil was taken up in dichloromethane (25 mL) and washed with water (3 x 15 mL).  The organic layer was passed through a column of magnesium sulfate and solvent was removed \emph{in vacuo}.  The product was purified by dissolving in hot \emph{n}-propanol and cooling at \fixme{temperature} giving small white crystals (1.33 g, 26\%).  This compound can be handled in the air for short periods however, should be stored under an inert atmosphere.
+\noindent{}\emph{sec}-Butyllithium (29.8 mL, 1.0 M in cyclohexane, 29.8 mmol) was added dropwise to a stirred solution of 2,8-dimethylphenoxathiin (2.27 g, 9.94 mmol) and TMEDA (4.47 mL, 29.8 mmol) in diethyl ether (96 mL) at -78\degC{}.  The resulting yellow solution was warmed to at room temperature and stirred for a further 16 hours over which time a dark red colour developed.  The reaction was cooled to -78\degC{} and chlorodi-\emph{t}-butylphosphine (5.67 mL, 29.8 mmol) was added dropwise.  The reaction mixture was stirred for a further seven days resulting in a yellow solution with a white precipitate of lithium chloride.  The solvent was removed \emph{in vacuo} giving an orange oil.  This oil was taken up in dichloromethane (25 mL) and washed with water (3 x 15 mL).  The organic layer was passed through a column of magnesium sulfate and solvent was removed \emph{in vacuo}.  The product was purified by dissolving in hot \emph{n}-propanol and cooling at \fixme{temperature} giving small white crystals (1.33 g, 26\%).  This compound can be handled in the air for short periods however, should be stored under an inert atmosphere.
 \Phosphorusintro{CDCl3}
 \NMRPsinglet{9.5}.
 \Protonintro{500}{\fixme{CDCl3}}
@@ -55,7 +55,6 @@ NMR spectra were recorded using a Varian Unity Inova 300 (300~MHz for \proton, 7
 \NMRPC{30.8}{vt}{9.1}{\StBuiC},
 \NMRsinglet{20.9}{\StBugC}.
 HRMS calcd for \ce{C30H47OP2S} [M+H]$^+$ \emph{m/z} = 517.2817; found = 517.2819.
-\\\fixme{this is from MRMND check what sample this was and if there is one for just H+}
 \fixme{IR, EA}
 
 %%%%%
@@ -476,14 +475,93 @@ HRMS calcd for \ce{C31H48OP2Ag} [M-Cl]$^+$ \emph{m/z} = 605.2226; found = 605.21
 \fixme{Make sure that all of the proton couplings around all of the rings have consistent PH or HH}
 \fixme{Consider using numbering}
 
+%%%%%%%%%
+% AgBF4 SitBu %
+%%%%%%%%%
+
+%Reaction3009
+\subsection*{(\tBuSixantphos)silver tetrafluoroborate}
+\begin{structure}[h]
+\begin{center}
+\includegraphics{../Structures/SitBuSilverBF4.pdf}
+\end{center}
+\end{structure}
+Combined \tBusixantphos{} (0.027 g, 0.052 mmol) and silver tetrafluoroborate (0.010, 0.052 mmol) in an NMR tube and dissolved in \ce{CDCl3}.  After 3 days the reaction was complete by NMR.  Decanted the solution into a Schlenk flask and removed the solvent in vacuo yielding the title compound as a white solid (0.024 g, 0.034 mmol, 64\%)
+
+%Phosphorus
+\Phosphorusintro{CDCl3}
+\NMRAgP{31.5}{482.9}{557.4}
+%Proton
+\Protonintro{500}{CDCl3}
+\NMRbsinglet{7.84}{\SitBucH},
+\NMRHH{7.73}{d}{6.8}{\SitBuaH},
+\NMRHH{7.34}{t}{7.3}{\SitBubH},
+\NMRPH{1.40}{vt}{15.9}{\SitBuiH},
+\NMRsinglet{0.49}{\SitBugH}.
+%Carbon
+\Carbonintro{125}{CDCl3}
+\NMRPC{162.3}{vt}{8.7}{\SitBueC},
+\NMRsinglet{138.2}{\SitBuaC},
+\NMRPC{138.1}{d}{6.7}{\SitBucC},
+\NMRPC{123.1}{d}{1.9}{\SitBubC},
+\NMRsinglet{122.1}{\SitBufC},
+\NMRmultiplet{118.4}{\SitBudC},
+\NMRmultiplet{35.7}{\SitBuhC}, %Virtual triplet of doublet?
+\NMRmultiplet{30.9}{\SitBuiC},
+\NMRsinglet{-0.6}{\SitBugC}.
+%Fluorine
+\Fluorineintro{CDCl3}
+\NMRsinglet{-152.2}{\ce{BF4-}}.
+HRMS calcd for \ce{C30H48OP2AgSi} [M-\ce{BF4-}]$^+$ \emph{m/z} = 621.2001; found = 621.2032.
 
 %%%%%%%%
-%AgBF  CtBu%
+%AgBF4 StBu%
+%%%%%%%%
+
+%Reaction3008
+%\newpage{}
+
+\subsection*{(\tBuThixantphos)silver tetrafluoroborate}
+
+\begin{structure}[h]
+\begin{center}
+\includegraphics{../Structures/StBuSilverBF4.pdf}
+\end{center}
+\end{structure}
+
+A solution of \tButhixantphos{} (0.026 g, 0.050 mmol) in 0.5 mL of deutero-chloroform was added to silver tetrafluoroborate (0.010 g, 0.051 mmol) in an NMR tube.  After 3 days the reaction NMR showed complete conversion into the title complex.  Decanted the solution into a Schlenk flask and removed the solvent in vacuo yielding the product as a white solid (0.030 g, 0.042 mmol, 84\%).
+
+%Phosphorus
+\Phosphorusintro{CDCl3}
+\NMRAgP{28.4}{486.7}{562.2}.
+%Proton
+\Protonintro{500}{CDCl3}
+\NMRsinglet{7.32}{\StBucH},
+\NMRsinglet{7.16}{\StBuaH},
+\NMRsinglet{2.33}{\StBugH},
+\NMRPH{1.40}{vt}{15.8}{\StBuiH}.
+%Carbon
+\Carbonintro{125}{CDCl3}
+\NMRPC{153.9}{vt}{11.0}{\StBueC},
+\NMRPC{134.4}{d}{\fixme{??}}{\StBubC},
+\NMRPC{134.2}{d}{6.30}{\StBucC},
+\NMRsinglet{131.1}{\StBuaC},
+\NMRsinglet{122.3}{\StBufC},
+\NMRmultiplet{119.4}{\StBudC}, %virtual triplet of doublets?
+\NMRmultiplet{35.5}{\StBuhC},
+\NMRmultiplet{30.8}{\StBuiC},
+\NMRsinglet{20.7}{\StBugC}.
+HRMS calcd for \ce{C30H46OP2SAg} [M-\ce{BF4-}]$^+$ \emph{m/z} = 623.1796; found = 623.1826.
+
+\fixme{IR, EA}
+
+%%%%%%%%
+%AgBF4 CtBu%
 %%%%%%%%
 
 %Reaction3016
 %\newpage{}
-\subsection*{(\tBuxantphos)silver tetrafluoroborate} %\fixme{check name}
+\subsection*{(\tBuXantphos)silver tetrafluoroborate} %\fixme{check name}
 
 \begin{structure}[h]
 \begin{center}
