@@ -7,14 +7,18 @@
 \usepackage{url} % for typesetting urls
 
 \usepackage[version=3]{mhchem}		%Chemical formula i.e. /ce
+\usepackage{abbrevs}
 \usepackage{color}					%For using different colour formats
 \usepackage{siunitx} 				%SI units package
 \usepackage{booktabs}				%For making tables pretty
 \usepackage{bpchem}
-%\usepackage{auto-pst-pdf}		%needed for compound numbering, converts eps to pdf
-\usepackage[floats=float]{chemscheme}	%Scheme environment
-\usepackage{nicefrac}				%For nice fractions
 \usepackage{graphicx}				%Required to set figure widths
+\usepackage{caption}
+\usepackage{chemmacros}
+\usepackage{subcaption}
+%\usepackage{auto-pst-pdf}		%needed for compound numbering, converts eps to pdf
+\usepackage[floats=float, tracking=bpchem]{chemscheme}	%Scheme environment
+\usepackage{nicefrac}				%For nice fractions
 \usepackage{mciteplus}
 \usepackage{achemso}
 \usepackage[xindy]{glossaries}
@@ -23,6 +27,8 @@
 \usepackage{tocbibind}
 \usepackage[euler]{textgreek}
 \usepackage{placeins}
+\usepackage{bpchem}
+\usepackage{rotating}
 \usepackage{hyperref}				%Must be last package
 
 \newfloat{structure}{hbp}{lox}[chapter]
@@ -47,26 +53,28 @@
 \newcommand{\degrees}{$^\circ$}
 
 % Shortcuts for pKa and pKb
-\newcommand{\pKa}{p\emph{K}\sub{a}}
-\newcommand{\pKb}{p\emph{K}\sub{b}}
+%\newcommand{\pKa}{p\emph{K}\sub{a}}
+%\newcommand{\pKb}{p\emph{K}\sub{b}}
 
 % Shortcuts for names
 \newcommand{\tBuxantphos}{\emph{t}-Bu-xantphos}
 \newcommand{\tBuXantphos}{\emph{t}-Bu-Xantphos}
-\newcommand{\tBuxantphosk}{\tBuxantphos-\textkappa$^3$}
-\newcommand{\tBuXantphosk}{\tBuXantphos-\textkappa$^3$}
+\newcommand{\tBuxantphosk}{\tBuxantphos-\POP}
+\newcommand{\tBuXantphosk}{\tBuXantphos-\POP}
 
 \newcommand{\tButhixantphos}{\emph{t}-Bu-thixantphos}
 \newcommand{\tBuThixantphos}{\emph{t}-Bu-Thixantphos}
-\newcommand{\tButhixantphosk}{\tButhixantphos-\textkappa$^3$}
-\newcommand{\tBuThixantphosk}{\tBuThixantphos-\textkappa$^3$}
+\newcommand{\tButhixantphosk}{\tButhixantphos-\POP}
+\newcommand{\tBuThixantphosk}{\tBuThixantphos-\POP}
 
 \newcommand{\tBusixantphos}{\emph{t}-Bu-sixantphos}
 \newcommand{\tBuSixantphos}{\emph{t}-Bu-Sixantphos}
-\newcommand{\tBusixantphosk}{\tBusixantphos-\textkappa$^3$}
-\newcommand{\tBuSixantphosk}{\tBuSixantphos-\textkappa$^3$}
+\newcommand{\tBusixantphosk}{\tBusixantphos-\POP}
+\newcommand{\tBuSixantphosk}{\tBuSixantphos-\POP}
 
 \newcommand{\iPrxantphos}{\emph{i}-Pr-xantphos}
+\newcommand{\iPrxantphosk}{\emph{i}-Pr-xantphos-\POP}
+
 \newcommand{\tBu}{\emph{tert}-butyl}
 \newcommand{\Phxantphos}{Ph-xantphos}
 \newcommand{\Phthixantphos}{Ph-thixantphos}
@@ -75,6 +83,7 @@
 \newcommand{\PhThixantphos}{Ph-Thixantphos}
 \newcommand{\PhSixantphos}{Ph-Sixantphos}
 
+\newcommand{\POP}{\dento{}\emph{P,O,P}\textprime}
 
 % Shortcuts for NMR intros
 \newcommand{\Protonintro}[2]{\proton{} NMR (#1 MHz, \ce{#2}): $\delta{}$}
@@ -128,6 +137,7 @@
 \newcommand{\JAgPnine}{\mbox{$^1\textit{J}$\sub{$^{109}$AgP}}}
 \newcommand{\twoJPtH}{\mbox{\textsuperscript{2}\emph{J}\sub{PtP}}}
 \newcommand{\XJXX}[2]{\mbox{\textsuperscript{#1}\emph{J}\sub{#2}}}
+\newcommand{\JXX}[1]{\mbox{\emph{J}\sub{#1}}}
 
 % Shortcuts for NMR data
 \newcommand{\NMRPC}[4]{#1 (#2, \JPC{}~=~#3~Hz, #4)}  % C1 (C2, \JPC{}~=~C3~Hz)
@@ -261,7 +271,7 @@
 
 % individual chapters included here
 
-\include{Introduction}
+%\include{Introduction}
 \include{Ligands}
 \include{Silver}
 \include{Platinum}
