@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 14.0.0.118"
+ Name="dppp.eps"
+ BoundingBox="169.07 98.38 240.33 150.34"
+ WindowPosition="0 0"
+ WindowSize="0 0"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowResidueID="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ Magnification="666"
+ LabelFont="21"
+ LabelSize="10"
+ LabelFace="96"
+ CaptionFont="21"
+ CaptionSize="10"
+ HashSpacing="2.70"
+ MarginWidth="2"
+ LineWidth="0.85"
+ BoldWidth="1.42"
+ BondLength="17.01"
+ BondSpacing="12"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="HOH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ ResidueWrapCount="40"
+ ResidueBlockCount="10"
+ ResidueZigZag="yes"
+ NumberResidueBlocks="no"
+ PrintMargins="36 36 36 36"
+ ChemPropName=""
+ ChemPropFormula="Chemical Formula: "
+ ChemPropExactMass="Exact Mass: "
+ ChemPropMolWt="Molecular Weight: "
+ ChemPropMOverZ="m/z: "
+ ChemPropAnalysis="Elemental Analysis: "
+ ChemPropBoilingPt="Boiling Point: "
+ ChemPropMeltingPt="Melting Point: "
+ ChemPropCritTemp="Critical Temp: "
+ ChemPropCritPres="Critical Pres: "
+ ChemPropCritVol="Critical Vol: "
+ ChemPropGibbs="Gibbs Energy: "
+ ChemPropLogP="Log P: "
+ ChemPropMR="MR: "
+ ChemPropHenry="Henry&apos;s Law: "
+ ChemPropEForm="Heat of Form: "
+ ChemProptPSA="tPSA: "
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+</colortable><fonttable>
+<font id="21" charset="x-mac-roman" name="Helvetica"/>
+</fonttable><page
+ id="4131"
+ BoundingBox="0 0 540 720"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><fragment
+ id="30"
+ BoundingBox="169.07 98.38 240.33 150.34"
+ Z="115"
+><n
+ id="402"
+ p="185.83 105.22"
+ Z="117"
+ NodeType="MultiAttachment"
+ AS="N"
+ Attachments="8 6 9 5 7"
+/><n
+ id="5"
+ p="175.92 98.80"
+ Z="118"
+ AS="N"
+/><n
+ id="6"
+ p="169.73 107.67"
+ Z="119"
+ AS="N"
+/><n
+ id="7"
+ p="185.87 113.04"
+ Z="120"
+ IgnoreWarnings="yes"
+ Warning="This atom is very close to another atom or bond."
+ AS="N"
+/><n
+ id="8"
+ p="201.87 107.62"
+ Z="121"
+/><n
+ id="9"
+ p="195.76 98.95"
+ Z="122"
+ AS="N"
+/><n
+ id="200"
+ p="170.53 142.15"
+ Z="129"
+ AS="N"
+/><n
+ id="215"
+ p="176.52 149.50"
+ Z="130"
+ AS="N"
+/><n
+ id="202"
+ p="196.98 149.63"
+ Z="131"
+ AS="N"
+/><n
+ id="218"
+ p="203.58 142.38"
+ Z="132"
+/><n
+ id="204"
+ p="187.33 137.80"
+ Z="133"
+ IgnoreWarnings="yes"
+ Warning="This atom is very close to another atom or bond."
+ AS="N"
+/><n
+ id="400"
+ p="186.99 144.30"
+ Z="140"
+ NodeType="MultiAttachment"
+ AS="N"
+ Attachments="215 204 218 200 202"
+/><n
+ id="404"
+ p="186.65 126.23"
+ Z="141"
+ Element="26"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+><t
+ p="186.65 129.82"
+ BoundingBox="180.81 121.48 192.48 129.97"
+ LabelJustification="Center"
+ Justification="Center"
+ LabelAlignment="Center"
+><s font="21" size="10" color="0" face="96">Fe</s></t></n><n
+ id="4125"
+ p="218.04 112.90"
+ Z="143"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="4132"
+><n
+ id="4133"
+ p="218.04 112.90"
+ Element="15"
+ NumHydrogens="0"
+/><n
+ id="4134"
+ p="221.55 129.53"
+/><n
+ id="4135"
+ p="208.90 140.89"
+/><n
+ id="4136"
+ p="212.41 157.53"
+/><n
+ id="4137"
+ p="228.57 162.80"
+/><n
+ id="4138"
+ p="241.22 151.44"
+/><n
+ id="4139"
+ p="237.71 134.81"
+/><n
+ id="4140"
+ p="230.68 101.54"
+/><n
+ id="4141"
+ p="246.85 106.82"
+/><n
+ id="4142"
+ p="259.49 95.46"
+/><n
+ id="4143"
+ p="255.98 78.82"
+/><n
+ id="4144"
+ p="239.82 73.55"
+/><n
+ id="4145"
+ p="227.17 84.91"
+/><n
+ id="4146"
+ p="201.88 107.63"
+ NodeType="ExternalConnectionPoint"
+/><b
+ id="4147"
+ B="4144"
+ E="4145"
+ Order="2"
+/><b
+ id="4148"
+ B="4143"
+ E="4144"
+/><b
+ id="4149"
+ B="4142"
+ E="4143"
+ Order="2"
+/><b
+ id="4150"
+ B="4141"
+ E="4142"
+/><b
+ id="4151"
+ B="4140"
+ E="4141"
+ Order="2"
+/><b
+ id="4152"
+ B="4140"
+ E="4145"
+/><b
+ id="4153"
+ B="4138"
+ E="4139"
+ Order="2"
+/><b
+ id="4154"
+ B="4137"
+ E="4138"
+/><b
+ id="4155"
+ B="4136"
+ E="4137"
+ Order="2"
+/><b
+ id="4156"
+ B="4135"
+ E="4136"
+/><b
+ id="4157"
+ B="4134"
+ E="4135"
+ Order="2"
+/><b
+ id="4158"
+ B="4134"
+ E="4139"
+/><b
+ id="4159"
+ B="4133"
+ E="4134"
+/><b
+ id="4160"
+ B="4133"
+ E="4140"
+/><b
+ id="4161"
+ B="4146"
+ E="4133"
+/></fragment><t
+ p="215.36 116.49"
+ BoundingBox="215.36 108.15 238.43 118.74"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="21" size="10" color="0" face="96">PPh2</s></t></n><n
+ id="4127"
+ p="219.94 137.71"
+ Z="145"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="4163"
+><n
+ id="4164"
+ p="219.94 137.71"
+ Element="15"
+ NumHydrogens="0"
+/><n
+ id="4165"
+ p="232.16 149.52"
+/><n
+ id="4166"
+ p="228.03 166.02"
+/><n
+ id="4167"
+ p="240.25 177.84"
+/><n
+ id="4168"
+ p="256.60 173.16"
+/><n
+ id="4169"
+ p="260.72 156.67"
+/><n
+ id="4170"
+ p="248.50 144.85"
+/><n
+ id="4171"
+ p="224.06 121.21"
+/><n
+ id="4172"
+ p="240.41 116.54"
+/><n
+ id="4173"
+ p="244.54 100.05"
+/><n
+ id="4174"
+ p="232.32 88.23"
+/><n
+ id="4175"
+ p="215.97 92.90"
+/><n
+ id="4176"
+ p="211.84 109.39"
+/><n
+ id="4177"
+ p="203.59 142.38"
+ NodeType="ExternalConnectionPoint"
+/><b
+ id="4178"
+ B="4175"
+ E="4176"
+ Order="2"
+/><b
+ id="4179"
+ B="4174"
+ E="4175"
+/><b
+ id="4180"
+ B="4173"
+ E="4174"
+ Order="2"
+/><b
+ id="4181"
+ B="4172"
+ E="4173"
+/><b
+ id="4182"
+ B="4171"
+ E="4172"
+ Order="2"
+/><b
+ id="4183"
+ B="4171"
+ E="4176"
+/><b
+ id="4184"
+ B="4169"
+ E="4170"
+ Order="2"
+/><b
+ id="4185"
+ B="4168"
+ E="4169"
+/><b
+ id="4186"
+ B="4167"
+ E="4168"
+ Order="2"
+/><b
+ id="4187"
+ B="4166"
+ E="4167"
+/><b
+ id="4188"
+ B="4165"
+ E="4166"
+ Order="2"
+/><b
+ id="4189"
+ B="4165"
+ E="4170"
+/><b
+ id="4190"
+ B="4164"
+ E="4165"
+/><b
+ id="4191"
+ B="4164"
+ E="4171"
+/><b
+ id="4192"
+ B="4177"
+ E="4164"
+/></fragment><t
+ p="217.26 141.29"
+ BoundingBox="217.26 132.95 240.33 143.54"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="21" size="10" color="0" face="96">PPh2</s></t></n><b
+ id="405"
+ Z="116"
+ B="402"
+ E="404"
+ BS="N"
+ CrossingBonds="11 12"
+/><b
+ id="10"
+ Z="123"
+ BondLength="20"
+ B="5"
+ E="6"
+ Order="1.5"
+ BS="N"
+/><b
+ id="11"
+ Z="124"
+ BondLength="20"
+ B="6"
+ E="7"
+ Order="1.5"
+ Display="WedgeBegin"
+ BS="N"
+ CrossingBonds="405"
+/><b
+ id="12"
+ Z="125"
+ BondLength="20"
+ B="7"
+ E="8"
+ Order="1.5"
+ Display="WedgeEnd"
+ BS="N"
+ CrossingBonds="405"
+/><b
+ id="13"
+ Z="126"
+ BondLength="20"
+ B="8"
+ E="9"
+ Order="1.5"
+ BS="N"
+/><b
+ id="14"
+ Z="127"
+ BondLength="20"
+ B="5"
+ E="9"
+ Order="1.5"
+ BS="N"
+/><b
+ id="205"
+ Z="134"
+ BondLength="20"
+ B="200"
+ E="215"
+ Order="1.5"
+ Display="WedgeBegin"
+ BS="N"
+/><b
+ id="221"
+ Z="135"
+ BondLength="20"
+ B="215"
+ E="202"
+ Order="1.5"
+ Display="Bold"
+ BS="N"
+/><b
+ id="222"
+ Z="136"
+ BondLength="20"
+ B="202"
+ E="218"
+ Order="1.5"
+ Display="WedgeEnd"
+ BS="N"
+/><b
+ id="223"
+ Z="137"
+ BondLength="20"
+ B="218"
+ E="204"
+ Order="1.5"
+ BS="N"
+ CrossingBonds="409"
+/><b
+ id="224"
+ Z="138"
+ BondLength="20"
+ B="200"
+ E="204"
+ Order="1.5"
+ BS="N"
+ CrossingBonds="409"
+/><b
+ id="409"
+ Z="142"
+ B="404"
+ E="400"
+ BS="N"
+ CrossingBonds="223 224"
+/><b
+ id="4126"
+ Z="144"
+ B="8"
+ E="4125"
+ BS="N"
+/><b
+ id="4128"
+ Z="146"
+ B="218"
+ E="4127"
+ BS="N"
+/><curve
+ id="15"
+ Z="128"
+ CurveType="1"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="180.08 108.61 185.87 108.61 191.65 108.61 196.31 106.72 196.31 104.41 196.31 102.10 191.65 100.21 185.87 100.21 180.08 100.21 175.43 102.10 175.43 104.41 175.43 106.72"
+/><curve
+ id="225"
+ Z="139"
+ CurveType="1"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="181.08 147.25 187.02 147.25 192.96 147.25 197.85 145.64 197.85 143.69 197.85 141.72 192.96 140.11 187.02 140.11 181.08 140.11 176.21 141.72 176.21 143.69 176.21 145.64"
+/></fragment></page></CDXML>

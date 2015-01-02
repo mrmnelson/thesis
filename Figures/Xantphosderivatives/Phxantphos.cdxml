@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 14.0.0.118"
+ Name="Phxantphos.cdxml"
+ BoundingBox="59.46 45.22 159.16 188.11"
+ WindowPosition="0 0"
+ WindowSize="0 0"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowResidueID="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ Magnification="666"
+ LabelFont="21"
+ LabelSize="10"
+ LabelFace="96"
+ CaptionFont="21"
+ CaptionSize="10"
+ HashSpacing="2.70"
+ MarginWidth="2"
+ LineWidth="0.85"
+ BoldWidth="1.42"
+ BondLength="17.01"
+ BondSpacing="12"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="HOH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ ResidueWrapCount="40"
+ ResidueBlockCount="10"
+ ResidueZigZag="yes"
+ NumberResidueBlocks="no"
+ PrintMargins="36 36 36 36"
+ ChemPropName=""
+ ChemPropFormula="Chemical Formula: "
+ ChemPropExactMass="Exact Mass: "
+ ChemPropMolWt="Molecular Weight: "
+ ChemPropMOverZ="m/z: "
+ ChemPropAnalysis="Elemental Analysis: "
+ ChemPropBoilingPt="Boiling Point: "
+ ChemPropMeltingPt="Melting Point: "
+ ChemPropCritTemp="Critical Temp: "
+ ChemPropCritPres="Critical Pres: "
+ ChemPropCritVol="Critical Vol: "
+ ChemPropGibbs="Gibbs Energy: "
+ ChemPropLogP="Log P: "
+ ChemPropMR="MR: "
+ ChemPropHenry="Henry&apos;s Law: "
+ ChemPropEForm="Heat of Form: "
+ ChemProptPSA="tPSA: "
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+</colortable><fonttable>
+<font id="21" charset="x-mac-roman" name="Helvetica"/>
+</fonttable><page
+ id="4120"
+ BoundingBox="0 0 540 720"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><fragment
+ id="3044"
+ BoundingBox="59.46 45.22 159.16 188.11"
+ Z="158"
+><n
+ id="3045"
+ p="65.12 66.05"
+ Z="159"
+ AS="N"
+/><n
+ id="3046"
+ p="65.12 83.06"
+ Z="160"
+ AS="N"
+/><n
+ id="3047"
+ p="79.85 91.56"
+ Z="161"
+/><n
+ id="3048"
+ p="94.58 83.06"
+ Z="162"
+/><n
+ id="3049"
+ p="94.58 66.05"
+ Z="163"
+/><n
+ id="3050"
+ p="79.85 57.55"
+ Z="164"
+ AS="N"
+/><n
+ id="3051"
+ p="109.31 91.56"
+ Z="171"
+ Element="8"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+ LabelDisplay="Left"
+><t
+ p="105.81 95.15"
+ BoundingBox="105.81 86.57 113.59 95.35"
+ LabelJustification="Left"
+ LabelAlignment="Below"
+><s font="21" size="10" face="96">O</s></t></n><n
+ id="3052"
+ p="124.04 83.06"
+ Z="172"
+/><n
+ id="3053"
+ p="124.04 66.05"
+ Z="173"
+/><n
+ id="3054"
+ p="109.31 57.55"
+ Z="174"
+/><n
+ id="3055"
+ p="138.77 91.56"
+ Z="180"
+/><n
+ id="3056"
+ p="153.50 83.06"
+ Z="181"
+ AS="N"
+/><n
+ id="3057"
+ p="153.50 66.05"
+ Z="182"
+ AS="N"
+/><n
+ id="3058"
+ p="138.77 57.55"
+ Z="183"
+ AS="N"
+/><n
+ id="3059"
+ p="79.85 108.57"
+ Z="189"
+ Warning="An atom in this label has an invalid valence."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+ BondOrdering="3139 4047"
+><fragment
+ id="4121"
+><n
+ id="4122"
+ p="79.85 108.57"
+ Element="15"
+ NumHydrogens="0"
+/><n
+ id="4123"
+ p="62.85 108.57"
+/><n
+ id="4124"
+ p="54.35 93.85"
+/><n
+ id="4125"
+ p="37.35 93.85"
+/><n
+ id="4126"
+ p="28.85 108.57"
+/><n
+ id="4127"
+ p="37.35 123.29"
+/><n
+ id="4128"
+ p="54.35 123.29"
+/><n
+ id="4129"
+ p="88.35 123.29"
+/><n
+ id="4130"
+ p="79.85 138.01"
+/><n
+ id="4131"
+ p="88.35 152.74"
+/><n
+ id="4132"
+ p="105.35 152.74"
+/><n
+ id="4133"
+ p="113.85 138.01"
+/><n
+ id="4134"
+ p="105.35 123.29"
+/><n
+ id="4135"
+ p="79.85 91.57"
+ NodeType="ExternalConnectionPoint"
+/><n
+ id="4136"
+ p="94.57 100.07"
+ NodeType="ExternalConnectionPoint"
+/><b
+ id="4137"
+ B="4133"
+ E="4134"
+ Order="2"
+/><b
+ id="4138"
+ B="4132"
+ E="4133"
+/><b
+ id="4139"
+ B="4131"
+ E="4132"
+ Order="2"
+/><b
+ id="4140"
+ B="4130"
+ E="4131"
+/><b
+ id="4141"
+ B="4129"
+ E="4130"
+ Order="2"
+/><b
+ id="4142"
+ B="4129"
+ E="4134"
+/><b
+ id="4143"
+ B="4127"
+ E="4128"
+ Order="2"
+/><b
+ id="4144"
+ B="4126"
+ E="4127"
+/><b
+ id="4145"
+ B="4125"
+ E="4126"
+ Order="2"
+/><b
+ id="4146"
+ B="4124"
+ E="4125"
+/><b
+ id="4147"
+ B="4123"
+ E="4124"
+ Order="2"
+/><b
+ id="4148"
+ B="4123"
+ E="4128"
+/><b
+ id="4149"
+ B="4122"
+ E="4123"
+/><b
+ id="4150"
+ B="4122"
+ E="4129"
+/><b
+ id="4151"
+ B="4135"
+ E="4122"
+/><b
+ id="4152"
+ B="4136"
+ E="4122"
+/></fragment><t
+ p="82.53 112.16"
+ BoundingBox="59.46 103.81 82.53 114.41"
+ LabelJustification="Right"
+ Justification="Right"
+ LabelAlignment="Right"
+><s font="21" size="10" face="96">PPh2</s></t></n><n
+ id="3090"
+ p="138.77 108.57"
+ Z="191"
+ Warning="An atom in this label has an invalid valence."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+ BondOrdering="3140 4043"
+ LabelDisplay="Left"
+><fragment
+ id="4154"
+><n
+ id="4155"
+ p="138.77 108.57"
+ Element="15"
+ NumHydrogens="0"
+/><n
+ id="4156"
+ p="121.77 108.57"
+/><n
+ id="4157"
+ p="113.27 93.85"
+/><n
+ id="4158"
+ p="96.27 93.85"
+/><n
+ id="4159"
+ p="87.77 108.57"
+/><n
+ id="4160"
+ p="96.27 123.29"
+/><n
+ id="4161"
+ p="113.27 123.29"
+/><n
+ id="4162"
+ p="147.27 123.29"
+/><n
+ id="4163"
+ p="138.77 138.01"
+/><n
+ id="4164"
+ p="147.27 152.74"
+/><n
+ id="4165"
+ p="164.27 152.74"
+/><n
+ id="4166"
+ p="172.77 138.01"
+/><n
+ id="4167"
+ p="164.27 123.29"
+/><n
+ id="4168"
+ p="138.77 91.57"
+ NodeType="ExternalConnectionPoint"
+/><n
+ id="4169"
+ p="153.49 100.07"
+ NodeType="ExternalConnectionPoint"
+/><b
+ id="4170"
+ B="4166"
+ E="4167"
+ Order="2"
+/><b
+ id="4171"
+ B="4165"
+ E="4166"
+/><b
+ id="4172"
+ B="4164"
+ E="4165"
+ Order="2"
+/><b
+ id="4173"
+ B="4163"
+ E="4164"
+/><b
+ id="4174"
+ B="4162"
+ E="4163"
+ Order="2"
+/><b
+ id="4175"
+ B="4162"
+ E="4167"
+/><b
+ id="4176"
+ B="4160"
+ E="4161"
+ Order="2"
+/><b
+ id="4177"
+ B="4159"
+ E="4160"
+/><b
+ id="4178"
+ B="4158"
+ E="4159"
+ Order="2"
+/><b
+ id="4179"
+ B="4157"
+ E="4158"
+/><b
+ id="4180"
+ B="4156"
+ E="4157"
+ Order="2"
+/><b
+ id="4181"
+ B="4156"
+ E="4161"
+/><b
+ id="4182"
+ B="4155"
+ E="4156"
+/><b
+ id="4183"
+ B="4155"
+ E="4162"
+/><b
+ id="4184"
+ B="4168"
+ E="4155"
+/><b
+ id="4185"
+ B="4169"
+ E="4155"
+/></fragment><t
+ p="136.09 112.16"
+ BoundingBox="136.09 103.81 159.16 114.41"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="21" size="10" face="96">PPh2</s></t></n><n
+ id="3121"
+ p="97.28 45.52"
+ Z="193"
+ AS="N"
+/><n
+ id="3122"
+ p="121.33 45.52"
+ Z="195"
+ AS="N"
+/><n
+ id="4038"
+ p="108 120"
+ Z="197"
+ Element="47"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ LabelDisplay="Above"
+><t
+ p="104.80 123.59"
+ BoundingBox="104.80 115.24 117.03 125.79"
+ LabelJustification="Above"
+ Justification="Above"
+ LabelAlignment="Left"
+><s font="21" size="10" color="0" face="96">Ag</s></t></n><n
+ id="4064"
+ p="98.67 172.67"
+ Z="223"
+/><n
+ id="4066"
+ p="115.68 172.67"
+ Z="225"
+/><n
+ id="4068"
+ p="124.18 187.40"
+ Z="227"
+ AS="N"
+/><n
+ id="4070"
+ p="141.19 187.40"
+ Z="229"
+ AS="N"
+/><n
+ id="4072"
+ p="149.70 172.67"
+ Z="231"
+ AS="N"
+/><n
+ id="4074"
+ p="141.19 157.94"
+ Z="233"
+ AS="N"
+/><n
+ id="4076"
+ p="124.18 157.94"
+ Z="235"
+/><n
+ id="4084"
+ p="90.16 157.94"
+ Z="243"
+/><n
+ id="4086"
+ p="73.15 157.94"
+ Z="245"
+ AS="N"
+/><n
+ id="4088"
+ p="64.65 172.67"
+ Z="247"
+ AS="N"
+/><n
+ id="4090"
+ p="73.15 187.40"
+ Z="249"
+ AS="N"
+/><n
+ id="4092"
+ p="90.16 187.40"
+ Z="251"
+ AS="N"
+/><n
+ id="4102"
+ p="98.67 143.20"
+ Z="261"
+ Warning="An atom in this label has an invalid valence."
+ Element="8"
+ NumHydrogens="0"
+ Charge="-1"
+ NeedsClean="yes"
+ AS="N"
+><t
+ p="95.17 146.79"
+ BoundingBox="95.17 138.22 105.45 146.99"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="21" size="10" color="0" face="96">O-</s></t></n><n
+ id="4104"
+ p="115.68 143.20"
+ Z="263"
+ Warning="An atom in this label has an invalid valence."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+ BondOrdering="4105 4116"
+ LabelDisplay="Left"
+><fragment
+ id="4187"
+><n
+ id="4188"
+ p="115.68 143.20"
+ Element="15"
+ NumHydrogens="0"
+/><n
+ id="4189"
+ p="130.40 134.70"
+/><n
+ id="4190"
+ p="145.12 143.20"
+/><n
+ id="4191"
+ p="159.84 134.70"
+/><n
+ id="4192"
+ p="159.84 117.70"
+/><n
+ id="4193"
+ p="145.12 109.20"
+/><n
+ id="4194"
+ p="130.40 117.70"
+/><n
+ id="4195"
+ p="100.95 134.70"
+/><n
+ id="4196"
+ p="100.95 117.70"
+/><n
+ id="4197"
+ p="86.23 109.20"
+/><n
+ id="4198"
+ p="71.51 117.70"
+/><n
+ id="4199"
+ p="71.51 134.70"
+/><n
+ id="4200"
+ p="86.23 143.20"
+/><n
+ id="4201"
+ p="124.18 157.93"
+ NodeType="ExternalConnectionPoint"
+/><n
+ id="4202"
+ p="107.18 157.93"
+ NodeType="ExternalConnectionPoint"
+/><b
+ id="4203"
+ B="4199"
+ E="4200"
+ Order="2"
+/><b
+ id="4204"
+ B="4198"
+ E="4199"
+/><b
+ id="4205"
+ B="4197"
+ E="4198"
+ Order="2"
+/><b
+ id="4206"
+ B="4196"
+ E="4197"
+/><b
+ id="4207"
+ B="4195"
+ E="4196"
+ Order="2"
+/><b
+ id="4208"
+ B="4195"
+ E="4200"
+/><b
+ id="4209"
+ B="4193"
+ E="4194"
+ Order="2"
+/><b
+ id="4210"
+ B="4192"
+ E="4193"
+/><b
+ id="4211"
+ B="4191"
+ E="4192"
+ Order="2"
+/><b
+ id="4212"
+ B="4190"
+ E="4191"
+/><b
+ id="4213"
+ B="4189"
+ E="4190"
+ Order="2"
+/><b
+ id="4214"
+ B="4189"
+ E="4194"
+/><b
+ id="4215"
+ B="4188"
+ E="4189"
+/><b
+ id="4216"
+ B="4188"
+ E="4195"
+/><b
+ id="4217"
+ B="4201"
+ E="4188"
+/><b
+ id="4218"
+ B="4202"
+ E="4188"
+ Display="WedgedHashBegin"
+/></fragment><t
+ p="113 146.79"
+ BoundingBox="113 138.45 136.07 149.04"
+ LabelJustification="Left"
+ LabelAlignment="Right"
+><s font="21" size="10" color="0" face="96">PPh2</s></t></n><b
+ id="3123"
+ Z="165"
+ B="3045"
+ E="3046"
+ Order="2"
+ BondCircularOrdering="3128 0 0 3124"
+/><b
+ id="3124"
+ Z="166"
+ B="3046"
+ E="3047"
+ BS="N"
+/><b
+ id="3125"
+ Z="167"
+ B="3047"
+ E="3048"
+ Order="2"
+ BondCircularOrdering="3124 3139 3129 3126"
+/><b
+ id="3126"
+ Z="168"
+ B="3048"
+ E="3049"
+ BS="N"
+/><b
+ id="3127"
+ Z="169"
+ B="3049"
+ E="3050"
+ Order="2"
+ BondCircularOrdering="3126 3133 0 3128"
+/><b
+ id="3128"
+ Z="170"
+ B="3050"
+ E="3045"
+ BS="N"
+/><b
+ id="3129"
+ Z="175"
+ B="3048"
+ E="3051"
+ BS="N"
+/><b
+ id="3130"
+ Z="176"
+ B="3051"
+ E="3052"
+ BS="N"
+/><b
+ id="3131"
+ Z="177"
+ B="3052"
+ E="3053"
+ Order="2"
+ BondCircularOrdering="3130 3134 3138 3132"
+/><b
+ id="3132"
+ Z="178"
+ B="3053"
+ E="3054"
+ BS="N"
+/><b
+ id="3133"
+ Z="179"
+ B="3054"
+ E="3049"
+ BS="N"
+/><b
+ id="3134"
+ Z="184"
+ B="3052"
+ E="3055"
+ BS="N"
+/><b
+ id="3135"
+ Z="185"
+ B="3055"
+ E="3056"
+ Order="2"
+ BondCircularOrdering="3134 3140 0 3136"
+/><b
+ id="3136"
+ Z="186"
+ B="3056"
+ E="3057"
+ BS="N"
+/><b
+ id="3137"
+ Z="187"
+ B="3057"
+ E="3058"
+ Order="2"
+ BondCircularOrdering="3136 0 0 3138"
+/><b
+ id="3138"
+ Z="188"
+ B="3058"
+ E="3053"
+ BS="N"
+/><b
+ id="3139"
+ Z="190"
+ B="3047"
+ E="3059"
+ BS="N"
+/><b
+ id="3140"
+ Z="192"
+ B="3055"
+ E="3090"
+ BS="N"
+/><b
+ id="3141"
+ Z="194"
+ B="3054"
+ E="3121"
+ BS="N"
+/><b
+ id="3142"
+ Z="196"
+ B="3054"
+ E="3122"
+ BS="N"
+/><b
+ id="4043"
+ Z="202"
+ B="4038"
+ E="3090"
+ BS="N"
+/><b
+ id="4047"
+ Z="206"
+ B="4038"
+ E="3059"
+ BS="N"
+/><b
+ id="4067"
+ Z="226"
+ B="4064"
+ E="4066"
+ BS="N"
+/><b
+ id="4078"
+ Z="237"
+ B="4066"
+ E="4068"
+ Order="2"
+ BondCircularOrdering="4083 4067 0 4079"
+/><b
+ id="4079"
+ Z="238"
+ B="4068"
+ E="4070"
+ BS="N"
+/><b
+ id="4080"
+ Z="239"
+ B="4070"
+ E="4072"
+ Order="2"
+ BondCircularOrdering="4079 0 0 4081"
+/><b
+ id="4081"
+ Z="240"
+ B="4072"
+ E="4074"
+ BS="N"
+/><b
+ id="4082"
+ Z="241"
+ B="4074"
+ E="4076"
+ Order="2"
+ BondCircularOrdering="4081 0 4105 4083"
+/><b
+ id="4083"
+ Z="242"
+ B="4076"
+ E="4066"
+ BS="N"
+/><b
+ id="4094"
+ Z="253"
+ B="4064"
+ E="4084"
+ Order="2"
+ BondCircularOrdering="4099 4067 4103 4095"
+/><b
+ id="4095"
+ Z="254"
+ B="4084"
+ E="4086"
+ Display="Bold"
+ BS="N"
+/><b
+ id="4096"
+ Z="255"
+ B="4086"
+ E="4088"
+ Order="2"
+ Display="Bold"
+ BondCircularOrdering="4095 0 0 4097"
+/><b
+ id="4097"
+ Z="256"
+ B="4088"
+ E="4090"
+ Display="Bold"
+ BS="N"
+/><b
+ id="4098"
+ Z="257"
+ B="4090"
+ E="4092"
+ Order="2"
+ Display="Bold"
+ BondCircularOrdering="4097 0 0 4099"
+/><b
+ id="4099"
+ Z="258"
+ B="4092"
+ E="4064"
+ BS="N"
+/><b
+ id="4103"
+ Z="262"
+ B="4084"
+ E="4102"
+ Display="Bold"
+ BS="N"
+/><b
+ id="4105"
+ Z="264"
+ B="4076"
+ E="4104"
+ BS="N"
+/><b
+ id="4112"
+ Z="271"
+ B="4038"
+ E="4102"
+ Display="WedgeBegin"
+ BS="N"
+/><b
+ id="4116"
+ Z="275"
+ B="4038"
+ E="4104"
+ Display="WedgedHashBegin"
+ BS="N"
+/></fragment></page></CDXML>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
 <CDXML
- CreationProgram="ChemDraw 12.0.2.1092"
+ CreationProgram="ChemDraw 14.0.0.118"
  Name="Alcock.cdxml"
- BoundingBox="113.04 89.57 194.97 154.65"
+ BoundingBox="113.01 94.05 195 125.88"
  WindowPosition="0 0"
  WindowSize="0 0"
  WindowIsZoomed="yes"
@@ -13,6 +13,7 @@
  ShowAtomStereo="no"
  ShowAtomEnhancedStereo="yes"
  ShowAtomNumber="no"
+ ShowResidueID="no"
  ShowBondQuery="yes"
  ShowBondRxn="yes"
  ShowBondStereo="no"
@@ -24,7 +25,7 @@
  LabelFace="96"
  CaptionFont="21"
  CaptionSize="10"
- HashSpacing="2.7"
+ HashSpacing="2.70"
  MarginWidth="2"
  LineWidth="0.85"
  BoldWidth="1.42"
@@ -36,8 +37,29 @@
  AminoAcidTermini="HOH"
  ShowSequenceTermini="yes"
  ShowSequenceBonds="yes"
+ ResidueWrapCount="40"
+ ResidueBlockCount="10"
+ ResidueZigZag="yes"
+ NumberResidueBlocks="no"
  PrintMargins="36 36 36 36"
- MacPrintInfo="0003000000480048000000000332022FFFF4FFEE033E02410367057B03E000020000004800480000000002D802280001000000640000000100030303000000017FFF000100010000000000000000000000006808001901900000000000200000000000000000000000000000000000000000000000000000"
+ MacPrintInfo="000300000048004800000000030F022FFFEEFFEE033802410367057B03E000020000004800480000000002D802280001000000640000000100030303000000017FFF000100010000000000000000000000006808001901900000000000200000000000000000000000000000000000000000000000000000"
+ ChemPropName=""
+ ChemPropFormula="Chemical Formula: "
+ ChemPropExactMass="Exact Mass: "
+ ChemPropMolWt="Molecular Weight: "
+ ChemPropMOverZ="m/z: "
+ ChemPropAnalysis="Elemental Analysis: "
+ ChemPropBoilingPt="Boiling Point: "
+ ChemPropMeltingPt="Melting Point: "
+ ChemPropCritTemp="Critical Temp: "
+ ChemPropCritPres="Critical Pres: "
+ ChemPropCritVol="Critical Vol: "
+ ChemPropGibbs="Gibbs Energy: "
+ ChemPropLogP="Log P: "
+ ChemPropMR="MR: "
+ ChemPropHenry="Henry&apos;s Law: "
+ ChemPropEForm="Heat of Form: "
+ ChemProptPSA="tPSA: "
  color="0"
  bgcolor="1"
 ><colortable>
@@ -52,7 +74,7 @@
 </colortable><fonttable>
 <font id="21" charset="x-mac-roman" name="Helvetica"/>
 </fonttable><page
- id="95"
+ id="97"
  BoundingBox="0 0 523 770"
  HeaderPosition="36"
  FooterPosition="36"
@@ -61,7 +83,8 @@
  WidthPages="1"
 ><fragment
  id="3"
- BoundingBox="113.04 94.04 194.97 125.89"
+ BoundingBox="113.01 94.05 195 125.88"
+ Z="1"
 ><n
  id="2"
  p="115.69 103.04"
@@ -75,8 +98,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="96"
- BoundingBox="71.08 97.19 160.3 154.55"
+ id="98"
 ><n
  id="31"
  p="115.69 120.04"
@@ -85,8 +107,8 @@
  NumHydrogens="0"
  NeedsClean="yes"
 ><t
- p="112.52 124.37"
- BoundingBox="112.52 115.72 120.52 124.37"
+ p="112.48 124.34"
+ BoundingBox="112.48 114.31 120.48 124.34"
  LabelJustification="Left"
 ><s font="21" size="12" face="96">P</s></t></n><n
  id="32"
@@ -229,8 +251,8 @@
  B="38"
  E="43"
 /></fragment><t
- p="113.04 123.64"
- BoundingBox="113.04 115.24 136.06 125.89"
+ p="113.01 123.63"
+ BoundingBox="113.01 115.28 136.08 125.88"
  LabelJustification="Left"
  LabelAlignment="Left"
 ><s font="21" size="10" face="96">PPh2</s></t></n><n
@@ -247,8 +269,8 @@
  NeedsClean="yes"
  AS="N"
 ><t
- p="141.65 106.74"
- BoundingBox="141.65 98.1 149.45 106.74"
+ p="141.65 106.63"
+ BoundingBox="141.65 98.05 149.43 106.83"
  LabelJustification="Left"
 ><s font="21" size="10" face="96">O</s></t></n><n
  id="16"
@@ -268,8 +290,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="97"
- BoundingBox="130 97.19 219.23 154.55"
+ id="99"
 ><n
  id="61"
  p="174.61 120.04"
@@ -278,8 +299,8 @@
  NumHydrogens="0"
  NeedsClean="yes"
 ><t
- p="171.44 124.37"
- BoundingBox="171.44 115.72 179.44 124.37"
+ p="171.40 124.34"
+ BoundingBox="171.40 114.31 179.40 124.34"
  LabelJustification="Left"
 ><s font="21" size="12" face="96">P</s></t></n><n
  id="62"
@@ -319,11 +340,11 @@
  Z="117"
 /><n
  id="71"
- p="218.8 145.56"
+ p="218.80 145.56"
  Z="118"
 /><n
  id="72"
- p="218.8 128.55"
+ p="218.80 128.55"
  Z="119"
 /><n
  id="73"
@@ -422,8 +443,8 @@
  B="68"
  E="73"
 /></fragment><t
- p="171.96 123.64"
- BoundingBox="171.96 115.24 194.97 125.89"
+ p="171.93 123.63"
+ BoundingBox="171.93 115.28 195 125.88"
  LabelJustification="Left"
  LabelAlignment="Left"
 ><s font="21" size="10" face="96">PPh2</s></t></n><b
@@ -462,50 +483,4 @@
  B="18"
  E="20"
  BS="N"
-/></fragment><t
- id="24"
- p="166.72 109.28"
- BoundingBox="166.72 101.58 172.27 111.63"
- Z="152"
- Warning="ChemDraw can’t interpret this label."
- LineHeight="auto"
-><s font="21" size="10">n</s></t><t
- id="26"
- p="129.7 152.77"
- BoundingBox="129.7 144.6 163.4 154.65"
- Z="153"
- Warning="ChemDraw can’t interpret this label."
- LineHeight="auto"
-><s font="21" size="10">n = 1, 3</s></t><graphic
- id="22"
- BoundingBox="162.75 89.99 162.75 107.57"
- Z="150"
- GraphicType="Bracket"
- BracketType="Round"
- LipSize="60"
-/><graphic
- id="23"
- BoundingBox="140.07 107.57 140.07 89.99"
- Z="151"
- GraphicType="Bracket"
- BracketType="Round"
- LipSize="60"
-/><bracketedgroup
- id="98"
- BracketedObjectIDs="14 16"
- RepeatCount="2"
-><bracketattachment
- id="99"
- GraphicID="23"
-><crossingbond
- id="100"
- BondID="15"
- InnerAtomID="14"
-/></bracketattachment><bracketattachment
- id="101"
- GraphicID="22"
-><crossingbond
- id="102"
- BondID="19"
- InnerAtomID="16"
-/></bracketattachment></bracketedgroup></page></CDXML>
+/></fragment></page></CDXML>
