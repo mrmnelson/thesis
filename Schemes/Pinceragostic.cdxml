@@ -76,7 +76,7 @@
 <font id="20" charset="x-mac-roman" name="Times"/>
 <font id="21" charset="x-mac-roman" name="Helvetica"/>
 </fonttable><page
- id="2523"
+ id="2530"
  BoundingBox="0 0 523 770"
  HeaderPosition="36"
  FooterPosition="36"
@@ -177,64 +177,64 @@
  BondOrdering="1688 1703 2487"
  LabelDisplay="Right"
 ><fragment
- id="2524"
+ id="2531"
 ><n
- id="2525"
+ id="2532"
  p="49.90 152.03"
  Element="78"
  NumHydrogens="0"
 /><n
- id="2526"
+ id="2533"
  p="23.41 204.63"
 /><n
- id="2527"
+ id="2534"
  p="37.62 195.30"
 /><n
- id="2528"
+ id="2535"
  p="36.66 178.33"
 /><n
- id="2529"
+ id="2536"
  p="50.87 169"
 /><n
- id="2530"
+ id="2537"
  p="48.93 135.06"
  NodeType="ExternalConnectionPoint"
 /><n
- id="2531"
+ id="2538"
  p="34.72 144.38"
  NodeType="ExternalConnectionPoint"
 /><n
- id="2532"
+ id="2539"
  p="64.11 142.70"
  NodeType="ExternalConnectionPoint"
 /><b
- id="2533"
- B="2528"
- E="2529"
+ id="2540"
+ B="2535"
+ E="2536"
 /><b
- id="2534"
- B="2527"
- E="2528"
+ id="2541"
+ B="2534"
+ E="2535"
 /><b
- id="2535"
- B="2526"
- E="2527"
+ id="2542"
+ B="2533"
+ E="2534"
 /><b
- id="2536"
- B="2525"
- E="2529"
-/><b
- id="2537"
- B="2530"
- E="2525"
-/><b
- id="2538"
- B="2531"
- E="2525"
-/><b
- id="2539"
+ id="2543"
  B="2532"
- E="2525"
+ E="2536"
+/><b
+ id="2544"
+ B="2537"
+ E="2532"
+/><b
+ id="2545"
+ B="2538"
+ E="2532"
+/><b
+ id="2546"
+ B="2539"
+ E="2532"
 /></fragment><t
  p="52.58 155.62"
  BoundingBox="31.59 145 52.58 155.72"
@@ -250,7 +250,7 @@
  AS="N"
  LabelDisplay="Left"
 ><fragment
- id="2541"
+ id="2548"
 ><n
  id="1651"
  p="107.82 151.53"
@@ -388,6 +388,7 @@
  Element="78"
  NumHydrogens="0"
  NeedsClean="yes"
+ AS="N"
  LabelDisplay="Left"
 ><t
  p="74.65 167.15"
@@ -395,12 +396,6 @@
  LabelJustification="Left"
  LabelAlignment="Left"
 ><s font="21" size="10" face="96">Pt</s></t></n><n
- id="1704"
- p="66.30 181.59"
- Z="297"
- Warning="This atom is very close to another atom or bond."
- AS="N"
-/><n
  id="1706"
  p="89.36 145.53"
  Z="299"
@@ -409,19 +404,19 @@
  AS="N"
  LabelDisplay="Left"
 ><fragment
- id="2542"
+ id="2549"
 ><n
- id="2543"
+ id="2550"
  p="89.36 145.53"
  NumHydrogens="3"
 /><n
- id="2544"
+ id="2551"
  p="79.92 159.67"
  NodeType="ExternalConnectionPoint"
 /><b
- id="2545"
- B="2544"
- E="2543"
+ id="2552"
+ B="2551"
+ E="2550"
  Display="WedgedHashBegin"
 /></fragment><t
  p="85.92 149.12"
@@ -432,6 +427,8 @@
  id="2472"
  p="56.50 179"
  Z="397"
+ Warning="There are too many bonds to this unlabeled Carbon."
+ AS="N"
 /><n
  id="2474"
  p="75.73 192"
@@ -627,14 +624,6 @@
  E="1628"
  BS="N"
 /><b
- id="1705"
- Z="298"
- B="1694"
- E="1704"
- Display="WedgeBegin"
- BS="N"
- CrossingBonds="2475"
-/><b
  id="1707"
  Z="300"
  B="1694"
@@ -646,8 +635,8 @@
  Z="400"
  B="2472"
  E="2474"
+ Display="Dash"
  BS="N"
- CrossingBonds="1705"
 /><b
  id="2483"
  Z="408"
@@ -683,6 +672,20 @@
  Z="436"
  B="2472"
  E="2510"
+ BS="N"
+/><b
+ id="2524"
+ Z="456"
+ B="1694"
+ E="2474"
+ Display="Dash"
+ BS="N"
+/><b
+ id="2528"
+ Z="460"
+ B="1694"
+ E="2472"
+ Display="Dash"
  BS="N"
 /></fragment><fragment
  id="2312"
@@ -778,7 +781,7 @@
  AS="N"
  LabelDisplay="Right"
 ><fragment
- id="2547"
+ id="2554"
 ><n
  id="2329"
  p="244.85 160.03"
@@ -889,7 +892,7 @@
  AS="N"
  LabelDisplay="Left"
 ><fragment
- id="2548"
+ id="2555"
 ><n
  id="2350"
  p="318.49 151.53"
@@ -1042,19 +1045,19 @@
  AS="N"
  LabelDisplay="Left"
 ><fragment
- id="2549"
+ id="2556"
 ><n
- id="2550"
+ id="2557"
  p="289 179.07"
  NumHydrogens="3"
 /><n
- id="2551"
+ id="2558"
  p="289 162.07"
  NodeType="ExternalConnectionPoint"
 /><b
- id="2552"
- B="2551"
- E="2550"
+ id="2559"
+ B="2558"
+ E="2557"
 /></fragment><t
  p="285.56 182.66"
  BoundingBox="285.56 174.31 299.45 182.81"
@@ -1291,21 +1294,21 @@
  LineHeight="auto"
 ><s font="20" size="12" color="0">+</s></t></fragment><graphic
  id="2467"
- SupersededBy="2554"
+ SupersededBy="2561"
  BoundingBox="222.23 142.89 146.65 142.89"
  Z="380"
  GraphicType="Line"
  ArrowType="Equilibrium"
  HeadSize="1000"
 /><scheme
- id="2555"
+ id="2562"
 ><step
- id="2556"
+ id="2563"
  ReactionStepReactants="1613 2514"
  ReactionStepProducts="2312 2410"
  ReactionStepArrows="2467"
 /></scheme><arrow
- id="2554"
+ id="2561"
  BoundingBox="145.79 140.11 223.08 145.67"
  Z="380"
  FillType="None"
