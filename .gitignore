@@ -13,3 +13,7 @@ Thesis.toc
 *.synctex.gz
 acs-*.bib
 OtherCrystals
+Thesis words.numbers
+Thesis.acn
+Thesis.acr
+Thesis.alg
