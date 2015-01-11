@@ -1,0 +1,165 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/. 
+# 
+# Audit and citation data items have may been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_NURGAI
+_database_code_CSD               NURGAI
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1016/S0020-1693(97)05605-3 1997
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2014-12-02 downloaded from the CCDC.
+;
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 0'
+_ccdc_depnum_archive             980505A
+_database_code_NBS               692459
+_chemical_formula_moiety         'C43 H33 Cl2 N3 O2 P2 Pt1,0.5(C1 H2 Cl2)'
+_chemical_name_systematic        
+"Dichloro-(N,N'-bis(2-(diphenylphosphino)phenyl)-2,6-pyridinedicarboxamide)-platinum dichloromethane solvate"
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      130
+_exptl_crystal_density_diffrn    1.666
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.031
+_refine_ls_wR_factor_gt          0.031
+_diffrn_radiation_probe          x-ray
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'C 2/c'
+_symmetry_Int_Tables_number      15
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 x,-y,1/2+z
+3 1/2+x,1/2+y,z
+4 1/2+x,1/2-y,1/2+z
+5 -x,-y,-z
+6 -x,y,1/2-z
+7 1/2-x,1/2-y,-z
+8 1/2-x,1/2+y,1/2-z
+_cell_length_a                   36.547(3)
+_cell_length_b                   9.192(1)
+_cell_length_c                   24.192(2)
+_cell_angle_alpha                90
+_cell_angle_beta                 102.795(7)
+_cell_angle_gamma                90
+_cell_volume                     7925.26
+_exptl_crystal_colour            yellow
+_exptl_crystal_description       parallelepiped
+_cell_formula_units_Z            8
+_exptl_crystal_recrystallization_method dichloromethane/hexane
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Pt1 Pt 0.11804(1) 0.04525(2) 0.40584(1)
+Cl1 Cl 0.05941(3) 0.15353(15) 0.38140(5)
+Cl2 Cl 0.17241(3) -0.09153(13) 0.42558(5)
+P1 P 0.10594(3) -0.00341(14) 0.49424(5)
+P2 P 0.12645(3) 0.11369(14) 0.31720(5)
+O1 O 0.18889(9) 0.2619(4) 0.61280(14)
+O2 O 0.22395(9) 0.4047(4) 0.34371(13)
+N1 N 0.18504(11) 0.0963(5) 0.54173(18)
+N2 N 0.20414(10) 0.2928(4) 0.47382(16)
+N3 N 0.20549(11) 0.1865(5) 0.37374(17)
+C1 C 0.14097(13) -0.0985(5) 0.54817(19)
+C2 C 0.13271(14) -0.2264(6) 0.5727(2)
+C3 C 0.15838(15) -0.2881(6) 0.6181(2)
+C4 C 0.19209(15) -0.2192(6) 0.6390(2)
+C5 C 0.20076(14) -0.0919(6) 0.6146(2)
+C6 C 0.17560(12) -0.0312(5) 0.56903(19)
+C7 C 0.19151(12) 0.2295(5) 0.5652(2)
+C8 C 0.20140(12) 0.3401(5) 0.5250(2)
+C9 C 0.20734(14) 0.4850(6) 0.5413(2)
+C10 C 0.21520(15) 0.5837(5) 0.5026(2)
+C11 C 0.21800(13) 0.5354(6) 0.4499(2)
+C12 C 0.21250(12) 0.3879(6) 0.43738(19)
+C13 C 0.21493(12) 0.3293(6) 0.3800(2)
+C14 C 0.20334(12) 0.1031(5) 0.32402(18)
+C15 C 0.23573(13) 0.0698(6) 0.30499(19)
+C16 C 0.23343(14) -0.0213(6) 0.2593(2)
+C17 C 0.19919(14) -0.0801(6) 0.2318(2)
+C18 C 0.16663(13) -0.0407(6) 0.24874(18)
+C19 C 0.16831(12) 0.0513(6) 0.29504(17)
+C20 C 0.09808(12) 0.1574(5) 0.53468(19)
+C21 C 0.09705(14) 0.1461(6) 0.5916(2)
+C22 C 0.09302(16) 0.2680(7) 0.6228(2)
+C23 C 0.09031(15) 0.4038(7) 0.5983(2)
+C24 C 0.09203(18) 0.4177(6) 0.5415(3)
+C25 C 0.09552(14) 0.2935(6) 0.5102(2)
+C26 C 0.06486(13) -0.1214(6) 0.4848(2)
+C27 C 0.03875(15) -0.1150(7) 0.5180(3)
+C28 C 0.00954(16) -0.2164(8) 0.5094(3)
+C29 C 0.00695(16) -0.3214(7) 0.4688(3)
+C30 C 0.03272(18) -0.3289(7) 0.4354(3)
+C31 C 0.06180(16) -0.2283(7) 0.4437(3)
+C32 C 0.12958(13) 0.3100(5) 0.3090(2)
+C33 C 0.12288(14) 0.4045(6) 0.3502(2)
+C34 C 0.12912(16) 0.5524(7) 0.3460(3)
+C35 C 0.14153(18) 0.6068(7) 0.3004(3)
+C36 C 0.14739(16) 0.5145(7) 0.2578(3)
+C37 C 0.14189(15) 0.3668(6) 0.2624(2)
+C38 C 0.08717(12) 0.0480(7) 0.26251(18)
+C39 C 0.07295(15) -0.0877(6) 0.2695(2)
+C40 C 0.04259(16) -0.1415(8) 0.2296(3)
+C41 C 0.02601(15) -0.0586(8) 0.1836(2)
+C42 C 0.03975(16) 0.0771(7) 0.1767(2)
+C43 C 0.07061(16) 0.1307(8) 0.2151(2)
+H1 H 0.1834(15) 0.091(7) 0.510(2)
+H2 H 0.1121(13) -0.279(5) 0.563(2)
+H3 H 0.1525(13) -0.372(6) 0.632(2)
+H4 H 0.1996(14) 0.142(6) 0.404(2)
+H5 H 0.2096(13) -0.247(5) 0.671(2)
+H6 H 0.2206(13) -0.048(6) 0.628(2)
+H7 H 0.2067(13) 0.513(5) 0.576(2)
+H8 H 0.2186(14) 0.684(6) 0.515(2)
+H9 H 0.2240(13) 0.598(6) 0.422(2)
+H10 H 0.2588(12) 0.112(5) 0.3233(17)
+H11 H 0.2539(13) -0.047(6) 0.2469(19)
+H12 H 0.1982(11) -0.144(5) 0.2005(17)
+H13 H 0.1443(11) -0.076(5) 0.2307(17)
+H14 H 0.1002(11) 0.056(5) 0.6086(17)
+H15 H 0.0920(13) 0.260(6) 0.656(2)
+H16 H 0.0869(12) 0.480(5) 0.6203(19)
+H17 H 0.0909(16) 0.494(6) 0.527(2)
+H18 H 0.0955(13) 0.309(6) 0.472(2)
+H19 H 0.0406(14) -0.047(6) 0.548(2)
+H20 H -0.0075(16) -0.213(7) 0.534(2)
+H21 H -0.0110(14) -0.384(6) 0.460(2)
+H22 H 0.0305(14) -0.394(6) 0.405(2)
+H23 H 0.0756(15) -0.225(7) 0.423(2)
+H24 H 0.1141(12) 0.344(5) 0.3882(19)
+H25 H 0.1257(15) 0.614(7) 0.376(2)
+H26 H 0.1450(16) 0.691(6) 0.298(2)
+H27 H 0.1565(14) 0.550(6) 0.229(2)
+H28 H 0.1492(14) 0.310(6) 0.239(2)
+H29 H 0.0848(13) -0.144(6) 0.303(2)
+H30 H 0.0346(13) -0.229(5) 0.235(2)
+H31 H 0.0060(15) -0.102(6) 0.159(2)
+H32 H 0.0281(13) 0.141(5) 0.145(2)
+H33 H 0.0776(15) 0.220(6) 0.207(2)
+Cl3 Cl 0.01703(7) 0.4593(2) 0.20051(9)
+C44 C 0.00000 0.3502(11) 0.25000
+H34 H 0.022(2) 0.299(9) 0.271(3)
+Cl3E Cl -0.01703(7) 0.4593(2) 0.29949(9)
+H34E H -0.022(2) 0.299(9) 0.229(3)
+
+#END

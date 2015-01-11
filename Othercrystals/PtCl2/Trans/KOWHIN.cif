@@ -1,0 +1,137 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/. 
+# 
+# Audit and citation data items have may been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_KOWHIN
+_database_code_CSD               KOWHIN
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1107/S0108270191011769 1992
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2014-12-02 downloaded from the CCDC.
+;
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 0'
+_database_code_NBS               614322
+_chemical_formula_moiety         'C28 H34 Cl2 P2 Pt1'
+_chemical_name_systematic        
+(2,11-bis(Diethylphosphinomethyl)benzo(c)phenanthrene)-dichloro-platinum(ii)
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      295
+_exptl_crystal_density_diffrn    1.72
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.054
+_refine_ls_wR_factor_gt          0.054
+_diffrn_radiation_probe          x-ray
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_H-M   'P b c n'
+_symmetry_Int_Tables_number      60
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,1/2+y,z
+3 x,-y,1/2+z
+4 1/2-x,1/2-y,1/2+z
+5 -x,-y,-z
+6 1/2+x,1/2-y,-z
+7 -x,y,1/2-z
+8 1/2+x,1/2+y,1/2-z
+_cell_length_a                   16.283(4)
+_cell_length_b                   16.863(4)
+_cell_length_c                   9.823(2)
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     2697.2
+_cell_formula_units_Z            4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Pt1 Pt 0.00000 0.17961(5) 0.25000
+P1 P -0.10814(33) 0.17621(37) 0.10054(66)
+Cl1 Cl 0.09506(35) 0.18296(36) 0.07632(56)
+C1 C -0.0882(11) 0.3737(10) 0.1834(19)
+C2 C -0.1461(12) 0.3414(11) 0.1021(20)
+C3 C -0.1805(13) 0.3835(13) -0.0056(22)
+C4 C -0.1600(12) 0.4615(13) -0.0230(20)
+C5 C -0.0909(13) 0.5861(13) 0.0639(21)
+C6 C -0.0464(13) 0.6200(13) 0.1511(22)
+C7 C -0.06207(98) 0.4544(11) 0.1628(17)
+C8 C -0.1044(10) 0.5003(13) 0.0650(20)
+C9 C 0.00000 0.4952(15) 0.25000
+C10 C 0.00000 0.5792(16) 0.25000
+C11 C -0.1812(11) 0.2583(13) 0.1308(23)
+C12 C -0.1713(12) 0.0893(13) 0.1222(27)
+C13 C -0.1244(18) 0.0132(16) 0.1053(44)
+C14 C -0.0818(15) 0.1813(14) -0.0809(18)
+C15 C -0.1520(18) 0.1790(19) -0.1780(27)
+H1 H -0.064 0.343 0.255
+H2 H -0.218 0.358 -0.067
+H3 H -0.184 0.491 -0.097
+H4 H -0.117 0.617 -0.005
+H5 H -0.044 0.677 0.150
+H6 H -0.198 0.256 0.224
+H7 H -0.228 0.250 0.073
+H8 H -0.215 0.091 0.056
+H9 H -0.195 0.090 0.212
+H10 H -0.161 -0.031 0.118
+H11 H -0.101 0.011 0.016
+H12 H -0.081 0.011 0.172
+H13 H -0.047 0.137 -0.101
+H14 H -0.053 0.230 -0.096
+H15 H -0.132 0.182 -0.270
+H16 H -0.182 0.130 -0.166
+H17 H -0.188 0.223 -0.161
+P1F P 0.10814(33) 0.17621(37) 0.39946(66)
+Cl1F Cl -0.09506(35) 0.18296(36) 0.42368(56)
+C7F C 0.06207(98) 0.4544(11) 0.3372(17)
+C6F C 0.0464(13) 0.6200(13) 0.3489(22)
+C11F C 0.1812(11) 0.2583(13) 0.3692(23)
+C12F C 0.1713(12) 0.0893(13) 0.3778(27)
+C14F C 0.0818(15) 0.1813(14) 0.5809(18)
+C1F C 0.0882(11) 0.3737(10) 0.3166(19)
+C8F C 0.1044(10) 0.5003(13) 0.4350(20)
+C5F C 0.0909(13) 0.5861(13) 0.4361(21)
+H5F H 0.044 0.677 0.350
+C2F C 0.1461(12) 0.3414(11) 0.3979(20)
+H6F H 0.198 0.256 0.276
+H7F H 0.228 0.250 0.427
+C13F C 0.1244(18) 0.0132(16) 0.3947(44)
+H8F H 0.215 0.091 0.444
+H9F H 0.195 0.090 0.288
+C15F C 0.1520(18) 0.1790(19) 0.6780(27)
+H13F H 0.047 0.137 0.601
+H14F H 0.053 0.230 0.596
+H1F H 0.064 0.343 0.245
+C4F C 0.1600(12) 0.4615(13) 0.5230(20)
+H4F H 0.117 0.617 0.505
+C3F C 0.1805(13) 0.3835(13) 0.5056(22)
+H10F H 0.161 -0.031 0.382
+H11F H 0.101 0.011 0.484
+H12F H 0.081 0.011 0.328
+H15F H 0.132 0.182 0.770
+H16F H 0.182 0.130 0.666
+H17F H 0.188 0.223 0.661
+H3F H 0.184 0.491 0.597
+H2F H 0.218 0.358 0.567
+
+#END
