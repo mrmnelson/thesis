@@ -1,0 +1,128 @@
+
+#######################################################################
+#
+#                 Cambridge Crystallographic Data Centre
+#                                CCDC 
+#
+#######################################################################
+#
+# If this CIF has been generated directly or indirectly from an entry in the 
+# Cambridge Structural Database, then it will include bibliographic, chemical, 
+# crystal, experimental, refinement or atomic coordinate data resulting from 
+# the CCDC's data processing and validation procedures. Files generated from 
+# CSD entries are Copyright 2015 Cambridge Crystallographic Data Centre. They 
+# may be used in bona fide research applications only, and may not be copied or 
+# further disseminated in any form, whether machine-readable or not, except for 
+# the purposes of generating routine backup copies on your local computer 
+# system.
+# 
+# Files arising from any other source may also contain material that is the 
+# copyright of third parties, including the originator, and you should check 
+# with the originator concerning the permitted uses of the information 
+# contained in this CIF.
+#
+# For further information on the CCDC and the free tools enCIFer and Mercury
+# for validating and visualising CIF files, please visit www.ccdc.cam.ac.uk
+#
+#######################################################################
+
+data_/Users/melanie/Downloads/c3sc50380a (1)/tBuxanPOPRhCl.mol
+_cell_length_a                   1
+_cell_length_b                   1
+_cell_length_c                   1
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     1
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Rh1 Rh 6.52798e-17 -1.0442 -0.0219
+P2 P 2.2648 -0.7774 0.0083
+O3 O -6.79679e-17 1.1554 -0.0454
+P4 P -2.2648 -0.7774 0.0083
+C5 C 1.2147 1.8452 -0.0734
+C6 C 2.3837 1.0614 -0.0736
+C7 C 3.6072 1.737 -0.0584
+C8 C 3.6743 3.1221 -0.0648
+C9 C 2.5005 3.8549 -0.0822
+C10 C 1.2482 3.2381 -0.0826
+C11 C -1.2147 1.8452 -0.0734
+C12 C -2.3837 1.0614 -0.0736
+C13 C -3.6072 1.737 -0.0585
+C14 C -3.6743 3.1221 -0.0648
+C15 C -2.5005 3.8549 -0.0822
+C16 C -1.2482 3.2381 -0.0826
+C17 C -2.46044e-16 4.0991 -0.0809
+H18 H 4.5246 1.1642 -0.0359
+H19 H 4.6352 3.6245 -0.054
+H20 H 2.5473 4.9394 -0.0877
+H21 H -4.5246 1.1642 -0.0359
+H22 H -4.6352 3.6245 -0.054
+H23 H -2.5473 4.9394 -0.0877
+C24 C -3.77381e-16 4.9848 1.1783
+C25 C -2.24116e-16 4.9936 -1.3335
+H26 H -3.95769e-16 4.377 2.0864
+H27 H 0.8815 5.6301 1.204
+H28 H -0.8815 5.6301 1.204
+H29 H 0.8812 5.6394 -1.3545
+H30 H -1.31441e-16 4.3926 -2.246
+H31 H -0.8812 5.6394 -1.3545
+C32 C 3.2213 -1.4274 -1.4969
+C33 C 3.12 -1.2229 1.6484
+C34 C -3.12 -1.2228 1.6484
+C35 C -3.2213 -1.4274 -1.4969
+C36 C 2.6409 -2.6259 2.0362
+H37 H 2.9428 -3.3935 1.3215
+H38 H 3.0653 -2.8908 3.0117
+H39 H 1.5509 -2.6665 2.1049
+C40 C 4.6463 -1.1836 1.6452
+H41 H 5.046 -0.1939 1.4104
+H42 H 5.0132 -1.443 2.6455
+H43 H 5.0813 -1.9053 0.9501
+C44 C 2.5809 -0.2376 2.6905
+H45 H 2.881 -0.5689 3.6907
+H46 H 2.9624 0.7768 2.5454
+H47 H 1.4854 -0.2004 2.6644
+C48 C 2.2671 -1.2144 -2.6783
+H49 H 2.0108 -0.1573 -2.8099
+H50 H 2.7482 -1.5588 -3.6015
+H51 H 1.3368 -1.7718 -2.5385
+C52 C 4.5527 -0.7494 -1.8169
+H53 H 4.4226 0.2938 -2.1135
+H54 H 5.2685 -0.7899 -0.9922
+H55 H 5.0135 -1.2683 -2.6657
+C56 C 3.438 -2.9312 -1.3086
+H57 H 4.1945 -3.1496 -0.5502
+H58 H 2.51 -3.4438 -1.0399
+H59 H 3.7961 -3.3579 -2.2525
+C60 C -3.438 -2.9312 -1.3085
+H61 H -3.7961 -3.3579 -2.2524
+H62 H -2.51 -3.4438 -1.0399
+H63 H -4.1946 -3.1496 -0.5502
+C64 C -4.5527 -0.7494 -1.8169
+H65 H -4.4226 0.2938 -2.1135
+H66 H -5.0135 -1.2683 -2.6657
+H67 H -5.2685 -0.7899 -0.9922
+C68 C -2.2671 -1.2144 -2.6783
+H69 H -2.7482 -1.5588 -3.6014
+H70 H -2.0108 -0.1573 -2.81
+H71 H -1.3368 -1.7719 -2.5385
+C72 C -4.6463 -1.1835 1.6452
+H73 H -5.0459 -0.1939 1.4104
+H74 H -5.0813 -1.9053 0.9501
+H75 H -5.0132 -1.443 2.6455
+C76 C -2.5809 -0.2376 2.6905
+H77 H -1.4854 -0.2004 2.6644
+H78 H -2.9624 0.7768 2.5454
+H79 H -2.881 -0.5689 3.6907
+C80 C -2.6409 -2.6259 2.0362
+H81 H -1.5509 -2.6665 2.1049
+H82 H -3.0653 -2.8908 3.0117
+H83 H -2.9429 -3.3935 1.3215
+Cl84 Cl 2.21955e-16 -3.4105 -0.2143
+
+#END
