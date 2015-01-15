@@ -75,7 +75,7 @@
 <font id="20" charset="x-mac-roman" name="Times"/>
 <font id="21" charset="x-mac-roman" name="Helvetica"/>
 </fonttable><page
- id="438"
+ id="446"
  BoundingBox="0 0 540 720"
  HeaderPosition="36"
  FooterPosition="36"
@@ -178,7 +178,7 @@
  BondOrdering="47 215"
  LabelDisplay="Right"
 ><fragment
- id="439"
+ id="447"
  ConnectionOrder="234 235"
 ><n
  id="225"
@@ -302,7 +302,7 @@
  BondOrdering="49 211"
  LabelDisplay="Left"
 ><fragment
- id="440"
+ id="448"
  ConnectionOrder="283 284"
 ><n
  id="274"
@@ -467,7 +467,7 @@
  LabelDisplay="Right"
 ><t
  p="346.14 176.11"
- BoundingBox="346.14 167.54 353.92 176.31"
+ BoundingBox="346.14 167.53 353.92 176.31"
  LabelJustification="Left"
  LabelAlignment="Right"
 ><s font="21" size="10" color="0" face="96">O</s></t></n><n
@@ -766,7 +766,7 @@
  BondOrdering="390 395"
  LabelDisplay="Right"
 ><fragment
- id="441"
+ id="449"
  ConnectionOrder="333 334"
 ><n
  id="324"
@@ -890,7 +890,7 @@
  BondOrdering="391 394"
  LabelDisplay="Left"
 ><fragment
- id="442"
+ id="450"
  ConnectionOrder="356 357"
 ><n
  id="347"
@@ -1211,74 +1211,41 @@
  BS="N"
 /></fragment><fragment
  id="416"
- BoundingBox="261.66 125.42 273.61 136.25"
+ BoundingBox="260.95 127.62 272.27 139.67"
  Z="376"
 ><n
  id="415"
- p="265.16 130.41"
+ p="262.50 133.07"
  Z="375"
- NodeType="Fragment"
+ Warning="ChemDraw can’t interpret this label."
+ NodeType="Unspecified"
  NeedsClean="yes"
  AS="N"
-><fragment
- id="443"
-><n
- id="424"
- p="256.66 130.41"
- Z="192"
- Element="8"
- NumHydrogens="0"
- NeedsClean="yes"
- LabelDisplay="Right"
 ><t
- p="253.16 134"
- BoundingBox="253.16 125.42 260.94 134.20"
- LabelJustification="Left"
- LabelAlignment="Right"
-><s font="21" size="10" color="0" face="96">O</s></t></n><n
- id="425"
- p="273.66 130.41"
- Z="193"
- Element="8"
- NumHydrogens="0"
- NeedsClean="yes"
- LabelDisplay="Left"
-><t
- p="270.16 134"
- BoundingBox="270.16 125.42 277.94 134.20"
- Justification="Best"
- LabelAlignment="Left"
-><s font="21" size="10" color="0" face="96">O</s></t></n><b
- id="426"
- Z="194"
- B="424"
- E="425"
- Order="2"
-/></fragment><t
- p="261.66 134"
- BoundingBox="261.66 125.42 273.61 136.25"
+ p="260.95 137.13"
+ BoundingBox="260.95 127.62 272.27 139.67"
  LabelJustification="Left"
  LabelLineHeight="auto"
  LineHeight="auto"
  LabelAlignment="Left"
-><s font="21" size="10" color="0" face="96">O2</s></t></n></fragment><graphic
- id="436"
- SupersededBy="444"
+><s font="20" size="12" color="0" face="96">(i)</s></t></n></fragment><graphic
+ id="444"
+ SupersededBy="451"
  BoundingBox="293 143.33 240.33 143.33"
  Z="374"
  GraphicType="Line"
  ArrowType="FullHead"
  HeadSize="1000"
 /><scheme
- id="445"
+ id="452"
 ><step
- id="446"
+ id="453"
  ReactionStepReactants="307"
  ReactionStepProducts="5"
- ReactionStepArrows="436"
+ ReactionStepArrows="444"
  ReactionStepObjectsAboveArrow="416"
 /></scheme><arrow
- id="444"
+ id="451"
  BoundingBox="240.33 141.24 293 144.76"
  Z="374"
  FillType="None"
