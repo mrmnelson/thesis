@@ -2,10 +2,10 @@ data_mrmn-b
 _audit_creation_method            
 ;
 Olex2 1.2
-(compiled 2014.02.17 svn.r2891 for OlexSys, GUI svn.r4777)
+(compiled 2015.01.26 svn.r3151 for OlexSys, GUI svn.r4998)
 ;
 
-_audit_creation_date              2014-03-04
+_audit_creation_date              2015-05-02
 _computing_molecular_graphics     'Olex2 (Dolomanov et al., 2009)'
 _computing_publication_material   'Olex2 (Dolomanov et al., 2009)'
 _publ_contact_author_email        ?
@@ -19,22 +19,7 @@ Palatinus et al., 2012)
 
 _atom_sites_solution_primary      iterative
 _computing_structure_refinement   'ShelXL (Sheldrick, 2008)'
-_publ_section_references          
-;
-Dolomanov, O.V., Bourhis, L.J., Gildea, R.J, Howard, J.A.K. & Puschmann, H.
- (2009), J. Appl. Cryst. 42, 339-341.
-
-
-Palatinus, L. & Chapuis, G. (2007). J. Appl. Cryst., 40, 786-790;
-Palatinus, L. & van der Lee, A. (2008). J. Appl. Cryst. 41, 975-984;
-Palatinus, L., Prathapa, S. J. & van Smaalen, S. (2012). J. Appl. Cryst. 45,
- 575-580
-
-ShelXL (Sheldrick, 2008)
-
-Sheldrick, G.M. (2008). Acta Cryst. A64, 112-122
-;
-
+_publ_section_references          ''
 _computing_data_collection        
 ;
 CrysAlisPro, Agilent Technologies,
@@ -93,5 +78,6 @@ _reflns_odcompleteness_completeness 98.11
 _reflns_odcompleteness_theta      73.75
 _reflns_odcompleteness_iscentric  1
 _olex2_computing_structure_refinement_long 'ShelXL (Sheldrick, 2008)'
+_olex2_submission_special_instructions 'No special instructions were received'
 _publ_contact_author_name         ''
 

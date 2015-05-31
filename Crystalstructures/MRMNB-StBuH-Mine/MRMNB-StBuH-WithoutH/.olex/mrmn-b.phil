@@ -5,12 +5,12 @@ snum {
                               _diffrn_radiation_type
   }
   hkl {
-    hkl_stat_file = '/Users/melanie/Documents/Research/Thesis/Crystal Structures/MRMNB-StBuH-Mine/mrmn-b.hkl'
+    hkl_stat_file = '/Users/melanie/Documents/University/Research/Thesis/Crystalstructures/MRMNB-StBuH-Mine/MRMNB-StBuH-WithoutH/mrmn-b.hkl'
   }
   solution {
-    program = ShelXS ShelXS-1997 ShelXS-1986 XS XT 'olex2.solve' XM ShelXD \
-              ShelXD-1997 SIR2002 SIR2004 SIR2008 SIR2011 *Superflip Unknown \
-              ShelXS-2013 ShelXS86 ShelXD-2013
+    program = ShelXS ShelXS-1997 ShelXS-1986 XS XT ShelXT 'olex2.solve' XM \
+              ShelXD ShelXD-1997 SIR2002 SIR2004 SIR2008 SIR2011 *Superflip \
+              Unknown ShelXS-2013 ShelXS86 ShelXD-2013
     current_atomic_volume = 19.4
   }
   refinement {
@@ -29,6 +29,12 @@ snum {
     max_peaks = '100'
     suggested_weight = 0.066 14.0664
     original_formula = 'C84 H110 F12 O10 P4 S6'
+  }
+  image {
+    ps {
+      colour_line = "-color_line"
+      colour_bond = "-color_bond"
+    }
   }
   history {
     current_node = "86fda9a63e91122fd3eb2019c9467274"
