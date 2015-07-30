@@ -22,9 +22,10 @@
 % setting the margins...
 \setlength{\textheight}{19.8cm}
 
+\usepackage[a4paper,margin=3cm]{geometry}
 \if@twoside
-       \setlength{\oddsidemargin}{1.46cm}
-       \setlength{\evensidemargin}{0.83cm}
+	\addtolength{\oddsidemargin}{0.5cm}
+	\addtolength{\evensidemargin}{-0.5cm}
 \else 
        \setlength{\oddsidemargin}{1.46cm}
 \fi
